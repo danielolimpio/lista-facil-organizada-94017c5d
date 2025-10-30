@@ -143,15 +143,15 @@ const MaterialEscolar = () => {
 
           {/* Dicas */}
           <div className="mt-12">
-            <Card className="p-8 bg-gradient-hero text-white border-0">
-              <Download className="w-12 h-12 mx-auto mb-4 opacity-90" />
+            <Card className="p-8 bg-escolar text-white border-0">
+              <Download className="w-12 h-12 mx-auto mb-4" />
               <h2 className="text-2xl font-bold mb-2 text-center">Economize nas compras escolares</h2>
-              <p className="mb-6 opacity-90 text-center max-w-2xl mx-auto">
+              <p className="mb-6 text-center max-w-2xl mx-auto">
                 Use nossas listas para comparar preços entre lojas e aproveitar promoções. 
                 Baixe em PDF e leve para a loja ou compre online.
               </p>
               <div className="text-center">
-                <Button size="lg" variant="secondary" className="font-semibold">
+                <Button size="lg" variant="secondary" className="font-semibold bg-white text-escolar hover:bg-white/90">
                   Ver dicas de economia
                 </Button>
               </div>

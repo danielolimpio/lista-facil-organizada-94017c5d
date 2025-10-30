@@ -121,7 +121,17 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="pt-8 border-t border-border/50 text-center text-sm text-muted-foreground">
-          <p>© 2025 Helplistas.com.br – Todas as listas são gratuitas e atualizadas mensalmente.</p>
+          <p>
+            © 2025 Helplistas.com.br | Todos direitos reservados | Desenvolvido por{" "}
+            <a 
+              href="https://danielolimpio.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary-hover font-medium transition-colors"
+            >
+              DanielOlimpio
+            </a>
+          </p>
         </div>
       </div>
     </footer>

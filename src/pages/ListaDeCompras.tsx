@@ -113,13 +113,13 @@ const ListaDeCompras = () => {
 
           {/* CTA */}
           <div className="mt-12 text-center">
-            <Card className="p-8 bg-gradient-hero text-white border-0">
-              <Printer className="w-12 h-12 mx-auto mb-4 opacity-90" />
+            <Card className="p-8 bg-primary text-white border-0">
+              <Printer className="w-12 h-12 mx-auto mb-4" />
               <h2 className="text-2xl font-bold mb-2">Imprima suas listas</h2>
-              <p className="mb-6 opacity-90">
+              <p className="mb-6">
                 Todas as nossas listas estão prontas para impressão em formato PDF
               </p>
-              <Button size="lg" variant="secondary" className="font-semibold">
+              <Button size="lg" variant="secondary" className="font-semibold bg-white text-primary hover:bg-white/90">
                 Ver como imprimir
               </Button>
             </Card>

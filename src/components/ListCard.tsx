@@ -8,14 +8,17 @@ interface ListCardProps {
   description: string;
   path: string;
   badge?: string;
+  categoryColor?: string;
 }
 
-const ListCard = ({ title, description, path, badge }: ListCardProps) => {
+const ListCard = ({ title, description, path, badge, categoryColor }: ListCardProps) => {
   return (
-    <Card className="p-6 transition-all duration-300 hover:shadow-colored hover:-translate-y-1 group bg-gradient-card border-border/50">
+    <Card className="p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group bg-white border border-border">
       <div className="flex flex-col h-full">
         {badge && (
-          <span className="inline-block w-fit px-3 py-1 mb-3 text-xs font-semibold text-white bg-gradient-hero rounded-full shadow-sm">
+          <span className={`inline-block w-fit px-3 py-1 mb-3 text-xs font-semibold text-white rounded-full shadow-sm ${
+            categoryColor ? `bg-gradient-${categoryColor}` : 'bg-primary'
+          }`}>
             {badge}
           </span>
         )}
@@ -26,9 +29,12 @@ const ListCard = ({ title, description, path, badge }: ListCardProps) => {
           {description}
         </p>
         <Link to={path}>
-          <Button variant="ghost" className="w-full justify-between group-hover:bg-primary/10 group-hover:text-primary">
-            Ver Lista Completa
-            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" />
+          <Button 
+            variant="outline" 
+            className="w-full justify-between group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-all"
+          >
+            Usar esta lista
+            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
         </Link>
       </div>

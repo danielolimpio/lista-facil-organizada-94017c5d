@@ -18,16 +18,16 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gradient-to-b from-secondary/30 to-secondary/50 border-t border-border/50 mt-20">
+    <footer className="bg-secondary border-t border-border mt-20">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Coluna 1 - Sobre */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold">H</span>
               </div>
-              <span className="text-lg font-bold bg-gradient-hero bg-clip-text text-transparent">
+              <span className="text-lg font-bold text-foreground">
                 HelpListas
               </span>
             </div>
@@ -50,9 +50,8 @@ const Footer = () => {
                 <li key={link.path}>
                   <Link
                     to={link.path}
-                    className={`text-muted-foreground hover:text-${link.color} transition-colors text-sm flex items-center group`}
+                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
                   >
-                    <span className={`w-1.5 h-1.5 rounded-full bg-${link.color} mr-2 opacity-0 group-hover:opacity-100 transition-opacity`}></span>
                     {link.name}
                   </Link>
                 </li>
@@ -87,9 +86,9 @@ const Footer = () => {
               <input 
                 type="email" 
                 placeholder="Seu e-mail" 
-                className="px-4 py-2 rounded-lg border border-border bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                className="px-4 py-2 rounded-lg border border-border bg-white text-sm focus:outline-none focus:ring-2 focus:ring-primary"
               />
-              <button className="px-4 py-2 bg-gradient-hero text-white rounded-lg font-medium text-sm hover:opacity-90 transition-opacity shadow-md">
+              <button className="px-4 py-2 bg-primary text-white rounded-lg font-medium text-sm hover:bg-primary-hover transition-colors shadow-md">
                 Assinar
               </button>
             </div>

@@ -17,49 +17,47 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 13% 18%;
 
-    --primary: 142 71% 45%;
+    --primary: 173 58% 39%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 142 71% 38%;
+    --primary-hover: 173 58% 32%;
 
-    --secondary: 220 14% 96%;
+    --secondary: 220 13% 96%;
     --secondary-foreground: 220 13% 18%;
 
-    --muted: 220 14% 96%;
+    --muted: 220 13% 96%;
     --muted-foreground: 220 9% 46%;
 
-    --accent: 142 71% 45%;
+    --accent: 173 58% 39%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 51%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 142 71% 45%;
+    --ring: 173 58% 39%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
     /* Category colors */
-    --color-compras: 142 71% 45%;
-    --color-escolar: 217 91% 60%;
-    --color-casa: 25 95% 53%;
-    --color-casamento: 330 81% 60%;
+    --color-compras: 160 93% 31%;
+    --color-escolar: 221 83% 53%;
+    --color-casa: 0 84% 51%;
+    --color-casamento: 258 90% 58%;
     
-    /* Gradient tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(260 60% 45%) 0%, hsl(280 65% 55%) 50%, hsl(330 70% 50%) 100%);
-    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(220 14% 98%) 100%);
-    --gradient-compras: linear-gradient(135deg, hsl(142 71% 45%) 0%, hsl(158 64% 52%) 100%);
-    --gradient-escolar: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(200 95% 55%) 100%);
-    --gradient-casa: linear-gradient(135deg, hsl(25 95% 53%) 0%, hsl(40 90% 50%) 100%);
-    --gradient-casamento: linear-gradient(135deg, hsl(330 81% 60%) 0%, hsl(340 75% 55%) 100%);
-    --gradient-overlay: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+    /* Gradient tokens - subtle gradients for cards */
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(220 13% 98%) 100%);
+    --gradient-compras: linear-gradient(135deg, hsl(160 93% 31%) 0%, hsl(160 93% 38%) 100%);
+    --gradient-escolar: linear-gradient(135deg, hsl(221 83% 53%) 0%, hsl(221 83% 60%) 100%);
+    --gradient-casa: linear-gradient(135deg, hsl(0 84% 51%) 0%, hsl(0 84% 58%) 100%);
+    --gradient-casamento: linear-gradient(135deg, hsl(258 90% 58%) 0%, hsl(258 90% 65%) 100%);
     
     /* Shadow tokens */
     --shadow-sm: 0 1px 2px 0 hsl(220 13% 18% / 0.05);
     --shadow-md: 0 4px 6px -1px hsl(220 13% 18% / 0.1);
     --shadow-lg: 0 10px 15px -3px hsl(220 13% 18% / 0.1);
-    --shadow-hover: 0 20px 25px -5px hsl(142 71% 45% / 0.15);
-    --shadow-colored: 0 20px 40px -10px hsl(var(--primary) / 0.3);
+    --shadow-xl: 0 20px 25px -5px hsl(220 13% 18% / 0.1);
+    --shadow-card: 0 1px 3px 0 hsl(220 13% 18% / 0.1), 0 1px 2px -1px hsl(220 13% 18% / 0.1);
     
     /* Animation tokens */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -76,9 +74,9 @@ All colors MUST be HSL.
     --popover: 220 13% 20%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 142 71% 45%;
+    --primary: 173 58% 45%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 142 71% 52%;
+    --primary-hover: 173 58% 52%;
 
     --secondary: 220 13% 25%;
     --secondary-foreground: 0 0% 98%;
@@ -86,15 +84,15 @@ All colors MUST be HSL.
     --muted: 220 13% 25%;
     --muted-foreground: 220 9% 65%;
 
-    --accent: 142 71% 45%;
+    --accent: 173 58% 45%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 62.8% 30.6%;
+    --destructive: 0 84% 51%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 220 13% 25%;
     --input: 220 13% 25%;
-    --ring: 142 71% 45%;
+    --ring: 173 58% 45%;
   }
 }
 

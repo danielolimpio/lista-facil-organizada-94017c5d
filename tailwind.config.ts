@@ -57,20 +57,18 @@ export default {
         casamento: "hsl(var(--color-casamento))",
       },
       backgroundImage: {
-        'gradient-hero': 'var(--gradient-hero)',
         'gradient-card': 'var(--gradient-card)',
         'gradient-compras': 'var(--gradient-compras)',
         'gradient-escolar': 'var(--gradient-escolar)',
         'gradient-casa': 'var(--gradient-casa)',
         'gradient-casamento': 'var(--gradient-casamento)',
-        'gradient-overlay': 'var(--gradient-overlay)',
       },
       boxShadow: {
         'sm': 'var(--shadow-sm)',
         'md': 'var(--shadow-md)',
         'lg': 'var(--shadow-lg)',
-        'hover': 'var(--shadow-hover)',
-        'colored': 'var(--shadow-colored)',
+        'xl': 'var(--shadow-xl)',
+        'card': 'var(--shadow-card)',
       },
       transitionTimingFunction: {
         'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',

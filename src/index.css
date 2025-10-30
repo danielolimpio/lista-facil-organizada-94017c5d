@@ -39,15 +39,27 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
+    /* Category colors */
+    --color-compras: 142 71% 45%;
+    --color-escolar: 217 91% 60%;
+    --color-casa: 25 95% 53%;
+    --color-casamento: 330 81% 60%;
+    
     /* Gradient tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(142 71% 45%) 0%, hsl(158 64% 52%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(260 60% 45%) 0%, hsl(280 65% 55%) 50%, hsl(330 70% 50%) 100%);
     --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(220 14% 98%) 100%);
+    --gradient-compras: linear-gradient(135deg, hsl(142 71% 45%) 0%, hsl(158 64% 52%) 100%);
+    --gradient-escolar: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(200 95% 55%) 100%);
+    --gradient-casa: linear-gradient(135deg, hsl(25 95% 53%) 0%, hsl(40 90% 50%) 100%);
+    --gradient-casamento: linear-gradient(135deg, hsl(330 81% 60%) 0%, hsl(340 75% 55%) 100%);
+    --gradient-overlay: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
     
     /* Shadow tokens */
     --shadow-sm: 0 1px 2px 0 hsl(220 13% 18% / 0.05);
     --shadow-md: 0 4px 6px -1px hsl(220 13% 18% / 0.1);
     --shadow-lg: 0 10px 15px -3px hsl(220 13% 18% / 0.1);
     --shadow-hover: 0 20px 25px -5px hsl(142 71% 45% / 0.15);
+    --shadow-colored: 0 20px 40px -10px hsl(var(--primary) / 0.3);
     
     /* Animation tokens */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

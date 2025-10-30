@@ -12,10 +12,10 @@ interface ListCardProps {
 
 const ListCard = ({ title, description, path, badge }: ListCardProps) => {
   return (
-    <Card className="p-6 transition-all duration-300 hover:shadow-lg hover:border-primary/50 group">
+    <Card className="p-6 transition-all duration-300 hover:shadow-colored hover:-translate-y-1 group bg-gradient-card border-border/50">
       <div className="flex flex-col h-full">
         {badge && (
-          <span className="inline-block w-fit px-3 py-1 mb-3 text-xs font-semibold text-primary bg-primary/10 rounded-full">
+          <span className="inline-block w-fit px-3 py-1 mb-3 text-xs font-semibold text-white bg-gradient-hero rounded-full shadow-sm">
             {badge}
           </span>
         )}
@@ -26,9 +26,9 @@ const ListCard = ({ title, description, path, badge }: ListCardProps) => {
           {description}
         </p>
         <Link to={path}>
-          <Button variant="ghost" className="w-full justify-between group-hover:bg-primary/10">
+          <Button variant="ghost" className="w-full justify-between group-hover:bg-primary/10 group-hover:text-primary">
             Ver Lista Completa
-            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" />
           </Button>
         </Link>
       </div>

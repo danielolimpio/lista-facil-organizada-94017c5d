@@ -21,33 +21,46 @@ const Navbar = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border shadow-sm">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-border/50 shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link 
             to="/" 
-            className="flex items-center gap-2 text-xl font-bold text-primary hover:opacity-80 transition-opacity"
+            className="flex items-center gap-2 group"
           >
-            <ListChecks className="w-7 h-7" />
-            <span>Helplistas</span>
+            <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+              <span className="text-white font-bold text-lg">H</span>
+            </div>
+            <span className="text-xl font-bold bg-gradient-hero bg-clip-text text-transparent">
+              HelpListas
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
-            {navLinks.map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-                  isActive(link.path)
-                    ? "bg-primary text-primary-foreground"
-                    : "text-foreground hover:bg-secondary"
-                }`}
-              >
-                {link.name}
-              </Link>
-            ))}
+            {navLinks.slice(1).map((link) => {
+              const colorClass = 
+                link.path === '/lista-de-compras' ? 'hover:bg-compras/10 hover:text-compras' :
+                link.path === '/lista-de-material-escolar' ? 'hover:bg-escolar/10 hover:text-escolar' :
+                link.path === '/lista-de-casa-nova' ? 'hover:bg-casa/10 hover:text-casa' :
+                link.path === '/lista-de-casamento' ? 'hover:bg-casamento/10 hover:text-casamento' :
+                'hover:bg-primary/10 hover:text-primary';
+              
+              return (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                    isActive(link.path)
+                      ? "bg-primary text-white"
+                      : `text-foreground ${colorClass}`
+                  }`}
+                >
+                  {link.name}
+                </Link>
+              );
+            })}
           </div>
 
           {/* Search and Mobile Menu */}

@@ -47,6 +47,7 @@ All colors MUST be HSL.
     
     /* Gradient tokens - subtle gradients for cards */
     --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(220 13% 98%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(173 58% 39%) 0%, hsl(173 58% 32%) 100%);
     --gradient-compras: linear-gradient(135deg, hsl(160 93% 31%) 0%, hsl(160 93% 38%) 100%);
     --gradient-escolar: linear-gradient(135deg, hsl(221 83% 53%) 0%, hsl(221 83% 60%) 100%);
     --gradient-casa: linear-gradient(135deg, hsl(0 84% 51%) 0%, hsl(0 84% 58%) 100%);

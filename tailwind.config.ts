@@ -58,6 +58,7 @@ export default {
       },
       backgroundImage: {
         'gradient-card': 'var(--gradient-card)',
+        'gradient-hero': 'var(--gradient-hero)',
         'gradient-compras': 'var(--gradient-compras)',
         'gradient-escolar': 'var(--gradient-escolar)',
         'gradient-casa': 'var(--gradient-casa)',

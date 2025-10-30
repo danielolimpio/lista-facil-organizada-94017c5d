@@ -17,36 +17,43 @@ const CasaNova = () => {
       title: "Lista para Cozinha",
       description: "Utensílios, eletrodomésticos e itens essenciais para sua cozinha.",
       path: "/lista-de-casa-nova-cozinha",
+      badge: "Cozinha",
     },
     {
       title: "Lista para Quarto",
       description: "Móveis, roupas de cama e decoração para quartos.",
       path: "/lista-de-casa-nova-quarto",
+      badge: "Quarto",
     },
     {
       title: "Lista para Sala",
       description: "Móveis e decoração para deixar sua sala aconchegante.",
       path: "/lista-de-casa-nova-sala",
+      badge: "Sala",
     },
     {
       title: "Lista para Banheiro",
       description: "Tudo para equipar e organizar seu banheiro.",
       path: "/lista-de-casa-nova-banheiro",
+      badge: "Banheiro",
     },
     {
       title: "Lista de Limpeza",
       description: "Produtos e utensílios de limpeza essenciais.",
       path: "/lista-de-casa-nova-limpeza",
+      badge: "Limpeza",
     },
     {
       title: "Lista para Área de Serviço",
       description: "Itens necessários para lavanderia e área de serviço.",
       path: "/lista-de-casa-nova-area-de-servico",
+      badge: "Área de Serviço",
     },
     {
       title: "Lista Básica Econômica",
       description: "Versão econômica com o essencial para começar.",
       path: "/lista-de-casa-nova-economica",
+      badge: "Econômica",
     },
   ];
 

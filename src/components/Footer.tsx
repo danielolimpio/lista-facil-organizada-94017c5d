@@ -3,6 +3,7 @@ import { ListChecks } from "lucide-react";
 
 const Footer = () => {
   const categoryLinks = [
+    { name: "Início", path: "/" },
     { name: "Lista de Compras", path: "/lista-de-compras", color: "compras" },
     { name: "Material Escolar", path: "/lista-de-material-escolar", color: "escolar" },
     { name: "Casa Nova", path: "/lista-de-casa-nova", color: "casa" },
@@ -17,10 +18,16 @@ const Footer = () => {
     { name: "Contato", path: "/contato" },
   ];
 
+  const legalLinks = [
+    { name: "Política de Privacidade", path: "/politica-de-privacidade" },
+    { name: "Política de Cookies", path: "/politica-de-cookies" },
+    { name: "Termos de Uso", path: "/termos-de-uso" },
+  ];
+
   return (
     <footer className="bg-secondary border-t border-border mt-20">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
           {/* Coluna 1 - Sobre */}
           <div>
             <div className="flex items-center gap-2 mb-4">
@@ -76,7 +83,24 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Coluna 4 - Newsletter */}
+          {/* Coluna 4 - Políticas Legais */}
+          <div>
+            <h3 className="text-lg font-bold text-foreground mb-4">Políticas Legais</h3>
+            <ul className="space-y-3">
+              {legalLinks.map((link) => (
+                <li key={link.path}>
+                  <Link
+                    to={link.path}
+                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Coluna 5 - Newsletter */}
           <div>
             <h3 className="text-lg font-bold text-foreground mb-4">Receba Novidades</h3>
             <p className="text-muted-foreground text-sm mb-4">

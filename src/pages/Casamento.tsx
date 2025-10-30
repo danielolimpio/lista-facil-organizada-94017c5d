@@ -17,36 +17,43 @@ const Casamento = () => {
       title: "Lista de Casamento Tradicional",
       description: "Presentes clássicos e essenciais para montar seu lar.",
       path: "/lista-de-casamento-tradicional",
+      badge: "Tradicional",
     },
     {
       title: "12 Meses Antes do Casamento",
       description: "Tudo que você precisa fazer um ano antes do grande dia.",
       path: "/lista-de-casamento-12-meses-antes",
+      badge: "12 Meses",
     },
     {
       title: "6 Meses Antes do Casamento",
       description: "Checklist para organizar os detalhes importantes.",
       path: "/lista-de-casamento-6-meses-antes",
+      badge: "6 Meses",
     },
     {
       title: "3 Meses Antes do Casamento",
       description: "Últimos preparativos para o grande dia.",
       path: "/lista-de-casamento-3-meses-antes",
+      badge: "3 Meses",
     },
     {
       title: "Lista de Fornecedores",
       description: "Todos os profissionais que você precisa contratar.",
       path: "/lista-de-fornecedores-casamento",
+      badge: "Fornecedores",
     },
     {
       title: "Lista de Convidados",
       description: "Organize sua lista de convidados de forma prática.",
       path: "/lista-de-convidados-casamento",
+      badge: "Convidados",
     },
     {
       title: "Checklist Lua de Mel",
       description: "Não esqueça nada na sua viagem dos sonhos.",
       path: "/checklist-lua-de-mel",
+      badge: "Lua de Mel",
     },
   ];
 

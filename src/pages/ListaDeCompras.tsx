@@ -23,21 +23,25 @@ const ListaDeCompras = () => {
       title: "Lista de Compras para 2 Pessoas",
       description: "Lista otimizada para casais, com quantidades ideais.",
       path: "/lista-de-compras-para-2-pessoas",
+      badge: "Casal",
     },
     {
       title: "Lista de Compras Mensal",
       description: "Planejamento completo para compras do mês inteiro.",
       path: "/lista-de-compras-mensal",
+      badge: "Mensal",
     },
     {
       title: "Lista de Compras para Solteiro",
       description: "Lista prática e econômica para quem mora sozinho.",
       path: "/lista-de-compras-para-solteiro",
+      badge: "Individual",
     },
     {
       title: "Lista de Compras Saudável",
       description: "Opções nutritivas e equilibradas para uma alimentação saudável.",
       path: "/lista-de-compras-saudavel",
+      badge: "Saudável",
     },
   ];
 

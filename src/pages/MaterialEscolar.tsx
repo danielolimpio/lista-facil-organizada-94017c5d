@@ -17,57 +17,67 @@ const MaterialEscolar = () => {
       title: "Material Escolar Educação Infantil",
       description: "Itens essenciais para crianças da educação infantil.",
       path: "/lista-de-material-escolar-educacao-infantil",
+      badge: "Ed. Infantil",
     },
     {
       title: "Material Escolar 1° Ano",
       description: "Tudo que seu filho precisa para o primeiro ano.",
       path: "/lista-de-material-escolar-1-ano",
+      badge: "1° Ano",
     },
     {
       title: "Material Escolar 2° Ano",
       description: "Lista completa para o segundo ano fundamental.",
       path: "/lista-de-material-escolar-2-ano",
+      badge: "2° Ano",
     },
     {
       title: "Material Escolar 3° Ano",
       description: "Materiais necessários para o terceiro ano.",
       path: "/lista-de-material-escolar-3-ano",
+      badge: "3° Ano",
     },
     {
       title: "Material Escolar 4° Ano",
       description: "Lista organizada para o quarto ano fundamental.",
       path: "/lista-de-material-escolar-4-ano",
+      badge: "4° Ano",
     },
     {
       title: "Material Escolar 5° Ano",
       description: "Tudo para o quinto ano do ensino fundamental.",
       path: "/lista-de-material-escolar-5-ano",
+      badge: "5° Ano",
     },
     {
       title: "Material Escolar 6° Ano",
       description: "Lista completa para iniciar o sexto ano com tudo.",
       path: "/lista-de-material-escolar-6-ano",
-      badge: "Popular",
+      badge: "6° Ano",
     },
     {
       title: "Material Escolar 7° Ano",
       description: "Materiais essenciais para o sétimo ano.",
       path: "/lista-de-material-escolar-7-ano",
+      badge: "7° Ano",
     },
     {
       title: "Material Escolar 8° Ano",
       description: "Lista completa para o oitavo ano fundamental.",
       path: "/lista-de-material-escolar-8-ano",
+      badge: "8° Ano",
     },
     {
       title: "Material Escolar 9° Ano",
       description: "Tudo que você precisa para o nono ano.",
       path: "/lista-de-material-escolar-9-ano",
+      badge: "9° Ano",
     },
     {
       title: "Material Escolar Ensino Médio",
       description: "Lista completa para todo o ensino médio.",
       path: "/lista-de-material-escolar-ensino-medio",
+      badge: "Ensino Médio",
     },
   ];
 

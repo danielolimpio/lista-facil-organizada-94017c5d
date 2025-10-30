@@ -27,7 +27,7 @@ const Index = () => {
     {
       icon: Home,
       title: "Casa Nova",
-      description: "Tudo que você precisa para montar sua casa do zero.",
+      description: "Tudo que você precisa para organizar sua casa nova do zero.",
       path: "/lista-de-casa-nova",
       gradient: "gradient-casa",
       color: "casa",
@@ -51,7 +51,7 @@ const Index = () => {
       categoryColor: "compras",
     },
     {
-      title: "Material Escolar 2026",
+      title: "Lista Material Escolar 2026",
       description: "Lista atualizada para o próximo ano letivo",
       path: "/lista-de-material-escolar",
       badge: "Atualizado",
@@ -61,12 +61,14 @@ const Index = () => {
       title: "Checklist de Casamento",
       description: "Guia completo do noivado à lua de mel",
       path: "/lista-de-casamento",
+      badge: "Em Alta",
       categoryColor: "casamento",
     },
     {
-      title: "Lista para Casa Nova",
-      description: "Tudo para montar sua nova casa",
+      title: "Lista para Montar sua Casa Nova",
+      description: "Tudo para você organizar sua nova casa",
       path: "/lista-de-casa-nova",
+      badge: "Completa",
       categoryColor: "casa",
     },
   ];

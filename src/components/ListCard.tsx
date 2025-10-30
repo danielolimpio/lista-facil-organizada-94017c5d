@@ -12,13 +12,25 @@ interface ListCardProps {
 }
 
 const ListCard = ({ title, description, path, badge, categoryColor }: ListCardProps) => {
+  const categoryGradients: Record<string, string> = {
+    compras: 'var(--gradient-compras)',
+    escolar: 'var(--gradient-escolar)',
+    casa: 'var(--gradient-casa)',
+    casamento: 'var(--gradient-casamento)',
+  };
+
+  const badgeBackground = categoryColor && categoryGradients[categoryColor] 
+    ? categoryGradients[categoryColor] 
+    : 'hsl(var(--primary))';
+
   return (
     <Card className="p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group bg-white border border-border">
       <div className="flex flex-col h-full">
         {badge && (
-          <span className={`inline-block w-fit px-3 py-1 mb-3 text-xs font-semibold text-white rounded-full shadow-sm ${
-            categoryColor ? `bg-gradient-${categoryColor}` : 'bg-primary'
-          }`}>
+          <span 
+            className="inline-block w-fit px-3 py-1 mb-3 text-xs font-semibold text-white rounded-full shadow-sm"
+            style={{ background: badgeBackground }}
+          >
             {badge}
           </span>
         )}

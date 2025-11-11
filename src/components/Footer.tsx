@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { ListChecks } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   const categoryLinks = [
@@ -30,23 +31,34 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
           {/* Coluna 1 - Sobre */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">H</span>
-              </div>
-              <span className="text-lg font-bold text-foreground">
-                HelpListas
-              </span>
+            <div className="mb-4">
+              <img 
+                src={logo} 
+                alt="Help Listas" 
+                className="h-8"
+              />
             </div>
             <p className="text-muted-foreground text-sm mb-4">
               Seu guia gratuito para listas práticas, organizadas e atualizadas.
             </p>
-            <Link
-              to="/politica-de-privacidade"
-              className="text-sm text-primary hover:text-primary-hover font-medium transition-colors"
-            >
-              Política de Privacidade →
-            </Link>
+            <div className="space-y-2 text-sm text-muted-foreground">
+              <div className="flex items-center gap-2">
+                <Mail className="w-4 h-4 text-primary" />
+                <a href="mailto:contato@helplistas.com.br" className="hover:text-primary transition-colors">
+                  contato@helplistas.com.br
+                </a>
+              </div>
+              <div className="flex items-center gap-2">
+                <Phone className="w-4 h-4 text-primary" />
+                <a href="tel:+5512982519116" className="hover:text-primary transition-colors">
+                  (12) 98251-9116
+                </a>
+              </div>
+              <div className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
+                <span>Av. Julia Freire, 1200 - João Pessoa - PB</span>
+              </div>
+            </div>
           </div>
 
           {/* Coluna 2 - Categorias */}

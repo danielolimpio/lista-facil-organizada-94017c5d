@@ -13,8 +13,8 @@ const Footer = () => {
 
   const resourceLinks = [
     { name: "Como usar nossas listas", path: "/como-usar" },
-    { name: "Baixar em PDF", path: "/baixar-pdf" },
-    { name: "Imprimir listas", path: "/imprimir" },
+    { name: "Baixar em PDF", path: "/baixar-em-pdf" },
+    { name: "Imprimir listas", path: "/imprimir-listas" },
     { name: "Contato", path: "/contato" },
   ];
 

@@ -5,10 +5,10 @@ import logo from "@/assets/logo.png";
 const Footer = () => {
   const categoryLinks = [
     { name: "Início", path: "/" },
-    { name: "Lista de Compras", path: "/lista-de-compras", color: "compras" },
-    { name: "Material Escolar", path: "/lista-de-material-escolar", color: "escolar" },
-    { name: "Casa Nova", path: "/lista-de-casa-nova", color: "casa" },
-    { name: "Casamento", path: "/lista-de-casamento", color: "casamento" },
+    { name: "Lista Mercado", path: "/lista-de-compras", color: "compras" },
+    { name: "Lista Escolar", path: "/lista-de-material-escolar", color: "escolar" },
+    { name: "Lista Casa Nova", path: "/lista-de-casa-nova", color: "casa" },
+    { name: "Lista Casamento", path: "/lista-de-casamento", color: "casamento" },
     { name: "Blog", path: "/blog", color: "primary" },
   ];
 

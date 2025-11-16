@@ -12,10 +12,10 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Início", path: "/" },
-    { name: "Lista de Compras", path: "/lista-de-compras" },
-    { name: "Material Escolar", path: "/lista-de-material-escolar" },
-    { name: "Casa Nova", path: "/lista-de-casa-nova" },
-    { name: "Casamento", path: "/lista-de-casamento" },
+    { name: "Lista Mercado", path: "/lista-de-compras" },
+    { name: "Lista Escolar", path: "/lista-de-material-escolar" },
+    { name: "Lista Casa Nova", path: "/lista-de-casa-nova" },
+    { name: "Lista Casamento", path: "/lista-de-casamento" },
     { name: "Blog", path: "/blog" },
   ];
 

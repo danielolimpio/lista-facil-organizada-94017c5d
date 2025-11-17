@@ -6,6 +6,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import ListaDeCompras from "./pages/ListaDeCompras";
 import ListaDeComprasCompleta from "./pages/ListaDeComprasCompleta";
+import ListaSupermercado from "./pages/ListaSupermercado";
+import ListaDuasPessoas from "./pages/ListaDuasPessoas";
+import ListaMensal from "./pages/ListaMensal";
+import ListaSolteiro from "./pages/ListaSolteiro";
+import ListaSaudavel from "./pages/ListaSaudavel";
 import MaterialEscolar from "./pages/MaterialEscolar";
 import CasaNova from "./pages/CasaNova";
 import Casamento from "./pages/Casamento";
@@ -31,6 +36,11 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/lista-de-compras" element={<ListaDeCompras />} />
           <Route path="/lista-de-compras-completa" element={<ListaDeComprasCompleta />} />
+          <Route path="/lista-supermercado" element={<ListaSupermercado />} />
+          <Route path="/lista-duas-pessoas" element={<ListaDuasPessoas />} />
+          <Route path="/lista-mensal" element={<ListaMensal />} />
+          <Route path="/lista-solteiro" element={<ListaSolteiro />} />
+          <Route path="/lista-saudavel" element={<ListaSaudavel />} />
           <Route path="/lista-de-material-escolar" element={<MaterialEscolar />} />
           <Route path="/lista-de-casa-nova" element={<CasaNova />} />
           <Route path="/lista-de-casamento" element={<Casamento />} />

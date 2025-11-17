@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Início", path: "/" },
-    { name: "Lista Mercado", path: "/lista-de-compras" },
+    { name: "Listas de Compras", path: "/lista-de-compras" },
     { name: "Lista Escolar", path: "/lista-de-material-escolar" },
     { name: "Lista Casa Nova", path: "/lista-de-casa-nova" },
     { name: "Lista Casamento", path: "/lista-de-casamento" },

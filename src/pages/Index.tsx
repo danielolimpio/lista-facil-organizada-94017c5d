@@ -42,14 +42,49 @@ const Index = () => {
     },
   ];
 
-  const featuredLists = [
+  const shoppingLists = [
     {
       title: "Lista de Compras Completa",
-      description: "Todos os itens essenciais para o mês",
-      path: "/lista-de-compras",
+      description: "Lista completa com todos os itens essenciais",
+      path: "/lista-de-compras-completa",
       badge: "Mais Popular",
       categoryColor: "compras",
     },
+    {
+      title: "Lista de Supermercado",
+      description: "Itens básicos e essenciais mensais",
+      path: "/lista-supermercado",
+      badge: "Essencial",
+      categoryColor: "compras",
+    },
+    {
+      title: "Lista para 2 Pessoas",
+      description: "Lista otimizada para casais",
+      path: "/lista-duas-pessoas",
+      categoryColor: "compras",
+    },
+    {
+      title: "Lista Mensal",
+      description: "Planejamento completo para o mês inteiro",
+      path: "/lista-mensal",
+      categoryColor: "compras",
+    },
+    {
+      title: "Lista para Solteiro",
+      description: "Lista prática e econômica",
+      path: "/lista-solteiro",
+      categoryColor: "compras",
+    },
+    {
+      title: "Lista Saudável",
+      description: "Opções nutritivas e equilibradas",
+      path: "/lista-saudavel",
+      badge: "Saudável",
+      categoryColor: "compras",
+    },
+  ];
+
+  const featuredLists = [
     {
       title: "Lista Material Escolar 2026",
       description: "Lista atualizada para o próximo ano letivo",
@@ -125,14 +160,33 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Featured Lists Section */}
+      {/* Shopping Lists Section */}
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-foreground">
-            Listas em Destaque
+            Listas de Compras
           </h2>
           <p className="text-center text-muted-foreground mb-12">
-            As listas mais populares entre nossos usuários
+            Escolha a lista ideal para o seu perfil e necessidades
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {shoppingLists.map((list, index) => (
+              <div key={list.path} className="animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
+                <ListCard {...list} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Lists Section */}
+      <section className="py-20 px-4 bg-secondary">
+        <div className="container mx-auto max-w-6xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-foreground">
+            Outras Listas Populares
+          </h2>
+          <p className="text-center text-muted-foreground mb-12">
+            Material escolar, casamento e casa nova
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {featuredLists.map((list, index) => (

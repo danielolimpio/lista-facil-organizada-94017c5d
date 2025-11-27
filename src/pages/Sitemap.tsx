@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { FileText, ShoppingCart, School, Home, Heart, BookOpen, HelpCircle, Printer, Download, Mail, Shield } from "lucide-react";
+import { FileText, ShoppingCart, School, Home, Heart, BookOpen, HelpCircle, Printer, Download, Mail, Shield, Sparkles } from "lucide-react";
 
 const Sitemap = () => {
   const sections = [
@@ -66,10 +66,15 @@ const Sitemap = () => {
     <div className="min-h-screen flex flex-col bg-background">
       <Navbar />
       
-      <main className="flex-grow">
+      <main className="flex-grow pt-24">
         <div className="container mx-auto px-4 py-12">
           {/* Header */}
           <div className="text-center mb-12">
+            <div className="flex justify-center mb-4">
+              <div className="bg-gradient-to-br from-primary/20 to-primary/10 p-4 rounded-2xl">
+                <Sparkles className="w-12 h-12 text-primary" />
+              </div>
+            </div>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               Mapa do Site
             </h1>

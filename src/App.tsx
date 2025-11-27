@@ -22,6 +22,7 @@ import ComoUsar from "./pages/ComoUsar";
 import BaixarPDF from "./pages/BaixarPDF";
 import ImprimirListas from "./pages/ImprimirListas";
 import Contato from "./pages/Contato";
+import Sitemap from "./pages/Sitemap";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -52,6 +53,7 @@ const App = () => (
           <Route path="/politica-de-cookies" element={<PoliticaDeCookies />} />
           <Route path="/termos-de-uso" element={<TermosDeUso />} />
           <Route path="/contato" element={<Contato />} />
+          <Route path="/sitemap" element={<Sitemap />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -1,12 +1,14 @@
 import { FileText, Scale, Shield, AlertCircle, CheckCircle2, Info } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const TermosDeUso = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-background to-muted/20">
       <Navbar />
+      <Breadcrumbs />
       
       <main className="flex-1 container mx-auto px-4 pt-24 pb-12">
         {/* Hero Section */}

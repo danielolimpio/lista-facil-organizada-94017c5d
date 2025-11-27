@@ -16,6 +16,7 @@ const Footer = () => {
     { name: "Como usar nossas listas", path: "/como-usar" },
     { name: "Baixar em PDF", path: "/baixar-em-pdf" },
     { name: "Imprimir listas", path: "/imprimir-listas" },
+    { name: "Mapa do Site", path: "/sitemap" },
     { name: "Contato", path: "/contato" },
   ];
 

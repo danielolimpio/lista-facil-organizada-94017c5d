@@ -52,24 +52,118 @@
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Helplistas",
+      "name": "Help Listas",
+      "alternateName": "Helplistas",
       "url": "https://helplistas.com.br/",
-      "description": "Listas gratuitas e organizadas para compras, material escolar, casa nova e casamento",
+      "description": "Listas gratuitas e organizadas para compras, material escolar, casa nova e casamento. Baixe, imprima e organize sua vida com praticidade.",
       "inLanguage": "pt-BR",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://helplistas.com.br/?s={search_term_string}",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://helplistas.com.br/?busca={search_term_string}"
+        },
         "query-input": "required name=search_term_string"
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Helplistas",
+        "name": "Help Listas",
         "url": "https://helplistas.com.br/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://helplistas.com.br/og-image.jpg"
-        }
+          "url": "https://helplistas.com.br/og-image.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+55-12-98251-9116",
+          "contactType": "customer service",
+          "email": "contato@helplistas.com.br",
+          "areaServed": "BR",
+          "availableLanguage": "Portuguese"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. Julia Freire, 1200",
+          "addressLocality": "João Pessoa",
+          "addressRegion": "PB",
+          "addressCountry": "BR"
+        },
+        "sameAs": [
+          "https://helplistas.com.br/"
+        ]
       }
+    }
+    </script>
+    
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://helplistas.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Listas de Compras",
+          "item": "https://helplistas.com.br/lista-de-compras"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Lista Escolar",
+          "item": "https://helplistas.com.br/lista-de-material-escolar"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Lista Casa Nova",
+          "item": "https://helplistas.com.br/lista-de-casa-nova"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Lista Casamento",
+          "item": "https://helplistas.com.br/lista-de-casamento"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Blog",
+          "item": "https://helplistas.com.br/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Como Usar",
+          "item": "https://helplistas.com.br/como-usar"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Baixar em PDF",
+          "item": "https://helplistas.com.br/baixar-em-pdf"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Imprimir Listas",
+          "item": "https://helplistas.com.br/imprimir-listas"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Mapa do Site",
+          "item": "https://helplistas.com.br/sitemap"
+        }
+      ]
     }
     </script>
     

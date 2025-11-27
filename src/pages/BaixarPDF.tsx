@@ -2,6 +2,7 @@ import { Download, FileText, Smartphone, Monitor, CheckCircle2, AlertCircle, Arr
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -68,6 +69,7 @@ const BaixarPDF = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-background to-muted/20">
       <Navbar />
+      <Breadcrumbs />
       
       <main className="flex-1 container mx-auto px-4 pt-24 pb-12">
         {/* Hero Section */}

@@ -1,6 +1,7 @@
 import { BookOpen, Calendar, ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -33,6 +34,7 @@ const Blog = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
+      <Breadcrumbs />
       
       <main className="pt-24 pb-16 px-4">
         <div className="container mx-auto">

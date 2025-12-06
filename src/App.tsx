@@ -16,6 +16,7 @@ import MaterialEscolar from "./pages/MaterialEscolar";
 import CasaNova from "./pages/CasaNova";
 import Casamento from "./pages/Casamento";
 import Blog from "./pages/Blog";
+import DicasEconomizarSupermercado from "./pages/blog/DicasEconomizarSupermercado";
 import PoliticaDePrivacidade from "./pages/PoliticaDePrivacidade";
 import PoliticaDeCookies from "./pages/PoliticaDeCookies";
 import TermosDeUso from "./pages/TermosDeUso";
@@ -48,6 +49,7 @@ const App = () => (
           <Route path="/lista-de-casa-nova" element={<CasaNova />} />
           <Route path="/lista-de-casamento" element={<Casamento />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/dicas-economizar-supermercado" element={<DicasEconomizarSupermercado />} />
           <Route path="/como-usar" element={<ComoUsar />} />
           <Route path="/baixar-em-pdf" element={<BaixarPDF />} />
           <Route path="/imprimir-listas" element={<ImprimirListas />} />

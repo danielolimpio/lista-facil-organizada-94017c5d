@@ -19,6 +19,12 @@ import MaterialEscolar1Ano from "./pages/MaterialEscolar1Ano";
 import MaterialEscolar2Ano from "./pages/MaterialEscolar2Ano";
 import MaterialEscolar3Ano from "./pages/MaterialEscolar3Ano";
 import MaterialEscolar4Ano from "./pages/MaterialEscolar4Ano";
+import MaterialEscolar5Ano from "./pages/MaterialEscolar5Ano";
+import MaterialEscolar6Ano from "./pages/MaterialEscolar6Ano";
+import MaterialEscolar7Ano from "./pages/MaterialEscolar7Ano";
+import MaterialEscolar8Ano from "./pages/MaterialEscolar8Ano";
+import MaterialEscolar9Ano from "./pages/MaterialEscolar9Ano";
+import MaterialEscolarEnsinoMedio from "./pages/MaterialEscolarEnsinoMedio";
 import CasaNova from "./pages/CasaNova";
 import Casamento from "./pages/Casamento";
 import Blog from "./pages/Blog";
@@ -58,6 +64,12 @@ const App = () => (
           <Route path="/lista-de-material-escolar-2-ano" element={<MaterialEscolar2Ano />} />
           <Route path="/lista-de-material-escolar-3-ano" element={<MaterialEscolar3Ano />} />
           <Route path="/lista-de-material-escolar-4-ano" element={<MaterialEscolar4Ano />} />
+          <Route path="/lista-de-material-escolar-5-ano" element={<MaterialEscolar5Ano />} />
+          <Route path="/lista-de-material-escolar-6-ano" element={<MaterialEscolar6Ano />} />
+          <Route path="/lista-de-material-escolar-7-ano" element={<MaterialEscolar7Ano />} />
+          <Route path="/lista-de-material-escolar-8-ano" element={<MaterialEscolar8Ano />} />
+          <Route path="/lista-de-material-escolar-9-ano" element={<MaterialEscolar9Ano />} />
+          <Route path="/lista-de-material-escolar-ensino-medio" element={<MaterialEscolarEnsinoMedio />} />
           <Route path="/lista-de-casa-nova" element={<CasaNova />} />
           <Route path="/lista-de-casamento" element={<Casamento />} />
           <Route path="/blog" element={<Blog />} />

@@ -1,6 +1,10 @@
 RewriteEngine On
 RewriteBase /
 
+# Forçar HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 # Bloquear acesso a arquivos sensíveis
 <FilesMatch "\.(env|git|tsx|ts|jsx|js\.map)$">
   Order Allow,Deny
@@ -20,24 +24,23 @@ RewriteRule ^sitemap\.xml$ - [L,T=application/xml]
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^ - [L]
 
-# Servir diretórios com index.html
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteCond %{REQUEST_FILENAME}/index.html -f
-RewriteRule ^(.*)/?$ $1/index.html [L]
-
-# Redirecionar URLs SEM barra final → COM barra final (exceto arquivos reais)
+# Padronizar URLs com barra final (exceto arquivos reais)
+# Se a URL não tem barra final e não é um arquivo, redireciona para URL com barra
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !\.\w{2,4}$
 RewriteCond %{REQUEST_URI} !/$
 RewriteRule ^(.*)$ https://helplistas.com.br/$1/ [R=301,L]
 
-# Se ainda não encontrar, tentar servir index.html do diretório
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+# Servir diretórios com index.html
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}/index.html -f
 RewriteRule ^(.*)/?$ $1/index.html [L]
 
-# Forçar Content-Type correto para ads.txt
+# IMPORTANTE: NÃO HÁ FALLBACK PARA SPA
+# URLs inexistentes retornam 404 (comportamento correto para SEO)
+# Removido: RewriteRule ^ /index.html [L]
+
+# Forçar Content-Type correto para arquivos específicos
 <FilesMatch "^ads\.txt$">
   ForceType text/plain
   Header set Content-Type "text/plain; charset=utf-8"
@@ -71,6 +74,7 @@ RewriteRule ^(.*)/?$ $1/index.html [L]
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType image/x-icon "access plus 1 year"
   ExpiresByType text/plain "access plus 1 hour"
+  ExpiresByType text/html "access plus 1 hour"
 </IfModule>
 
 # Security Headers
@@ -80,3 +84,6 @@ RewriteRule ^(.*)/?$ $1/index.html [L]
   Header set X-XSS-Protection "1; mode=block"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
+
+# Página de erro 404 customizada (opcional)
+ErrorDocument 404 /404.html

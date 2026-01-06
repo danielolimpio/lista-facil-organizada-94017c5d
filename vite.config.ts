@@ -9,8 +9,8 @@ function staticIndexPlugin(): Plugin {
   return {
     name: 'static-index-plugin',
     closeBundle() {
-      // Após o build, substituir o index.html gerado pelo Vite pelo index.html estático
-      const staticIndexPath = path.resolve(__dirname, 'public/index.html');
+      // Após o build, copiar o _index.html estático para dist/index.html
+      const staticIndexPath = path.resolve(__dirname, 'public/_index.html');
       const distIndexPath = path.resolve(__dirname, 'dist/index.html');
       
       if (fs.existsSync(staticIndexPath)) {

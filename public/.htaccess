@@ -1,3 +1,8 @@
+# ============================================
+# CONFIGURAÇÃO PARA SITE 100% ESTÁTICO (SSG)
+# Helplistas.com.br
+# ============================================
+
 # Forçar Content-Type correto para ads.txt (CRÍTICO para Google AdSense)
 <FilesMatch "^ads\.txt$">
   ForceType text/plain
@@ -5,16 +10,13 @@
   Header set X-Robots-Tag "noindex"
 </FilesMatch>
 
-# Forçar Content-Type para outros arquivos de texto
-<FilesMatch "\.(txt|xml)$">
-  ForceType text/plain
-</FilesMatch>
-
+# Forçar Content-Type para sitemap.xml
 <FilesMatch "^sitemap\.xml$">
   ForceType application/xml
   Header set Content-Type "application/xml; charset=utf-8"
 </FilesMatch>
 
+# Forçar Content-Type para robots.txt
 <FilesMatch "^robots\.txt$">
   ForceType text/plain
   Header set Content-Type "text/plain; charset=utf-8"
@@ -24,31 +26,65 @@
   RewriteEngine On
   RewriteBase /
 
-  # PRIMEIRO: Servir ads.txt diretamente sem qualquer processamento
+  # ============================================
+  # 1. FORÇAR HTTPS
+  # ============================================
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP_HOST} !^localhost [NC]
+  RewriteCond %{HTTP_HOST} !^127\.0\.0\.1 [NC]
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # ============================================
+  # 2. SERVIR ARQUIVOS ESTÁTICOS DIRETAMENTE
+  # ============================================
+  # Servir ads.txt, robots.txt, sitemap.xml diretamente
   RewriteRule ^ads\.txt$ - [L,T=text/plain]
-  
-  # Servir robots.txt e sitemap.xml diretamente
   RewriteRule ^robots\.txt$ - [L,T=text/plain]
   RewriteRule ^sitemap\.xml$ - [L,T=application/xml]
 
+  # ============================================
+  # 3. PADRONIZAR URLs COM BARRA FINAL
+  # ============================================
+  # Se não é um arquivo real e não termina com barra, redirecionar com barra
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteCond %{REQUEST_URI} !\.
+  RewriteRule ^(.*)$ /$1/ [L,R=301]
+
+  # ============================================
+  # 4. SERVIR index.html DE DIRETÓRIOS
+  # ============================================
+  # Se é um diretório que existe, servir seu index.html
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^(.*)$ $1/index.html [L]
+
+  # ============================================
+  # 5. ARQUIVOS E DIRETÓRIOS REAIS
+  # ============================================
   # Não redirecionar arquivos ou diretórios reais
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^ - [L]
 
-  # Proteger arquivos estáticos essenciais de redirecionamento
-  RewriteRule ^(favicon\.ico|apple-touch-icon\.png|og-image\.(jpg|png)|\.well-known/|google.+\.html)$ - [L]
+  # ============================================
+  # 6. NÃO HÁ FALLBACK PARA SPA
+  # ============================================
+  # URLs inexistentes retornam 404 real (comportamento correto para SEO)
+  # NÃO adicionar regra de fallback para index.html aqui
 
-  # Redirecionar todas as demais rotas para index.html (SPA)
-  RewriteRule ^ index.html [L]
 </IfModule>
 
-# Compressão Gzip
+# ============================================
+# COMPRESSÃO GZIP
+# ============================================
 <IfModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json application/xml
 </IfModule>
 
-# Cache Headers
+# ============================================
+# CACHE HEADERS
+# ============================================
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType image/jpg "access plus 1 year"
@@ -56,18 +92,27 @@
   ExpiresByType image/gif "access plus 1 year"
   ExpiresByType image/png "access plus 1 year"
   ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
   ExpiresByType text/css "access plus 1 month"
   ExpiresByType application/javascript "access plus 1 month"
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType text/html "access plus 1 hour"
   # Cache curto para ads.txt (permite atualizações rápidas)
   ExpiresByType text/plain "access plus 1 hour"
 </IfModule>
 
-# Security Headers
+# ============================================
+# SECURITY HEADERS
+# ============================================
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
   Header set X-Frame-Options "SAMEORIGIN"
   Header set X-XSS-Protection "1; mode=block"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
+
+# ============================================
+# ERROR DOCUMENT
+# ============================================
+ErrorDocument 404 /index.html

@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+# Arquivos e pastas específicos
+Disallow: /assets/
+
 Sitemap: https://helplistas.com.br/sitemap.xml

@@ -20,19 +20,22 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Build do projeto (SSG)
+      - name: Build do projeto
         run: npm run build
+
+      - name: Gerar estrutura SSG (pós-build)
+        run: node scripts/postbuild.cjs
 
       - name: Verificar estrutura estática gerada
         run: |
           echo "📁 Estrutura de diretórios gerada:"
           find dist -type d | head -50
           echo ""
-          echo "📄 Arquivos index.html gerados:"
+          echo "📄 Total de arquivos index.html:"
           find dist -name "index.html" | wc -l
           echo ""
-          echo "📋 Listagem completa:"
-          ls -la dist/
+          echo "📋 Listagem dos index.html:"
+          find dist -name "index.html"
 
       - name: Deploy FTP para Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4

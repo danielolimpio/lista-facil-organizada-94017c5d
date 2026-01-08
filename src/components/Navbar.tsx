@@ -19,7 +19,10 @@ const Navbar = () => {
     { name: "Blog", path: "/blog" },
   ];
 
-  const isActive = (path: string) => location.pathname === path;
+  const isActive = (path: string) => {
+    if (path === "/") return location.pathname === "/";
+    return location.pathname === path || location.pathname === path + "/";
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-border shadow-sm">

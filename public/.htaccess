@@ -37,41 +37,37 @@
   # ============================================
   # 2. SERVIR ARQUIVOS ESTÁTICOS DIRETAMENTE
   # ============================================
-  # Servir ads.txt, robots.txt, sitemap.xml diretamente
   RewriteRule ^ads\.txt$ - [L,T=text/plain]
   RewriteRule ^robots\.txt$ - [L,T=text/plain]
   RewriteRule ^sitemap\.xml$ - [L,T=application/xml]
 
   # ============================================
-  # 3. PADRONIZAR URLs COM BARRA FINAL
+  # 3. SERVIR ASSETS DIRETAMENTE (JS, CSS, imagens)
   # ============================================
-  # Se não é um arquivo real e não termina com barra, redirecionar com barra
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+
+  # ============================================
+  # 4. PADRONIZAR URLs COM BARRA FINAL
+  # ============================================
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_URI} !/$
   RewriteCond %{REQUEST_URI} !\.
   RewriteRule ^(.*)$ /$1/ [L,R=301]
 
   # ============================================
-  # 4. SERVIR index.html DE DIRETÓRIOS
+  # 5. SERVIR index.html DE DIRETÓRIOS
   # ============================================
-  # Se é um diretório que existe, servir seu index.html
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteCond %{REQUEST_FILENAME}/index.html -f
   RewriteRule ^(.*)$ $1/index.html [L]
 
   # ============================================
-  # 5. ARQUIVOS E DIRETÓRIOS REAIS
+  # 6. FALLBACK PARA SPA (páginas não pré-renderizadas)
   # ============================================
-  # Não redirecionar arquivos ou diretórios reais
-  RewriteCond %{REQUEST_FILENAME} -f [OR]
-  RewriteCond %{REQUEST_FILENAME} -d
-  RewriteRule ^ - [L]
-
-  # ============================================
-  # 6. NÃO HÁ FALLBACK PARA SPA
-  # ============================================
-  # URLs inexistentes retornam 404 real (comportamento correto para SEO)
-  # NÃO adicionar regra de fallback para index.html aqui
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ /index.html [L]
 
 </IfModule>
 
@@ -98,7 +94,6 @@
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType image/x-icon "access plus 1 year"
   ExpiresByType text/html "access plus 1 hour"
-  # Cache curto para ads.txt (permite atualizações rápidas)
   ExpiresByType text/plain "access plus 1 hour"
 </IfModule>
 
@@ -111,8 +106,3 @@
   Header set X-XSS-Protection "1; mode=block"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
-
-# ============================================
-# ERROR DOCUMENT
-# ============================================
-ErrorDocument 404 /index.html

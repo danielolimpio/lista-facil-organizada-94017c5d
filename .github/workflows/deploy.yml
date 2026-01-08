@@ -1,4 +1,4 @@
-name: Deploy Site Estático via FTP na Hostinger
+name: Deploy Lovable via FTP na Hostinger
 
 on:
   push:
@@ -23,23 +23,8 @@ jobs:
       - name: Build do projeto
         run: npm run build
 
-      - name: Verificar estrutura estática
-        run: |
-          echo "=== Verificando estrutura do dist ===" 
-          ls -la dist/
-          echo ""
-          echo "=== Verificando index.html da raiz ===" 
-          head -20 dist/index.html
-          echo ""
-          echo "=== Verificando pastas estáticas ===" 
-          find dist -name "index.html" -type f | head -20
-          echo ""
-          echo "=== Verificando se NÃO há arquivos SPA ===" 
-          if grep -q "root" dist/index.html && grep -q "<script" dist/index.html; then
-            echo "⚠️ AVISO: index.html parece ser do SPA"
-          else
-            echo "✓ index.html parece ser estático"
-          fi
+      - name: Mostrar arquivos gerados
+        run: ls -la dist/
 
       - name: Deploy FTP para Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4

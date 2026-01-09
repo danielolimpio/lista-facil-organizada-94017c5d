@@ -214,7 +214,7 @@ const ListaDeComprasCompleta = () => {
               <ShoppingCart className="w-12 h-12 text-primary" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Lista de Compras Completa
+              Lista de Compras Completa com Todos os Itens para Supermercado
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
               Lista completa com todos os itens essenciais para sua casa, organizada por categoria

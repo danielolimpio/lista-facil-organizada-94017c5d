@@ -71,7 +71,7 @@ const Casamento = () => {
               <Heart className="w-12 h-12 text-primary" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Lista de Casamento
+              Checklist de Casamento 2026: Do Noivado à Lua de Mel
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Checklist completo para noivos: do "sim" à lua de mel. Organize seu casamento sem estresse!

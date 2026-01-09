@@ -141,7 +141,7 @@ const ListaDuasPessoas = () => {
               <Users className="w-12 h-12 text-primary" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Lista de Compras para 2 Pessoas
+              Lista de Compras para Casal – Quantidades para 2 Pessoas
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
               Lista otimizada para casais, com quantidades ideais

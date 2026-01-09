@@ -95,7 +95,7 @@ const MaterialEscolar = () => {
               <GraduationCap className="w-12 h-12 text-primary" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Lista de Material Escolar 2026
+              Lista Completa de Material Escolar 2026 por Série
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Listas completas e atualizadas para todas as séries escolares. Prepare-se para o ano letivo!

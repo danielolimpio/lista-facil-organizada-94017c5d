@@ -19,8 +19,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
-    // Otimizações para SSG
-    minify: "terser",
+    // Otimizações para SSG - usa esbuild (padrão do Vite)
     rollupOptions: {
       output: {
         manualChunks: undefined,

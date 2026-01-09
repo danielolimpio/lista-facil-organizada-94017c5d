@@ -195,7 +195,7 @@ const MaterialEscolar5Ano = () => {
       <Helmet>
         <title>Lista de Material Escolar 5° Ano 2026 | HelpListas</title>
         <meta name="description" content="Lista completa de material escolar para o 5° ano do Ensino Fundamental 2026. Conclusão do ciclo inicial com materiais mais avançados." />
-        <meta name="keywords" content="material escolar 5 ano, lista quinto ano, material escolar fundamental, lista escolar 2026, calculadora científica" />
+        {/* Meta keywords removed - deprecated by search engines */}
         <link rel="canonical" href="https://helplistas.com.br/lista-de-material-escolar-5-ano" />
       </Helmet>
 
@@ -210,7 +210,7 @@ const MaterialEscolar5Ano = () => {
               <BookOpen className="w-12 h-12 text-amber-600" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Material Escolar 5° Ano
+              Lista de Material Escolar 5° Ano 2026 – Fundamental I
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
               Lista completa para o quinto ano — conclusão do Fundamental I com mais autonomia

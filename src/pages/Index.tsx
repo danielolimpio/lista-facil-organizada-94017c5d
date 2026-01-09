@@ -127,7 +127,7 @@ const Index = () => {
             <span className="text-sm font-medium text-white">Listas gratuitas e atualizadas</span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white animate-slide-up">
-            Olá! Qual lista vamos<br />organizar hoje?
+            Listas Prontas Gratuitas<br />para Organizar sua Vida
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto animate-slide-up">
             Baixe listas práticas e completas para o seu dia a dia — sempre atualizadas para 2025.

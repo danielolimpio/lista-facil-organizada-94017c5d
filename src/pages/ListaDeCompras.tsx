@@ -59,7 +59,7 @@ const ListaDeCompras = () => {
               <ShoppingCart className="w-12 h-12 text-primary" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Lista de Compras
+              Listas de Compras para Supermercado 2026
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Encontre a lista de compras perfeita para suas necessidades. Organize suas compras e economize tempo!

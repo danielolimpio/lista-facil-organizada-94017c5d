@@ -165,7 +165,7 @@ const ListaSaudavel = () => {
               <Heart className="w-12 h-12 text-primary" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Lista de Compras Saudável
+              Lista de Compras Saudável – Alimentos Nutritivos e Naturais
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
               Opções nutritivas e equilibradas para uma alimentação saudável

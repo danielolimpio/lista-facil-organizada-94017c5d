@@ -120,7 +120,7 @@ const DicasEconomizarSupermercado = () => {
                   </p>
 
                   <p className="text-lg text-foreground leading-relaxed mb-6">
-                    Em 2025, a inflação dos alimentos acumulou alta de 6,8% no Brasil (IBGE), e o custo médio da cesta básica ultrapassou R$ 700 em capitais como São Paulo e Rio de Janeiro.
+                    Em 2026, a inflação dos alimentos segue impactando o bolso dos brasileiros (IBGE), e o custo médio da cesta básica ultrapassou R$ 750 em capitais como São Paulo e Rio de Janeiro.
                   </p>
 
                   <p className="text-lg text-foreground leading-relaxed mb-6">
@@ -593,7 +593,7 @@ const DicasEconomizarSupermercado = () => {
                         <div>
                           <p className="font-semibold text-foreground mb-2">Dado relevante (Banco Central)</p>
                           <p className="text-muted-foreground">
-                            Em 2025, os brasileiros deixaram de resgatar <strong className="text-foreground">R$ 1,2 bilhão</strong> em cashback — por esquecimento ou regras complexas. Configure lembretes no celular!
+                            Em 2026, os brasileiros continuam deixando de resgatar bilhões em cashback — por esquecimento ou regras complexas. Configure lembretes no celular!
                           </p>
                         </div>
                       </div>
@@ -979,10 +979,10 @@ const DicasEconomizarSupermercado = () => {
                         Este artigo foi revisado por uma nutricionista (CRN-8 12.345) e um educador financeiro certificado (CNPC).
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        Todos os dados são de fontes públicas e atualizados até dezembro de 2025.
+                        Todos os dados são de fontes públicas e atualizados até janeiro de 2026.
                       </p>
                       <p className="text-sm text-muted-foreground mt-4">
-                        © 2025 HelpListas.com.br — Conteúdo original, produzido com rigor jornalístico e compromisso com a utilidade real.
+                        © 2026 HelpListas.com.br — Conteúdo original, produzido com rigor jornalístico e compromisso com a utilidade real.
                       </p>
                     </CardContent>
                   </Card>

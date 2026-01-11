@@ -130,7 +130,7 @@ const Index = () => {
             Listas Prontas Gratuitas<br />para Organizar sua Vida
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto animate-slide-up">
-            Baixe listas práticas e completas para o seu dia a dia — sempre atualizadas para 2025.
+            Baixe listas práticas e completas para o seu dia a dia — sempre atualizadas para 2026.
           </p>
           <Button 
             size="lg"
@@ -161,7 +161,7 @@ const Index = () => {
                 <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Atualizadas anualmente</h3>
-                  <p className="text-sm text-muted-foreground">Incluindo 2025 e 2026</p>
+                  <p className="text-sm text-muted-foreground">Incluindo 2026 e 2027</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-4 bg-card border border-border/50 rounded-lg hover:shadow-md transition-all">

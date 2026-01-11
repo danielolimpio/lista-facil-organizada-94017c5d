@@ -20,7 +20,7 @@ const TermosDeUso = () => {
             Termos de Uso
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Última atualização: Janeiro de 2025
+            Última atualização: Janeiro de 2026
           </p>
         </div>
 

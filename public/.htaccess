@@ -1,6 +1,6 @@
 # ============================================
 # CONFIGURAÇÃO PARA SITE 100% ESTÁTICO (SSG)
-# Helplistas.com.br
+# Helplistas.com.br - URLs SEM barra final
 # ============================================
 
 # Forçar Content-Type correto para ads.txt (CRÍTICO para Google AdSense)
@@ -48,22 +48,32 @@
   RewriteRule ^ - [L]
 
   # ============================================
-  # 4. PADRONIZAR URLs COM BARRA FINAL
+  # 4. REMOVER BARRA FINAL (Redirecionar /page/ para /page)
+  # ============================================
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} ^(.+)/$
+  RewriteRule ^(.+)/$ /$1 [L,R=301]
+
+  # ============================================
+  # 5. SERVIR ARQUIVOS .html SEM EXTENSÃO
+  # Se a URL é /page, servir /page.html
   # ============================================
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_URI} !/$
-  RewriteCond %{REQUEST_URI} !\.
-  RewriteRule ^(.*)$ /$1/ [L,R=301]
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.+)$ $1.html [L]
 
   # ============================================
-  # 5. SERVIR index.html DE DIRETÓRIOS
+  # 6. SERVIR SUBPASTAS COM ARQUIVOS .html
+  # Se /blog/artigo existe como /blog/artigo.html
   # ============================================
-  RewriteCond %{REQUEST_FILENAME} -d
-  RewriteCond %{REQUEST_FILENAME}/index.html -f
-  RewriteRule ^(.*)$ $1/index.html [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+  RewriteRule ^(.+)$ /$1.html [L]
 
   # ============================================
-  # 6. FALLBACK PARA SPA (páginas não pré-renderizadas)
+  # 7. FALLBACK PARA SPA (páginas não pré-renderizadas)
   # ============================================
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d

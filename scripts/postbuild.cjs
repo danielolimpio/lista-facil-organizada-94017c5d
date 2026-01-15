@@ -4,6 +4,7 @@ const path = require("path");
 const distPath = path.resolve(__dirname, "../dist");
 
 // Lista de todas as rotas do site com seus metadados SEO otimizados e únicos
+// IMPORTANTE: URLs SEM barra final para gerar arquivos .html na raiz
 const routes = [
   { 
     path: "/", 
@@ -15,7 +16,7 @@ const routes = [
     schema: "WebSite"
   },
   { 
-    path: "/lista-de-compras/", 
+    path: "/lista-de-compras", 
     title: "Lista de Compras para Supermercado 2026 – Todas as Opções | Helplistas", 
     description: "Encontre a lista de compras ideal para você: completa, mensal, para casal, solteiro ou alimentação saudável. Baixe grátis e organize suas compras no supermercado.",
     h1: "Listas de Compras para Supermercado 2026",
@@ -24,7 +25,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-compras-completa/", 
+    path: "/lista-de-compras-completa", 
     title: "Lista de Compras Completa com Todos os Itens por Categoria | Helplistas", 
     description: "A lista de compras mais completa do Brasil com mais de 100 itens organizados por categoria: hortifruti, carnes, laticínios, higiene e limpeza. Baixe grátis em PDF.",
     h1: "Lista de Compras Completa com Todos os Itens para Supermercado",
@@ -33,7 +34,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-supermercado/", 
+    path: "/lista-supermercado", 
     title: "Lista de Supermercado Básica 2026 – Itens Essenciais | Helplistas", 
     description: "Lista básica de supermercado com os itens essenciais para sua despensa. Ideal para compras rápidas e econômicas. Imprima ou use no celular.",
     h1: "Lista de Supermercado com Itens Básicos e Essenciais",
@@ -42,7 +43,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-duas-pessoas/", 
+    path: "/lista-duas-pessoas", 
     title: "Lista de Compras para Casal – Quantidades Ideais para 2 Pessoas | Helplistas", 
     description: "Lista de compras otimizada para casais com quantidades certas para duas pessoas. Evite desperdício e economize com planejamento inteligente.",
     h1: "Lista de Compras para Casal – Quantidades para 2 Pessoas",
@@ -51,7 +52,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-mensal/", 
+    path: "/lista-mensal", 
     title: "Lista de Compras Mensal 2026 – Planejamento Completo do Mês | Helplistas", 
     description: "Planeje todas as compras do mês com nossa lista mensal organizada por categoria. Inclui quantidades, dicas de armazenamento e sugestões de economia.",
     h1: "Lista de Compras Mensal – Planejamento Completo para o Mês",
@@ -60,7 +61,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-solteiro/", 
+    path: "/lista-solteiro", 
     title: "Lista de Compras para Solteiro – Econômica e Prática | Helplistas", 
     description: "Lista de compras ideal para quem mora sozinho: quantidades certas, menos desperdício e mais economia. Prática e fácil de usar no supermercado.",
     h1: "Lista de Compras Econômica para Quem Mora Sozinho",
@@ -69,7 +70,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-saudavel/", 
+    path: "/lista-saudavel", 
     title: "Lista de Compras Saudável – Alimentos Nutritivos e Naturais | Helplistas", 
     description: "Lista de compras focada em alimentação saudável com frutas, verduras, proteínas magras e grãos integrais. Monte uma dieta equilibrada de forma prática.",
     h1: "Lista de Compras Saudável – Alimentos Nutritivos e Naturais",
@@ -78,7 +79,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar/", 
+    path: "/lista-de-material-escolar", 
     title: "Lista de Material Escolar 2026 Completa por Série | Helplistas", 
     description: "Listas de material escolar 2026 organizadas por série: educação infantil, ensino fundamental (1° ao 9° ano) e ensino médio. Baixe grátis e economize.",
     h1: "Lista Completa de Material Escolar 2026 por Série",
@@ -87,7 +88,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar-2026/", 
+    path: "/lista-de-material-escolar-2026", 
     title: "Lista de Material Escolar 2026 – Ano Letivo Atualizado | Helplistas", 
     description: "Material escolar para 2026 atualizado conforme diretrizes do MEC. Lista geral com todos os itens necessários para qualquer série escolar.",
     h1: "Lista de Material Escolar 2026 – Ano Letivo",
@@ -96,7 +97,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar-educacao-infantil/", 
+    path: "/lista-de-material-escolar-educacao-infantil", 
     title: "Lista de Material Escolar Educação Infantil 2026 | Helplistas", 
     description: "Material escolar para educação infantil 2026: itens adaptados para crianças de 2 a 5 anos com foco em segurança e desenvolvimento motor.",
     h1: "Lista de Material Escolar para Educação Infantil 2026",
@@ -105,7 +106,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar-1-ano/", 
+    path: "/lista-de-material-escolar-1-ano", 
     title: "Lista de Material Escolar 1º Ano 2026 – Ensino Fundamental | Helplistas", 
     description: "Lista completa de material escolar para o 1° ano do ensino fundamental 2026. Início da alfabetização com materiais adequados à idade.",
     h1: "Lista de Material Escolar 1° Ano 2026 – Ensino Fundamental",
@@ -114,7 +115,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar-2-ano/", 
+    path: "/lista-de-material-escolar-2-ano", 
     title: "Lista de Material Escolar 2º Ano 2026 – Ensino Fundamental | Helplistas", 
     description: "Material escolar para 2° ano do fundamental 2026. Continuidade da alfabetização com ênfase em escrita e coordenação motora fina.",
     h1: "Lista de Material Escolar 2° Ano 2026 – Ensino Fundamental",
@@ -123,7 +124,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar-3-ano/", 
+    path: "/lista-de-material-escolar-3-ano", 
     title: "Lista de Material Escolar 3º Ano 2026 – Ensino Fundamental | Helplistas", 
     description: "Lista de materiais para o 3° ano fundamental 2026. Fase de consolidação da leitura e escrita com materiais mais avançados.",
     h1: "Lista de Material Escolar 3° Ano 2026 – Ensino Fundamental",
@@ -132,7 +133,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar-4-ano/", 
+    path: "/lista-de-material-escolar-4-ano", 
     title: "Lista de Material Escolar 4º Ano 2026 – Ensino Fundamental | Helplistas", 
     description: "Material escolar 4° ano 2026: preparação para o ciclo final do Fundamental I com foco em produção textual e ciências.",
     h1: "Lista de Material Escolar 4° Ano 2026 – Ensino Fundamental",
@@ -141,7 +142,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar-5-ano/", 
+    path: "/lista-de-material-escolar-5-ano", 
     title: "Lista de Material Escolar 5º Ano 2026 – Conclusão Fundamental I | Helplistas", 
     description: "Material escolar para 5° ano 2026: conclusão do Fundamental I com introdução a materiais de geometria e estudos mais aprofundados.",
     h1: "Lista de Material Escolar 5° Ano 2026 – Fundamental I",
@@ -150,7 +151,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar-6-ano/", 
+    path: "/lista-de-material-escolar-6-ano", 
     title: "Lista de Material Escolar 6º Ano 2026 – Início Fundamental II | Helplistas", 
     description: "Lista para 6° ano 2026: transição para o Fundamental II com mais matérias e organização por disciplina. Cadernos universitários recomendados.",
     h1: "Lista de Material Escolar 6° Ano 2026 – Fundamental II",
@@ -159,7 +160,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar-7-ano/", 
+    path: "/lista-de-material-escolar-7-ano", 
     title: "Lista de Material Escolar 7º Ano 2026 – Ensino Fundamental II | Helplistas", 
     description: "Material escolar 7° ano 2026: aprofundamento em matemática e ciências com materiais específicos para laboratório e geometria.",
     h1: "Lista de Material Escolar 7° Ano 2026 – Fundamental II",
@@ -168,7 +169,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar-8-ano/", 
+    path: "/lista-de-material-escolar-8-ano", 
     title: "Lista de Material Escolar 8º Ano 2026 – Ensino Fundamental II | Helplistas", 
     description: "Lista de materiais 8° ano 2026: preparação para o ensino médio com ênfase em física e química. Calculadora científica pode ser necessária.",
     h1: "Lista de Material Escolar 8° Ano 2026 – Fundamental II",
@@ -177,7 +178,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar-9-ano/", 
+    path: "/lista-de-material-escolar-9-ano", 
     title: "Lista de Material Escolar 9º Ano 2026 – Final Fundamental II | Helplistas", 
     description: "Material escolar 9° ano 2026: último ano do fundamental com preparação para vestibulinho e ENEM. Materiais avançados incluídos.",
     h1: "Lista de Material Escolar 9° Ano 2026 – Fundamental II",
@@ -186,7 +187,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-material-escolar-ensino-medio/", 
+    path: "/lista-de-material-escolar-ensino-medio", 
     title: "Lista de Material Escolar Ensino Médio 2026 – Completa | Helplistas", 
     description: "Material escolar para ensino médio 2026: lista completa com todos os itens para as 3 séries. Ideal para preparação para vestibular e ENEM.",
     h1: "Lista de Material Escolar Ensino Médio 2026",
@@ -195,7 +196,7 @@ const routes = [
     schema: "ItemList"
   },
   { 
-    path: "/lista-de-casa-nova/", 
+    path: "/lista-de-casa-nova", 
     title: "Checklist de Casa Nova 2026 – Lista Completa por Cômodo | Helplistas", 
     description: "Checklist completo para montar sua casa nova do zero. Organizado por cômodo: cozinha, quarto, sala, banheiro e área de serviço. Não esqueça de nada!",
     h1: "Checklist Completo para Montar sua Casa Nova do Zero",
@@ -204,7 +205,7 @@ const routes = [
     schema: "HowTo"
   },
   { 
-    path: "/lista-de-casamento/", 
+    path: "/lista-de-casamento", 
     title: "Checklist de Casamento 2026 – Do Noivado à Lua de Mel | Helplistas", 
     description: "Checklist completo para organizar seu casamento: cronograma mês a mês, lista de fornecedores, convidados e presentes. Planeje sem estresse!",
     h1: "Checklist de Casamento 2026: Do Noivado à Lua de Mel",
@@ -213,7 +214,7 @@ const routes = [
     schema: "HowTo"
   },
   { 
-    path: "/blog/", 
+    path: "/blog", 
     title: "Blog Helplistas – Dicas de Organização, Economia e Planejamento", 
     description: "Dicas práticas para organizar sua vida, economizar nas compras e planejar melhor. Artigos sobre supermercado, material escolar, casa e casamento.",
     h1: "Blog Helplistas – Dicas de Organização e Economia",
@@ -222,7 +223,7 @@ const routes = [
     schema: "Blog"
   },
   { 
-    path: "/blog/dicas-economizar-supermercado/", 
+    path: "/blog/dicas-economizar-supermercado", 
     title: "10 Dicas para Economizar no Supermercado em 2026 | Blog Helplistas", 
     description: "Aprenda 10 estratégias comprovadas para economizar até 30% nas compras de supermercado. Dicas sobre horários, marcas próprias e apps de desconto.",
     h1: "10 Dicas para Economizar no Supermercado em 2026",
@@ -231,7 +232,7 @@ const routes = [
     schema: "Article"
   },
   { 
-    path: "/como-usar/", 
+    path: "/como-usar", 
     title: "Como Usar as Listas do Helplistas – Guia Rápido | Helplistas", 
     description: "Aprenda a usar nossas listas em 3 passos simples: escolha, personalize e execute. Funciona no celular, computador ou impresso.",
     h1: "Como Usar Nossas Listas – Guia Rápido",
@@ -240,7 +241,7 @@ const routes = [
     schema: "HowTo"
   },
   { 
-    path: "/baixar-em-pdf/", 
+    path: "/baixar-em-pdf", 
     title: "Baixar Listas em PDF Grátis – Sem Cadastro | Helplistas", 
     description: "Baixe todas as nossas listas em formato PDF gratuitamente. Sem cadastro, sem login. Pronto para imprimir ou usar no celular.",
     h1: "Baixar Listas em PDF Grátis",
@@ -249,7 +250,7 @@ const routes = [
     schema: null
   },
   { 
-    path: "/imprimir-listas/", 
+    path: "/imprimir-listas", 
     title: "Como Imprimir Listas Prontas – Passo a Passo | Helplistas", 
     description: "Guia passo a passo para imprimir nossas listas diretamente do navegador. Funciona em qualquer impressora, sem necessidade de software adicional.",
     h1: "Como Imprimir Nossas Listas – Passo a Passo",
@@ -258,7 +259,7 @@ const routes = [
     schema: "HowTo"
   },
   { 
-    path: "/contato/", 
+    path: "/contato", 
     title: "Contato – Fale com a Equipe Helplistas", 
     description: "Entre em contato conosco por email ou WhatsApp. Sugestões, dúvidas ou parcerias são bem-vindas. Respondemos em até 24 horas.",
     h1: "Fale com a Equipe Helplistas",
@@ -267,7 +268,7 @@ const routes = [
     schema: null
   },
   { 
-    path: "/sitemap/", 
+    path: "/sitemap", 
     title: "Mapa do Site – Todas as Páginas | Helplistas", 
     description: "Navegue por todas as páginas do Helplistas organizadas por categoria. Encontre rapidamente a lista que você precisa.",
     h1: "Mapa do Site – Todas as Páginas",
@@ -276,7 +277,7 @@ const routes = [
     schema: null
   },
   { 
-    path: "/politica-de-privacidade/", 
+    path: "/politica-de-privacidade", 
     title: "Política de Privacidade | Helplistas", 
     description: "Saiba como o Helplistas coleta, armazena e protege seus dados pessoais. Conformidade com LGPD garantida.",
     h1: "Política de Privacidade do Helplistas",
@@ -285,7 +286,7 @@ const routes = [
     schema: null
   },
   { 
-    path: "/politica-de-cookies/", 
+    path: "/politica-de-cookies", 
     title: "Política de Cookies | Helplistas", 
     description: "Entenda como usamos cookies para melhorar sua experiência no site. Saiba como gerenciar suas preferências de cookies.",
     h1: "Política de Cookies do Helplistas",
@@ -294,7 +295,7 @@ const routes = [
     schema: null
   },
   { 
-    path: "/termos-de-uso/", 
+    path: "/termos-de-uso", 
     title: "Termos de Uso | Helplistas", 
     description: "Leia nossos termos e condições de uso do site Helplistas. Direitos, responsabilidades e limitações.",
     h1: "Termos de Uso do Helplistas",
@@ -358,7 +359,7 @@ function generateSchema(route) {
         "description": route.description,
         "url": baseUrl + route.path,
         "datePublished": "2025-01-01",
-        "dateModified": "2026-01-09",
+        "dateModified": "2026-01-15",
         "author": {
           "@type": "Organization",
           "name": "Helplistas"
@@ -405,19 +406,19 @@ function generateBreadcrumb(route) {
     { position: 1, name: "Início", url: baseUrl + "/" }
   ];
   
-  // Determinar categoria pai
+  // Determinar categoria pai (URLs sem barra final)
   if (route.path.includes("lista-de-compras") || route.path.includes("lista-supermercado") || 
       route.path.includes("lista-duas") || route.path.includes("lista-mensal") || 
       route.path.includes("lista-solteiro") || route.path.includes("lista-saudavel")) {
-    breadcrumbs.push({ position: 2, name: "Listas de Compras", url: baseUrl + "/lista-de-compras/" });
+    breadcrumbs.push({ position: 2, name: "Listas de Compras", url: baseUrl + "/lista-de-compras" });
   } else if (route.path.includes("material-escolar")) {
-    breadcrumbs.push({ position: 2, name: "Material Escolar", url: baseUrl + "/lista-de-material-escolar/" });
+    breadcrumbs.push({ position: 2, name: "Material Escolar", url: baseUrl + "/lista-de-material-escolar" });
   } else if (route.path.includes("casa-nova")) {
-    breadcrumbs.push({ position: 2, name: "Casa Nova", url: baseUrl + "/lista-de-casa-nova/" });
+    breadcrumbs.push({ position: 2, name: "Casa Nova", url: baseUrl + "/lista-de-casa-nova" });
   } else if (route.path.includes("casamento")) {
-    breadcrumbs.push({ position: 2, name: "Casamento", url: baseUrl + "/lista-de-casamento/" });
+    breadcrumbs.push({ position: 2, name: "Casamento", url: baseUrl + "/lista-de-casamento" });
   } else if (route.path.includes("blog")) {
-    breadcrumbs.push({ position: 2, name: "Blog", url: baseUrl + "/blog/" });
+    breadcrumbs.push({ position: 2, name: "Blog", url: baseUrl + "/blog" });
   }
   
   // Adicionar página atual se não for a categoria pai
@@ -443,7 +444,7 @@ function generateBreadcrumb(route) {
   return `<script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>`;
 }
 
-console.log("🔧 Iniciando pós-processamento SSG com SEO otimizado...");
+console.log("🔧 Iniciando pós-processamento SSG com SEO otimizado (URLs sem barra final)...");
 
 // Ler o index.html gerado pelo Vite
 const mainIndexPath = path.join(distPath, "index.html");
@@ -455,18 +456,10 @@ if (!fs.existsSync(mainIndexPath)) {
 
 const mainIndexContent = fs.readFileSync(mainIndexPath, "utf-8");
 
-// Criar diretórios e arquivos index.html para cada rota
+// Criar arquivos .html para cada rota (sem diretórios)
 let created = 0;
 routes.forEach((route) => {
   if (route.path === "/") return; // Pular a raiz, já existe
-
-  const routePath = route.path.replace(/^\/|\/$/g, ""); // Remover barras
-  const dirPath = path.join(distPath, routePath);
-
-  // Criar diretório se não existir
-  if (!fs.existsSync(dirPath)) {
-    fs.mkdirSync(dirPath, { recursive: true });
-  }
 
   // Gerar schemas
   const pageSchema = generateSchema(route);
@@ -477,24 +470,24 @@ routes.forEach((route) => {
   const h2Tags = route.h2s ? route.h2s.map(h2 => `<h2>${h2}</h2>`).join("\n      ") : "";
   const introText = route.intro ? `<p class="intro-text">${route.intro}</p>` : "";
   
-  // Links internos contextuais por categoria
+  // Links internos contextuais por categoria (URLs sem barra final)
   let relatedLinks = "";
   if (route.path.includes("lista-de-compras") || route.path.includes("lista-supermercado") || 
       route.path.includes("lista-duas") || route.path.includes("lista-mensal") || 
       route.path.includes("lista-solteiro") || route.path.includes("lista-saudavel")) {
     relatedLinks = `
       <nav class="related-links" aria-label="Listas relacionadas">
-        <p>Veja também: <a href="/lista-de-compras-completa/">Lista Completa</a> | <a href="/lista-mensal/">Lista Mensal</a> | <a href="/lista-saudavel/">Lista Saudável</a> | <a href="/blog/dicas-economizar-supermercado/">Dicas de Economia</a></p>
+        <p>Veja também: <a href="/lista-de-compras-completa">Lista Completa</a> | <a href="/lista-mensal">Lista Mensal</a> | <a href="/lista-saudavel">Lista Saudável</a> | <a href="/blog/dicas-economizar-supermercado">Dicas de Economia</a></p>
       </nav>`;
   } else if (route.path.includes("material-escolar")) {
     relatedLinks = `
       <nav class="related-links" aria-label="Listas relacionadas">
-        <p>Navegue por série: <a href="/lista-de-material-escolar-educacao-infantil/">Ed. Infantil</a> | <a href="/lista-de-material-escolar-1-ano/">1° Ano</a> | <a href="/lista-de-material-escolar-6-ano/">6° Ano</a> | <a href="/lista-de-material-escolar-ensino-medio/">Ensino Médio</a></p>
+        <p>Navegue por série: <a href="/lista-de-material-escolar-educacao-infantil">Ed. Infantil</a> | <a href="/lista-de-material-escolar-1-ano">1° Ano</a> | <a href="/lista-de-material-escolar-6-ano">6° Ano</a> | <a href="/lista-de-material-escolar-ensino-medio">Ensino Médio</a></p>
       </nav>`;
   } else if (route.path.includes("casa-nova") || route.path.includes("casamento")) {
     relatedLinks = `
       <nav class="related-links" aria-label="Listas relacionadas">
-        <p>Veja também: <a href="/lista-de-casa-nova/">Casa Nova</a> | <a href="/lista-de-casamento/">Casamento</a> | <a href="/lista-de-compras-completa/">Compras Completa</a></p>
+        <p>Veja também: <a href="/lista-de-casa-nova">Casa Nova</a> | <a href="/lista-de-casamento">Casamento</a> | <a href="/lista-de-compras-completa">Compras Completa</a></p>
       </nav>`;
   }
   
@@ -506,7 +499,7 @@ routes.forEach((route) => {
       ${relatedLinks}
     </article>`;
 
-  // Gerar HTML com metadados específicos da página
+  // Gerar HTML com metadados específicos da página (URLs sem barra final)
   let pageHtml = mainIndexContent
     .replace(/<title>.*?<\/title>/, `<title>${route.title}</title>`)
     .replace(
@@ -555,26 +548,60 @@ routes.forEach((route) => {
     );
   }
 
-  // Escrever arquivo index.html no diretório
-  const indexPath = path.join(dirPath, "index.html");
-  fs.writeFileSync(indexPath, pageHtml);
+  // Determinar o caminho do arquivo .html
+  // Para rotas como /blog/dicas-economizar-supermercado, criar blog/dicas-economizar-supermercado.html
+  const routePath = route.path.replace(/^\//, ""); // Remover barra inicial
+  
+  if (routePath.includes("/")) {
+    // Rota com subpasta (ex: blog/artigo)
+    const parts = routePath.split("/");
+    const dirPath = path.join(distPath, ...parts.slice(0, -1));
+    const fileName = parts[parts.length - 1] + ".html";
+    
+    // Criar diretório se não existir
+    if (!fs.existsSync(dirPath)) {
+      fs.mkdirSync(dirPath, { recursive: true });
+    }
+    
+    const filePath = path.join(dirPath, fileName);
+    fs.writeFileSync(filePath, pageHtml);
+    console.log(`   ✓ ${route.path} -> ${parts.slice(0, -1).join("/")}/${fileName}`);
+  } else {
+    // Rota simples (ex: lista-de-compras)
+    const filePath = path.join(distPath, routePath + ".html");
+    fs.writeFileSync(filePath, pageHtml);
+    console.log(`   ✓ ${route.path} -> ${routePath}.html`);
+  }
+  
   created++;
 });
 
-console.log(`✅ SSG concluído: ${created} páginas criadas com SEO otimizado`);
-console.log(`📁 Estrutura de diretórios:`);
+console.log(`\n✅ SSG concluído: ${created} páginas criadas com SEO otimizado`);
+console.log(`📁 Estrutura de arquivos .html na raiz (sem pastas index.html):`);
 
-// Listar diretórios criados
+// Listar arquivos .html criados
+const htmlFiles = fs.readdirSync(distPath)
+  .filter(file => file.endsWith('.html') && file !== 'index.html');
+
+htmlFiles.forEach(file => {
+  console.log(`   /${file.replace('.html', '')} -> ${file}`);
+});
+
+// Verificar subpastas (como blog/)
 const dirs = fs.readdirSync(distPath, { withFileTypes: true })
-  .filter(dirent => dirent.isDirectory())
-  .map(dirent => dirent.name);
+  .filter(dirent => dirent.isDirectory() && !dirent.name.startsWith('assets'));
 
 dirs.forEach(dir => {
-  const indexExists = fs.existsSync(path.join(distPath, dir, "index.html"));
-  console.log(`   /${dir}/ ${indexExists ? "✓" : "✗"}`);
+  const subFiles = fs.readdirSync(path.join(distPath, dir.name))
+    .filter(file => file.endsWith('.html'));
+  subFiles.forEach(file => {
+    console.log(`   /${dir.name}/${file.replace('.html', '')} -> ${dir.name}/${file}`);
+  });
 });
 
 console.log("\n🔍 SEO Features incluídas:");
+console.log("   ✓ URLs SEM barra final");
+console.log("   ✓ Arquivos .html na raiz (não pastas/index.html)");
 console.log("   ✓ H1 únicos por página");
 console.log("   ✓ H2s únicos por página (3 por página)");
 console.log("   ✓ Introdução textual única (aumenta text ratio)");
@@ -582,4 +609,4 @@ console.log("   ✓ Links internos contextuais");
 console.log("   ✓ Meta descriptions variadas");
 console.log("   ✓ Schema.org (ItemList, HowTo, Article, Blog)");
 console.log("   ✓ BreadcrumbList para navegação");
-console.log("   ✓ Meta keywords removidas (obsoletas)");
+console.log("   ✓ Canonical URLs sem barra final");

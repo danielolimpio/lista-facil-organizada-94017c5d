@@ -1,0 +1,47 @@
+# Helplistas
+
+> Listas prontas e gratuitas em português para organizar compras de supermercado, material escolar, casa nova e casamento. Tudo pronto para baixar, imprimir e usar.
+
+O Helplistas reúne checklists e listas práticas atualizadas para 2026, organizadas por categoria e por série escolar, com foco em economia, organização e planejamento do dia a dia.
+
+## Pages
+
+- [Início](/): Página principal com todas as categorias de listas disponíveis.
+- [Listas de Compras](/lista-de-compras): Índice de listas de supermercado por perfil (completa, mensal, casal, solteiro, saudável).
+- [Lista de Compras Completa](/lista-de-compras-completa): Mais de 100 itens organizados por categoria.
+- [Lista de Supermercado](/lista-supermercado): Itens básicos e essenciais para compras semanais.
+- [Lista para 2 Pessoas](/lista-duas-pessoas): Quantidades calculadas para casais.
+- [Lista Mensal](/lista-mensal): Planejamento completo de compras para 30 dias.
+- [Lista para Solteiro](/lista-solteiro): Lista enxuta e econômica para quem mora sozinho.
+- [Lista Saudável](/lista-saudavel): Alimentos naturais, integrais e nutritivos.
+- [Material Escolar](/lista-de-material-escolar): Índice de listas de material escolar 2026 por série.
+- [Material Escolar 2026](/lista-de-material-escolar-2026): Lista geral atualizada para o ano letivo de 2026.
+- [Educação Infantil](/lista-de-material-escolar-educacao-infantil): Materiais para crianças de 2 a 5 anos.
+- [1º Ano](/lista-de-material-escolar-1-ano): Material escolar para o 1º ano do ensino fundamental.
+- [2º Ano](/lista-de-material-escolar-2-ano): Material escolar para o 2º ano do ensino fundamental.
+- [3º Ano](/lista-de-material-escolar-3-ano): Material escolar para o 3º ano do ensino fundamental.
+- [4º Ano](/lista-de-material-escolar-4-ano): Material escolar para o 4º ano do ensino fundamental.
+- [5º Ano](/lista-de-material-escolar-5-ano): Material escolar para o 5º ano do ensino fundamental.
+- [6º Ano](/lista-de-material-escolar-6-ano): Material escolar para o 6º ano do ensino fundamental.
+- [7º Ano](/lista-de-material-escolar-7-ano): Material escolar para o 7º ano do ensino fundamental.
+- [8º Ano](/lista-de-material-escolar-8-ano): Material escolar para o 8º ano do ensino fundamental.
+- [9º Ano](/lista-de-material-escolar-9-ano): Material escolar para o 9º ano do ensino fundamental.
+- [Ensino Médio](/lista-de-material-escolar-ensino-medio): Lista completa para as três séries do ensino médio.
+- [Casa Nova](/lista-de-casa-nova): Checklist completo por cômodo para montar uma casa nova.
+- [Casamento](/lista-de-casamento): Checklist de casamento do noivado à lua de mel.
+- [Blog](/blog): Artigos com dicas de organização, economia e planejamento.
+
+## Blog
+
+- [Dicas para Economizar no Supermercado](/blog/dicas-economizar-supermercado): 10 estratégias práticas para reduzir a conta do supermercado em 2026.
+
+## Optional
+
+- [Como Usar](/como-usar): Guia rápido em 3 passos para usar as listas.
+- [Baixar em PDF](/baixar-em-pdf): Como baixar e salvar as listas em PDF.
+- [Imprimir Listas](/imprimir-listas): Dicas para imprimir as listas corretamente.
+- [Contato](/contato): Canais de contato.
+- [Mapa do Site](/sitemap): Todas as páginas do Helplistas.
+- [Política de Privacidade](/politica-de-privacidade): Como tratamos seus dados.
+- [Política de Cookies](/politica-de-cookies): Uso de cookies e tecnologias similares.
+- [Termos de Uso](/termos-de-uso): Termos e condições de uso do site.

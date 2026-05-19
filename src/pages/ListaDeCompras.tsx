@@ -49,6 +49,11 @@ const ListaDeCompras = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Listas de Compras de Supermercado 2026 | Helplistas"
+        description="Listas de compras prontas: completa, mensal, para casal, solteiro e saudável. Baixe grátis e organize seu supermercado em 2026."
+        path="/lista-de-compras"
+      />
       <Navbar />
       <Breadcrumbs />
       

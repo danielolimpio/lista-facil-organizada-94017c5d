@@ -85,6 +85,11 @@ const MaterialEscolar = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Lista de Material Escolar 2026 por Série | Helplistas"
+        description="Listas de material escolar 2026 por série: educação infantil, fundamental (1º ao 9º) e ensino médio. Baixe grátis e economize."
+        path="/lista-de-material-escolar"
+      />
       <Navbar />
       <Breadcrumbs />
       

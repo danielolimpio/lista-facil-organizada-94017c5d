@@ -61,6 +61,11 @@ const CasaNova = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Checklist de Casa Nova 2026 – Lista por Cômodo | Helplistas"
+        description="Checklist completo de casa nova 2026 organizado por cômodo: cozinha, quarto, sala, banheiro e área de serviço. Baixe grátis."
+        path="/lista-de-casa-nova"
+      />
       <Navbar />
       <Breadcrumbs />
       

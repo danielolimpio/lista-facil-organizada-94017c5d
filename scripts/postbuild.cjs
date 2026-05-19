@@ -8,8 +8,8 @@ const distPath = path.resolve(__dirname, "../dist");
 const routes = [
   { 
     path: "/", 
-    title: "Helplistas - Listas Prontas Gratuitas: Compras, Material Escolar, Casa Nova e Casamento", 
-    description: "Baixe listas gratuitas e organizadas: lista de compras completa, material escolar 2026, checklist para casa nova e casamento. Tudo pronto para você imprimir!",
+    title: "Helplistas – Listas Prontas Grátis para Organizar 2026", 
+    description: "Baixe listas gratuitas: compras, material escolar 2026, casa nova e casamento. Tudo pronto para imprimir e organizar sua vida.",
     h1: "Listas Prontas Gratuitas para Organizar Compras, Material Escolar e Casa Nova em 2026",
     h2s: ["Categorias de Listas Disponíveis", "Listas de Compras para Supermercado", "Material Escolar por Série", "Organize sua Casa Nova ou Casamento"],
     intro: "O Helplistas oferece listas prontas, gratuitas e organizadas para facilitar seu dia a dia. Escolha entre listas de compras para supermercado, material escolar atualizado para 2026, checklist completo para casa nova ou planejamento de casamento.",

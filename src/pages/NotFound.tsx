@@ -11,11 +11,11 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background px-4">
+    <main className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="text-center max-w-md">
         <h1 className="mb-4 text-6xl font-bold text-primary">404</h1>
         <h2 className="mb-4 text-2xl font-bold text-foreground">Página não encontrada</h2>
-        <p className="mb-8 text-muted-foreground">
+        <p className="mb-8 text-foreground/80">
           Desculpe, a página que você está procurando não existe ou foi removida.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -33,7 +33,7 @@ const NotFound = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

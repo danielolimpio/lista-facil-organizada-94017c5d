@@ -111,7 +111,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
+      <main>
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 px-4 border-b border-border overflow-hidden">
         {/* Background Image with Dark Overlay */}
@@ -490,6 +490,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+      </main>
 
       <Footer />
     </div>

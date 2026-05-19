@@ -224,7 +224,7 @@ const routes = [
   },
   { 
     path: "/blog/dicas-economizar-supermercado", 
-    title: "10 Dicas para Economizar no Supermercado em 2026 | Blog Helplistas", 
+    title: "10 Dicas para Economizar no Supermercado 2026 | Helplistas", 
     description: "Aprenda 10 estratégias comprovadas para economizar até 30% nas compras de supermercado. Dicas sobre horários, marcas próprias e apps de desconto.",
     h1: "10 Dicas para Economizar no Supermercado em 2026",
     h2s: ["Melhores Horários para Comprar", "Marcas Próprias vs Marcas Famosas", "Apps de Desconto e Cashback"],

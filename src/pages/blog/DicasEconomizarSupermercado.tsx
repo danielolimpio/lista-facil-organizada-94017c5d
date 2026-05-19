@@ -52,7 +52,7 @@ const DicasEconomizarSupermercado = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Helmet>
-        <title>10 Dicas para Economizar no Supermercado em 2026 | Blog HelpListas</title>
+        <title>10 Dicas para Economizar no Supermercado 2026 | Helplistas</title>
         <meta name="description" content="Descubra 10 dicas práticas e comprovadas para economizar no supermercado em 2026 — sem abrir mão da qualidade, da saúde ou do seu tempo." />
         <link rel="canonical" href="https://helplistas.com.br/blog/dicas-economizar-supermercado" />
       </Helmet>

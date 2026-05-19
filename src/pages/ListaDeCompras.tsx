@@ -2,6 +2,7 @@ import { ShoppingCart, Download, Printer, ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -48,6 +49,11 @@ const ListaDeCompras = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Listas de Compras de Supermercado 2026 | Helplistas"
+        description="Listas de compras prontas: completa, mensal, para casal, solteiro e saudável. Baixe grátis e organize seu supermercado em 2026."
+        path="/lista-de-compras"
+      />
       <Navbar />
       <Breadcrumbs />
       

@@ -2,6 +2,7 @@ import { Home, ArrowRight, CheckCircle2 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -60,6 +61,11 @@ const CasaNova = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Checklist de Casa Nova 2026 – Lista por Cômodo | Helplistas"
+        description="Checklist completo de casa nova 2026 organizado por cômodo: cozinha, quarto, sala, banheiro e área de serviço. Baixe grátis."
+        path="/lista-de-casa-nova"
+      />
       <Navbar />
       <Breadcrumbs />
       

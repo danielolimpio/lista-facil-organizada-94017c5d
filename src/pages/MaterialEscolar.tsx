@@ -2,6 +2,7 @@ import { GraduationCap, Download, Calendar, ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -84,6 +85,11 @@ const MaterialEscolar = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Lista de Material Escolar 2026 por Série | Helplistas"
+        description="Listas de material escolar 2026 por série: educação infantil, fundamental (1º ao 9º) e ensino médio. Baixe grátis e economize."
+        path="/lista-de-material-escolar"
+      />
       <Navbar />
       <Breadcrumbs />
       

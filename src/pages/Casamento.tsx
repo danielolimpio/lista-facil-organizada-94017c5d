@@ -2,6 +2,7 @@ import { Heart, ArrowRight, Sparkles } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -60,6 +61,11 @@ const Casamento = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Checklist de Casamento 2026: do Noivado à Lua de Mel"
+        description="Checklist completo de casamento 2026: cronograma mês a mês, fornecedores, convidados e presentes. Planeje sem estresse."
+        path="/lista-de-casamento"
+      />
       <Navbar />
       <Breadcrumbs />
       

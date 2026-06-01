@@ -223,6 +223,10 @@ const MaterialEscolar8Ano = () => {
       <Helmet>
         <title>Lista de Material Escolar 8° Ano 2026 | HelpListas</title>
         <meta name="description" content="Lista completa de material escolar para o 8° ano do Ensino Fundamental II 2026. Introdução à física e química com materiais de laboratório." />
+        <meta property="og:title" content="Lista de Material Escolar 8° Ano 2026 | HelpListas" />
+        <meta property="og:description" content="Lista completa de material escolar para o 8° ano do Ensino Fundamental II 2026. Introdução à física e química com materiais de laboratório." />
+        <meta property="og:url" content="https://helplistas.com.br/lista-de-material-escolar-8-ano" />
+        <meta property="og:type" content="website" />
         <meta name="keywords" content="material escolar 8 ano, lista oitavo ano, material escolar fundamental II, lista escolar 2026, física química" />
         <link rel="canonical" href="https://helplistas.com.br/lista-de-material-escolar-8-ano" />
       </Helmet>

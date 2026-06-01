@@ -168,6 +168,10 @@ const MaterialEscolar2Ano = () => {
       <Helmet>
         <title>Lista de Material Escolar 2° Ano 2026 | HelpListas</title>
         <meta name="description" content="Lista completa de material escolar para o 2° ano do Ensino Fundamental 2026. Confira os itens essenciais para consolidar a alfabetização." />
+        <meta property="og:title" content="Lista de Material Escolar 2° Ano 2026 | HelpListas" />
+        <meta property="og:description" content="Lista completa de material escolar para o 2° ano do Ensino Fundamental 2026. Confira os itens essenciais para consolidar a alfabetização." />
+        <meta property="og:url" content="https://helplistas.com.br/lista-de-material-escolar-2-ano" />
+        <meta property="og:type" content="website" />
         <meta name="keywords" content="material escolar 2 ano, lista segundo ano, material escolar fundamental, lista escolar 2026" />
         <link rel="canonical" href="https://helplistas.com.br/lista-de-material-escolar-2-ano" />
       </Helmet>

@@ -188,6 +188,10 @@ const MaterialEscolar2026 = () => {
       <Helmet>
         <title>Lista de Material Escolar 2026 Completa | HelpListas</title>
         <meta name="description" content="Lista de material escolar 2026 completa e atualizada. Confira todos os itens essenciais para o ano letivo, com quantidades e dicas de onde comprar online com os melhores preços." />
+        <meta property="og:title" content="Lista de Material Escolar 2026 Completa | HelpListas" />
+        <meta property="og:description" content="Lista de material escolar 2026 completa e atualizada. Confira todos os itens essenciais para o ano letivo, com quantidades e dicas de onde comprar online com os melhores preços." />
+        <meta property="og:url" content="https://helplistas.com.br/lista-de-material-escolar-2026" />
+        <meta property="og:type" content="website" />
         <meta name="keywords" content="material escolar 2026, lista escolar, volta às aulas, material escolar completo, comprar material escolar" />
         <link rel="canonical" href="https://helplistas.com.br/lista-de-material-escolar-2026" />
       </Helmet>

@@ -216,6 +216,10 @@ const MaterialEscolar7Ano = () => {
       <Helmet>
         <title>Lista de Material Escolar 7° Ano 2026 | HelpListas</title>
         <meta name="description" content="Lista completa de material escolar para o 7° ano do Ensino Fundamental II 2026. Materiais para laboratório, idiomas e projetos escolares." />
+        <meta property="og:title" content="Lista de Material Escolar 7° Ano 2026 | HelpListas" />
+        <meta property="og:description" content="Lista completa de material escolar para o 7° ano do Ensino Fundamental II 2026. Materiais para laboratório, idiomas e projetos escolares." />
+        <meta property="og:url" content="https://helplistas.com.br/lista-de-material-escolar-7-ano" />
+        <meta property="og:type" content="website" />
         <meta name="keywords" content="material escolar 7 ano, lista sétimo ano, material escolar fundamental II, lista escolar 2026, jaleco laboratório" />
         <link rel="canonical" href="https://helplistas.com.br/lista-de-material-escolar-7-ano" />
       </Helmet>

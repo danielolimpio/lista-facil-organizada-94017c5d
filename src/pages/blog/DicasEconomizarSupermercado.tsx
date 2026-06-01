@@ -55,6 +55,11 @@ const DicasEconomizarSupermercado = () => {
         <title>10 Dicas para Economizar no Supermercado 2026 | Helplistas</title>
         <meta name="description" content="Descubra 10 dicas práticas e comprovadas para economizar no supermercado em 2026 — sem abrir mão da qualidade, da saúde ou do seu tempo." />
         <link rel="canonical" href="https://helplistas.com.br/blog/dicas-economizar-supermercado" />
+        <meta property="og:title" content="10 Dicas para Economizar no Supermercado 2026 | Helplistas" />
+        <meta property="og:description" content="Descubra 10 dicas práticas e comprovadas para economizar no supermercado em 2026 — sem abrir mão da qualidade, da saúde ou do seu tempo." />
+        <meta property="og:url" content="https://helplistas.com.br/blog/dicas-economizar-supermercado" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://helplistas.com.br/blog/dicas-economizar-supermercado-2026.jpg" />
         <script type="application/ld+json">
           {`
           {

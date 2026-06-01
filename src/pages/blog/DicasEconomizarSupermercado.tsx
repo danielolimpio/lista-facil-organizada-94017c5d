@@ -55,6 +55,40 @@ const DicasEconomizarSupermercado = () => {
         <title>10 Dicas para Economizar no Supermercado 2026 | Helplistas</title>
         <meta name="description" content="Descubra 10 dicas práticas e comprovadas para economizar no supermercado em 2026 — sem abrir mão da qualidade, da saúde ou do seu tempo." />
         <link rel="canonical" href="https://helplistas.com.br/blog/dicas-economizar-supermercado" />
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "10 Dicas para Economizar no Supermercado em 2026",
+            "description": "Descubra 10 dicas práticas e comprovadas para economizar no supermercado em 2026 — sem abrir mão da qualidade, da saúde ou do seu tempo.",
+            "image": "https://helplistas.com.br/blog/dicas-economizar-supermercado-2026.jpg",
+            "datePublished": "2026-01-15",
+            "dateModified": "2026-01-15",
+            "author": {
+              "@type": "Organization",
+              "name": "Helplistas"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Help Listas",
+              "url": "https://helplistas.com.br",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://helplistas.com.br/og-image.jpg",
+                "width": 1200,
+                "height": 630
+              }
+            },
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://helplistas.com.br/blog/dicas-economizar-supermercado"
+            },
+            "articleSection": "Economia",
+            "inLanguage": "pt-BR"
+          }
+          `}
+        </script>
       </Helmet>
 
       <Navbar />

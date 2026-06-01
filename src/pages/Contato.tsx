@@ -7,6 +7,7 @@ import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import SEO from "@/components/SEO";
 
 const Contato = () => {
   const handleSubmit = (e: React.FormEvent) => {
@@ -17,6 +18,7 @@ const Contato = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO title="Contato | Helplistas" description="Entre em contato com o Helplistas. Tire dúvidas, envie sugestões ou proponha parcerias." path="/contato" />
       <Navbar />
       <Breadcrumbs />
       

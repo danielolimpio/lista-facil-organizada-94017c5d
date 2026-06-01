@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import SEO from "@/components/SEO";
 
 const ComoUsar = () => {
   const steps = [
@@ -82,6 +83,7 @@ const ComoUsar = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-background to-muted/20">
+      <SEO title="Como Usar Nossas Listas | Helplistas" description="Aprenda a usar as listas do Helplistas: escolha, baixe em PDF e organize sua vida." path="/como-usar" />
       <Navbar />
       <Breadcrumbs />
       

@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
+import SEO from "@/components/SEO";
 
 interface Item {
   id: string;
@@ -203,6 +204,7 @@ const ListaDeComprasCompleta = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO title="Lista de Compras Completa 2026 | Helplistas" description="Lista completa de compras com todos os itens essenciais para sua casa. Organizada por categoria e pronta para usar." path="/lista-de-compras-completa" />
       <Navbar />
       <Breadcrumbs />
 

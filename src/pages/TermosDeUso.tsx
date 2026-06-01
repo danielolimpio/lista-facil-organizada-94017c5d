@@ -3,10 +3,12 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import SEO from "@/components/SEO";
 
 const TermosDeUso = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-background to-muted/20">
+      <SEO title="Termos de Uso | Helplistas" description="Leia os termos e condições de uso do site Helplistas." path="/termos-de-uso" />
       <Navbar />
       <Breadcrumbs />
       

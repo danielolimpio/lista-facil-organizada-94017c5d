@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import SEO from "@/components/SEO";
 
 const BaixarPDF = () => {
   const deviceSteps = [
@@ -68,6 +69,7 @@ const BaixarPDF = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-background to-muted/20">
+      <SEO title="Baixar Listas em PDF Grátis | Helplistas" description="Baixe nossas listas em PDF gratuitamente. Compatível com computador, celular e tablet." path="/baixar-em-pdf" />
       <Navbar />
       <Breadcrumbs />
       

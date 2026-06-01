@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
+import SEO from "@/components/SEO";
 
 interface Item {
   id: string;
@@ -127,6 +128,7 @@ const ListaSupermercado = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO title="Lista de Supermercado 2026 | Helplistas" description="Lista de supermercado com itens básicos e essenciais para compras mensais. Prática e organizada." path="/lista-supermercado" />
       <Navbar />
       <Breadcrumbs />
 

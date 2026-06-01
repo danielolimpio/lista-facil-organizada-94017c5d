@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { FileText, ShoppingCart, School, Home, Heart, BookOpen, HelpCircle, Printer, Download, Mail, Shield, Sparkles } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const Sitemap = () => {
   const sections = [
@@ -64,6 +65,7 @@ const Sitemap = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <SEO title="Mapa do Site | Helplistas" description="Navegue por todas as páginas do Helplistas. Encontre listas, dicas e recursos úteis." path="/sitemap" />
       <Navbar />
       
       <main className="flex-grow pt-24">

@@ -5,6 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import SEO from "@/components/SEO";
 
 const Blog = () => {
   const blogPosts = [
@@ -33,6 +34,7 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO title="Blog | Dicas de Organização e Listas 2026 | Helplistas" description="Dicas, guias e inspirações para organizar melhor sua vida com listas práticas e gratuitas." path="/blog" />
       <Navbar />
       <Breadcrumbs />
       

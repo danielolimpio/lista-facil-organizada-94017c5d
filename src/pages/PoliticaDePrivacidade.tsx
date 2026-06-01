@@ -3,10 +3,12 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Card } from "@/components/ui/card";
 import { Shield } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const PoliticaDePrivacidade = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEO title="Política de Privacidade | Helplistas" description="Saiba como o Helplistas coleta, usa e protege seus dados pessoais." path="/politica-de-privacidade" />
       <Navbar />
       <Breadcrumbs />
       

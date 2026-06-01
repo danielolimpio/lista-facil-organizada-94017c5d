@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
+import SEO from "@/components/SEO";
 
 interface Item {
   id: string;
@@ -143,6 +144,7 @@ const ListaMensal = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO title="Lista de Compras Mensal 2026 | Helplistas" description="Planejamento completo de compras para o mês inteiro. Economize tempo e dinheiro." path="/lista-mensal" />
       <Navbar />
       <Breadcrumbs />
 

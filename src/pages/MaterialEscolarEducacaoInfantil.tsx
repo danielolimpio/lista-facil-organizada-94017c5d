@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { Baby, Download, Printer, Check, ExternalLink, ShoppingBag, Star, Truck, CreditCard, Sparkles, Heart, Palette, Scissors } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -168,6 +168,10 @@ const MaterialEscolarEducacaoInfantil = () => {
       <Helmet>
         <title>Lista de Material Escolar Educação Infantil 2026 | HelpListas</title>
         <meta name="description" content="Lista completa de material escolar para Educação Infantil 2026. Confira todos os itens essenciais para creche e pré-escola, com quantidades e onde comprar online." />
+        <meta property="og:title" content="Lista de Material Escolar Educação Infantil 2026 | HelpListas" />
+        <meta property="og:description" content="Lista completa de material escolar para Educação Infantil 2026. Confira todos os itens essenciais para creche e pré-escola, com quantidades e onde comprar online." />
+        <meta property="og:url" content="https://helplistas.com.br/lista-de-material-escolar-educacao-infantil" />
+        <meta property="og:type" content="website" />
         <meta name="keywords" content="material escolar educação infantil, lista creche, material pré-escola, material escolar infantil 2026" />
         <link rel="canonical" href="https://helplistas.com.br/lista-de-material-escolar-educacao-infantil" />
       </Helmet>

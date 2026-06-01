@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { BookOpen, Download, Printer, Check, ExternalLink, ShoppingBag, Star, Truck, CreditCard, Sparkles, Pencil, Palette, Scissors, Ruler, Calculator, Globe, FlaskConical, Languages, Atom, GraduationCap } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -238,6 +238,10 @@ const MaterialEscolar9Ano = () => {
       <Helmet>
         <title>Lista de Material Escolar 9° Ano 2026 | HelpListas</title>
         <meta name="description" content="Lista completa de material escolar para o 9° ano do Ensino Fundamental II 2026. Preparação para o Ensino Médio com materiais avançados." />
+        <meta property="og:title" content="Lista de Material Escolar 9° Ano 2026 | HelpListas" />
+        <meta property="og:description" content="Lista completa de material escolar para o 9° ano do Ensino Fundamental II 2026. Preparação para o Ensino Médio com materiais avançados." />
+        <meta property="og:url" content="https://helplistas.com.br/lista-de-material-escolar-9-ano" />
+        <meta property="og:type" content="website" />
         <meta name="keywords" content="material escolar 9 ano, lista nono ano, material escolar fundamental II, lista escolar 2026, preparação ensino médio" />
         <link rel="canonical" href="https://helplistas.com.br/lista-de-material-escolar-9-ano" />
       </Helmet>

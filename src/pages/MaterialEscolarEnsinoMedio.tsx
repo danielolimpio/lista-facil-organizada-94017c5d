@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { BookOpen, Download, Printer, Check, ExternalLink, ShoppingBag, Star, Truck, CreditCard, Sparkles, Pencil, Palette, Scissors, Ruler, Calculator, Globe, FlaskConical, Languages, Atom, GraduationCap, Target, Brain } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -263,6 +263,10 @@ const MaterialEscolarEnsinoMedio = () => {
       <Helmet>
         <title>Lista de Material Escolar Ensino Médio 2026 | HelpListas</title>
         <meta name="description" content="Lista completa de material escolar para o Ensino Médio 2026. Preparação para ENEM e vestibulares com todos os materiais necessários." />
+        <meta property="og:title" content="Lista de Material Escolar Ensino Médio 2026 | HelpListas" />
+        <meta property="og:description" content="Lista completa de material escolar para o Ensino Médio 2026. Preparação para ENEM e vestibulares com todos os materiais necessários." />
+        <meta property="og:url" content="https://helplistas.com.br/lista-de-material-escolar-ensino-medio" />
+        <meta property="og:type" content="website" />
         <meta name="keywords" content="material escolar ensino médio, lista ensino médio 2026, material ENEM, vestibular 2026, preparação vestibular" />
         <link rel="canonical" href="https://helplistas.com.br/lista-de-material-escolar-ensino-medio" />
       </Helmet>

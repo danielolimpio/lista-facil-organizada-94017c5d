@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { BookOpen, Download, Printer, Check, ExternalLink, ShoppingBag, Star, Truck, CreditCard, Sparkles, Pencil, Palette, Scissors, Ruler, Calculator, Globe, FlaskConical } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -205,6 +205,10 @@ const MaterialEscolar6Ano = () => {
       <Helmet>
         <title>Lista de Material Escolar 6° Ano 2026 | HelpListas</title>
         <meta name="description" content="Lista completa de material escolar para o 6° ano do Ensino Fundamental II 2026. Transição importante com mais matérias e professores." />
+        <meta property="og:title" content="Lista de Material Escolar 6° Ano 2026 | HelpListas" />
+        <meta property="og:description" content="Lista completa de material escolar para o 6° ano do Ensino Fundamental II 2026. Transição importante com mais matérias e professores." />
+        <meta property="og:url" content="https://helplistas.com.br/lista-de-material-escolar-6-ano" />
+        <meta property="og:type" content="website" />
         <meta name="keywords" content="material escolar 6 ano, lista sexto ano, material escolar fundamental II, lista escolar 2026, ensino fundamental 2" />
         <link rel="canonical" href="https://helplistas.com.br/lista-de-material-escolar-6-ano" />
       </Helmet>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { BookOpen, Download, Printer, Check, ExternalLink, ShoppingBag, Star, Truck, CreditCard, Sparkles, Pencil, Palette, Scissors, Ruler } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -166,6 +166,10 @@ const MaterialEscolar1Ano = () => {
       <Helmet>
         <title>Lista de Material Escolar 1° Ano 2026 | HelpListas</title>
         <meta name="description" content="Lista completa de material escolar para o 1° ano do Ensino Fundamental 2026. Itens essenciais para alfabetização com quantidades e onde comprar online." />
+        <meta property="og:title" content="Lista de Material Escolar 1° Ano 2026 | HelpListas" />
+        <meta property="og:description" content="Lista completa de material escolar para o 1° ano do Ensino Fundamental 2026. Itens essenciais para alfabetização com quantidades e onde comprar online." />
+        <meta property="og:url" content="https://helplistas.com.br/lista-de-material-escolar-1-ano" />
+        <meta property="og:type" content="website" />
         <meta name="keywords" content="material escolar 1 ano, lista primeiro ano, material alfabetização, material escolar 2026" />
         <link rel="canonical" href="https://helplistas.com.br/lista-de-material-escolar-1-ano" />
       </Helmet>

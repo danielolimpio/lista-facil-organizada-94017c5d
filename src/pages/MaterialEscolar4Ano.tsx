@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { BookOpen, Download, Printer, Check, ExternalLink, ShoppingBag, Star, Truck, CreditCard, Sparkles, Pencil, Palette, Scissors, Ruler, Calculator, Globe } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -190,6 +190,10 @@ const MaterialEscolar4Ano = () => {
       <Helmet>
         <title>Lista de Material Escolar 4° Ano 2026 | HelpListas</title>
         <meta name="description" content="Lista completa de material escolar para o 4° ano do Ensino Fundamental 2026. Kit de geometria, cadernos e todos os itens necessários com onde comprar online." />
+        <meta property="og:title" content="Lista de Material Escolar 4° Ano 2026 | HelpListas" />
+        <meta property="og:description" content="Lista completa de material escolar para o 4° ano do Ensino Fundamental 2026. Kit de geometria, cadernos e todos os itens necessários com onde comprar online." />
+        <meta property="og:url" content="https://helplistas.com.br/lista-de-material-escolar-4-ano" />
+        <meta property="og:type" content="website" />
         <meta name="keywords" content="material escolar 4 ano, lista quarto ano, material escolar fundamental, lista escolar 2026, kit geometria" />
         <link rel="canonical" href="https://helplistas.com.br/lista-de-material-escolar-4-ano" />
       </Helmet>

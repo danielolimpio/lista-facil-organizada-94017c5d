@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
+import SEO from "@/components/SEO";
 
 interface Item {
   id: string;
@@ -131,6 +132,7 @@ const ListaDuasPessoas = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO title="Lista de Compras para 2 Pessoas 2026 | Helplistas" description="Lista de compras otimizada para casais, com quantidades ideais para duas pessoas." path="/lista-duas-pessoas" />
       <Navbar />
       <Breadcrumbs />
 

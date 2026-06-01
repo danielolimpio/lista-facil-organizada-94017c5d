@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import SEO from "@/components/SEO";
 
 const ImprimirListas = () => {
   const printSteps = [
@@ -81,6 +82,7 @@ const ImprimirListas = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-background to-muted/20">
+      <SEO title="Imprimir Listas Grátis | Helplistas" description="Saiba como imprimir nossas listas gratuitas com as melhores configurações." path="/imprimir-listas" />
       <Navbar />
       <Breadcrumbs />
       

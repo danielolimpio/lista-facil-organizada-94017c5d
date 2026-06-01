@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { BookOpen, Download, Printer, Check, ExternalLink, ShoppingBag, Star, Truck, CreditCard, Sparkles, Pencil, Palette, Scissors, Ruler, Calculator, Globe, FlaskConical } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -195,6 +195,10 @@ const MaterialEscolar5Ano = () => {
       <Helmet>
         <title>Lista de Material Escolar 5° Ano 2026 | HelpListas</title>
         <meta name="description" content="Lista completa de material escolar para o 5° ano do Ensino Fundamental 2026. Conclusão do ciclo inicial com materiais mais avançados." />
+        <meta property="og:title" content="Lista de Material Escolar 5° Ano 2026 | HelpListas" />
+        <meta property="og:description" content="Lista completa de material escolar para o 5° ano do Ensino Fundamental 2026. Conclusão do ciclo inicial com materiais mais avançados." />
+        <meta property="og:url" content="https://helplistas.com.br/lista-de-material-escolar-5-ano" />
+        <meta property="og:type" content="website" />
         {/* Meta keywords removed - deprecated by search engines */}
         <link rel="canonical" href="https://helplistas.com.br/lista-de-material-escolar-5-ano" />
       </Helmet>

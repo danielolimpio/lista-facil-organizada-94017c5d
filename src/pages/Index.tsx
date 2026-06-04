@@ -114,7 +114,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <SEO title="Helplistas – Listas Prontas Grátis para Organizar 2026" description="Baixe listas gratuitas: compras, material escolar 2026, casa nova e casamento. Tudo pronto para imprimir e organizar sua vida." path="/" />
       <Helmet>
-        <link rel="preload" as="image" href={heroBackground} fetchpriority="high" />
+        <link rel="preload" as="image" href={heroBackground} fetchPriority="high" />
       </Helmet>
       <Navbar />
       <main>

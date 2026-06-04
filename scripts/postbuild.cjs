@@ -537,7 +537,7 @@ routes.forEach((route) => {
     // Substituir conteúdo do root com conteúdo semântico único
     .replace(
       /<div id="root">[\s\S]*?<\/div>/,
-      `<div id="root">${semanticContent}</div>`
+      `<div id="root"><div class="seo-fallback" hidden aria-hidden="true">${semanticContent}</div></div>`
     );
   
   // Inserir schemas antes do fechamento do </head>

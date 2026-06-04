@@ -176,11 +176,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      #root > .seo-fallback {
+        display: none;
+      }
+    </style>
   </head>
 
   <body>
     <div id="root">
       <!-- Conteúdo semântico para SEO (crawlers) - será substituído pelo React -->
+      <div class="seo-fallback" hidden aria-hidden="true">
       <header>
         <nav aria-label="Navegação principal">
           <a href="/">Helplistas - Listas Prontas Gratuitas</a>
@@ -287,6 +293,7 @@
           <p>Av. Julia Freire, 1200 - João Pessoa - PB</p>
         </address>
       </footer>
+      </div>
     </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

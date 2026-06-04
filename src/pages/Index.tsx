@@ -1,4 +1,5 @@
 import { ShoppingCart, GraduationCap, Home, Heart, CheckCircle, Sparkles, Shield, Clock, Users, Award, TrendingUp, Download, CheckCircle2, Star } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CategoryCard from "@/components/CategoryCard";

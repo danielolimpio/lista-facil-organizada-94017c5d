@@ -1,4 +1,5 @@
 import { ShoppingCart, GraduationCap, Home, Heart, CheckCircle, Sparkles, Shield, Clock, Users, Award, TrendingUp, Download, CheckCircle2, Star } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CategoryCard from "@/components/CategoryCard";
@@ -112,14 +113,23 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO title="Helplistas – Listas Prontas Grátis para Organizar 2026" description="Baixe listas gratuitas: compras, material escolar 2026, casa nova e casamento. Tudo pronto para imprimir e organizar sua vida." path="/" />
+      <Helmet>
+        <link rel="preload" as="image" href={heroBackground} fetchPriority="high" />
+      </Helmet>
       <Navbar />
       <main>
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 px-4 border-b border-border overflow-hidden">
         {/* Background Image with Dark Overlay */}
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroBackground})` }}
+        <img
+          src={heroBackground}
+          alt=""
+          aria-hidden="true"
+          width={1920}
+          height={1080}
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-foreground/70" />
         

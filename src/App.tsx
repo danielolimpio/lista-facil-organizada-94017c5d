@@ -26,6 +26,14 @@ import MaterialEscolar8Ano from "./pages/MaterialEscolar8Ano";
 import MaterialEscolar9Ano from "./pages/MaterialEscolar9Ano";
 import MaterialEscolarEnsinoMedio from "./pages/MaterialEscolarEnsinoMedio";
 import CasaNova from "./pages/CasaNova";
+import CasaNovaCompleta from "./pages/CasaNovaCompleta";
+import CasaNovaCozinha from "./pages/CasaNovaCozinha";
+import CasaNovaQuarto from "./pages/CasaNovaQuarto";
+import CasaNovaSala from "./pages/CasaNovaSala";
+import CasaNovaBanheiro from "./pages/CasaNovaBanheiro";
+import CasaNovaLimpeza from "./pages/CasaNovaLimpeza";
+import CasaNovaAreaServico from "./pages/CasaNovaAreaServico";
+import CasaNovaEconomica from "./pages/CasaNovaEconomica";
 import Casamento from "./pages/Casamento";
 import Blog from "./pages/Blog";
 import DicasEconomizarSupermercado from "./pages/blog/DicasEconomizarSupermercado";
@@ -71,6 +79,14 @@ const App = () => (
           <Route path="/lista-de-material-escolar-9-ano" element={<MaterialEscolar9Ano />} />
           <Route path="/lista-de-material-escolar-ensino-medio" element={<MaterialEscolarEnsinoMedio />} />
           <Route path="/lista-de-casa-nova" element={<CasaNova />} />
+          <Route path="/lista-de-casa-nova-completa" element={<CasaNovaCompleta />} />
+          <Route path="/lista-de-casa-nova-cozinha" element={<CasaNovaCozinha />} />
+          <Route path="/lista-de-casa-nova-quarto" element={<CasaNovaQuarto />} />
+          <Route path="/lista-de-casa-nova-sala" element={<CasaNovaSala />} />
+          <Route path="/lista-de-casa-nova-banheiro" element={<CasaNovaBanheiro />} />
+          <Route path="/lista-de-casa-nova-limpeza" element={<CasaNovaLimpeza />} />
+          <Route path="/lista-de-casa-nova-area-de-servico" element={<CasaNovaAreaServico />} />
+          <Route path="/lista-de-casa-nova-economica" element={<CasaNovaEconomica />} />
           <Route path="/lista-de-casamento" element={<Casamento />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/dicas-economizar-supermercado" element={<DicasEconomizarSupermercado />} />

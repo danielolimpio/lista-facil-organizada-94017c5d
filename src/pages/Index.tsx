@@ -150,7 +150,7 @@ const Index = () => {
             size="lg"
             className="px-8 py-6 text-base font-semibold bg-white text-foreground hover:bg-white/90 shadow-lg hover:shadow-xl animate-scale-in"
           >
-            <a href="/criar-lista">Criar Minha Lista</a>
+            <Link to="/criar-lista">Criar Minha Lista</Link>
           </Button>
         </div>
       </section>

@@ -1,5 +1,6 @@
 import { ShoppingCart, GraduationCap, Home, Heart, CheckCircle, Sparkles, Shield, Clock, Users, Award, TrendingUp, Download, CheckCircle2, Star } from "lucide-react";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CategoryCard from "@/components/CategoryCard";
@@ -145,10 +146,11 @@ const Index = () => {
             Baixe listas práticas e completas para o seu dia a dia — sempre atualizadas para 2026.
           </p>
           <Button 
+            asChild
             size="lg"
             className="px-8 py-6 text-base font-semibold bg-white text-foreground hover:bg-white/90 shadow-lg hover:shadow-xl animate-scale-in"
           >
-            Criar Minha Lista
+            <Link to="/criar-lista">Criar Minha Lista</Link>
           </Button>
         </div>
       </section>

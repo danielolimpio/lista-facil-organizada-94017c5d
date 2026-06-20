@@ -46,6 +46,7 @@ import ImprimirListas from "./pages/ImprimirListas";
 import Contato from "./pages/Contato";
 import Sitemap from "./pages/Sitemap";
 import NotFound from "./pages/NotFound";
+import CriarLista from "./pages/CriarLista";
 
 const queryClient = new QueryClient();
 
@@ -58,6 +59,7 @@ const App = () => (
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/criar-lista" element={<CriarLista />} />
           <Route path="/lista-de-compras" element={<ListaDeCompras />} />
           <Route path="/lista-de-compras-completa" element={<ListaDeComprasCompleta />} />
           <Route path="/lista-supermercado" element={<ListaSupermercado />} />

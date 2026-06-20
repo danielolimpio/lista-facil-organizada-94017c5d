@@ -113,7 +113,7 @@ const CriarLista = () => {
       <SEO
         title="Criar Lista Personalizada | Help Listas"
         description="Crie sua lista personalizada online de graça. Edite, adicione itens e baixe em Word, TXT, PDF ou imprima diretamente."
-        canonical="https://helplistas.com.br/criar-lista"
+        path="/criar-lista"
       />
       <style>{`
         @media print {

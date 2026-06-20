@@ -145,10 +145,11 @@ const Index = () => {
             Baixe listas práticas e completas para o seu dia a dia — sempre atualizadas para 2026.
           </p>
           <Button 
+            asChild
             size="lg"
             className="px-8 py-6 text-base font-semibold bg-white text-foreground hover:bg-white/90 shadow-lg hover:shadow-xl animate-scale-in"
           >
-            Criar Minha Lista
+            <a href="/criar-lista">Criar Minha Lista</a>
           </Button>
         </div>
       </section>

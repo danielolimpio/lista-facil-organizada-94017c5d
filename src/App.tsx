@@ -46,6 +46,7 @@ import ImprimirListas from "./pages/ImprimirListas";
 import Contato from "./pages/Contato";
 import Sitemap from "./pages/Sitemap";
 import NotFound from "./pages/NotFound";
+import CriarLista from "./pages/CriarLista";
 
 const queryClient = new QueryClient();
 

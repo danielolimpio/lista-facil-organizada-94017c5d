@@ -2,6 +2,7 @@ module.exports = {
   // Lista de todas as rotas para pré-renderizar (SEM barra final)
   include: [
     "/",
+    "/criar-lista",
     "/lista-de-compras",
     "/lista-de-compras-completa",
     "/lista-supermercado",

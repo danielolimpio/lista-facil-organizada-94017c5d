@@ -142,7 +142,7 @@ const ListaDuasPessoas = () => {
             <div className="inline-flex p-4 bg-primary/10 rounded-2xl mb-6">
               <Users className="w-12 h-12 text-primary" />
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            <h1 className="title-underline text-4xl md:text-5xl font-bold text-foreground mb-4 tracking-tight">
               Lista de Compras para Casal – Quantidades para 2 Pessoas
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">

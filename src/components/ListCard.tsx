@@ -13,40 +13,48 @@ interface ListCardProps {
 
 const ListCard = ({ title, description, path, badge, categoryColor }: ListCardProps) => {
   const categoryGradients: Record<string, string> = {
-    compras: 'var(--gradient-compras)',
-    escolar: 'var(--gradient-escolar)',
-    casa: 'var(--gradient-casa)',
-    casamento: 'var(--gradient-casamento)',
+    compras: "var(--gradient-compras)",
+    escolar: "var(--gradient-escolar)",
+    casa: "var(--gradient-casa)",
+    casamento: "var(--gradient-casamento)",
   };
 
-  const badgeBackground = categoryColor && categoryGradients[categoryColor] 
-    ? categoryGradients[categoryColor] 
-    : 'hsl(var(--primary))';
+  const accent =
+    categoryColor && categoryGradients[categoryColor]
+      ? categoryGradients[categoryColor]
+      : "hsl(var(--primary))";
 
   return (
-    <Card className="p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group bg-white border border-border">
+    <Card className="group relative p-6 overflow-hidden bg-white border border-border/70 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
+      {/* Top accent line */}
+      <span
+        aria-hidden
+        className="absolute inset-x-0 top-0 h-px opacity-60 group-hover:opacity-100 transition-opacity"
+        style={{ background: accent }}
+      />
       <div className="flex flex-col h-full">
         {badge && (
-          <span 
-            className="inline-block w-fit px-3 py-1 mb-3 text-xs font-semibold text-white rounded-full shadow-sm"
-            style={{ background: badgeBackground }}
+          <span
+            className="inline-flex items-center gap-1 w-fit px-2.5 py-1 mb-3 text-[10px] font-semibold uppercase tracking-[0.08em] text-white rounded-sm shadow-sm"
+            style={{ background: accent }}
           >
+            <span className="w-1 h-1 rounded-full bg-white/80" />
             {badge}
           </span>
         )}
-        <h3 className="text-lg font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
+        <h3 className="text-[17px] font-bold text-foreground mb-2 leading-snug group-hover:text-primary transition-colors">
           {title}
         </h3>
-        <p className="text-muted-foreground text-sm mb-4 flex-grow">
+        <p className="text-muted-foreground text-[13.5px] leading-relaxed mb-5 flex-grow">
           {description}
         </p>
         <Link to={path}>
-          <Button 
-            variant="outline" 
-            className="w-full justify-between group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-all"
+          <Button
+            variant="outline"
+            className="w-full justify-between rounded-sm border-border/70 text-[13px] font-medium group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-all"
           >
             Usar esta lista
-            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-0.5 transition-transform" strokeWidth={1.75} />
           </Button>
         </Link>
       </div>

@@ -186,7 +186,7 @@ const MaterialEscolarEducacaoInfantil = () => {
             <div className="inline-flex p-4 bg-pink-100 rounded-2xl mb-6">
               <Baby className="w-12 h-12 text-pink-600" />
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            <h1 className="title-underline text-4xl md:text-5xl font-bold text-foreground mb-4 tracking-tight">
               Material Escolar Educação Infantil
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">

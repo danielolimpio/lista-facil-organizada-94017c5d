@@ -77,7 +77,7 @@ const Sitemap = () => {
                 <Sparkles className="w-12 h-12 text-primary" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            <h1 className="title-underline text-4xl md:text-5xl font-bold text-foreground mb-4 tracking-tight">
               Mapa do Site
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">

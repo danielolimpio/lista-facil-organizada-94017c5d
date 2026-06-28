@@ -100,7 +100,7 @@ const MaterialEscolar = () => {
             <div className="inline-flex p-4 bg-blue-50 rounded-2xl mb-6">
               <GraduationCap className="w-12 h-12 text-primary" />
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            <h1 className="title-underline text-4xl md:text-5xl font-bold text-foreground mb-4 tracking-tight">
               Lista Completa de Material Escolar 2026 por Série
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

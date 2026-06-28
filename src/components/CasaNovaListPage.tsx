@@ -66,35 +66,40 @@ const CasaNovaListPage = ({
       <Navbar />
       <Breadcrumbs />
 
-      <main className="pt-24 pb-16 px-4">
+      <main className="pt-20 pb-16 px-4">
         <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-8 animate-fade-in">
-            <div className="inline-flex p-4 bg-primary/10 rounded-2xl mb-6">
-              <Icon className="w-12 h-12 text-primary" />
+          <div className="text-center mb-10 animate-fade-in">
+            <div className="icon-premium w-16 h-16 mb-6 mx-auto">
+              <Icon className="w-7 h-7 text-primary" strokeWidth={1.5} />
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">{title}</h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">{subtitle}</p>
+            <h1 className="title-underline text-4xl md:text-5xl font-bold text-foreground mb-4 tracking-tight">
+              {title}
+            </h1>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6 leading-relaxed">
+              {subtitle}
+            </p>
 
-            <div className="flex items-center justify-center gap-4 mb-6">
-              <div className="flex items-center gap-2">
-                <Check className="w-5 h-5 text-primary" />
-                <span className="text-lg font-semibold text-foreground">
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-sm border border-border/70 bg-secondary/40">
+                <Check className="w-4 h-4 text-primary" strokeWidth={2} />
+                <span className="text-sm font-semibold text-foreground tabular-nums">
                   {done} / {total} itens
                 </span>
               </div>
             </div>
 
             <div className="flex flex-wrap justify-center gap-3 mb-6">
-              <Button onClick={() => window.print()} size="lg">
-                <Printer className="w-4 h-4 mr-2" />
+              <Button onClick={() => window.print()} size="lg" className="rounded-sm">
+                <Printer className="w-4 h-4 mr-2" strokeWidth={1.75} />
                 Imprimir
               </Button>
               <Button
                 variant="outline"
                 size="lg"
+                className="rounded-sm border-border/70"
                 onClick={() => alert("Funcionalidade de download em PDF será implementada em breve!")}
               >
-                <Download className="w-4 h-4 mr-2" />
+                <Download className="w-4 h-4 mr-2" strokeWidth={1.75} />
                 Baixar PDF
               </Button>
             </div>
@@ -105,14 +110,18 @@ const CasaNovaListPage = ({
                 placeholder="Buscar item..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
+                className="rounded-sm border-border/70"
               />
             </div>
           </div>
 
           {tip && (
             <Card className="p-6 mb-8 border-primary/20 bg-gradient-card">
-              <h2 className="text-lg font-bold text-foreground mb-3">💡 Dica de uso</h2>
-              <p className="text-muted-foreground text-sm">{tip}</p>
+              <h2 className="text-base font-bold text-foreground mb-2 flex items-center gap-2">
+                <span className="icon-premium w-7 h-7"><span className="text-primary text-sm">💡</span></span>
+                Dica de uso
+              </h2>
+              <p className="text-muted-foreground text-sm leading-relaxed">{tip}</p>
             </Card>
           )}
 
@@ -121,7 +130,7 @@ const CasaNovaListPage = ({
               if (cat.items.length === 0) return null;
               return (
                 <Card key={cat.name} className="p-6 print:break-inside-avoid">
-                  <h2 className="text-2xl font-bold text-foreground mb-4 border-b border-border pb-2">
+                  <h2 className="text-xl font-bold text-foreground mb-4 pb-3 border-b border-border/60 tracking-tight">
                     {cat.name}
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3">

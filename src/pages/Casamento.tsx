@@ -76,7 +76,7 @@ const Casamento = () => {
             <div className="inline-flex p-4 bg-pink-50 rounded-2xl mb-6">
               <Heart className="w-12 h-12 text-primary" />
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            <h1 className="title-underline text-4xl md:text-5xl font-bold text-foreground mb-4 tracking-tight">
               Checklist de Casamento 2026: Do Noivado à Lua de Mel
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

@@ -35,6 +35,14 @@ import CasaNovaLimpeza from "./pages/CasaNovaLimpeza";
 import CasaNovaAreaServico from "./pages/CasaNovaAreaServico";
 import CasaNovaEconomica from "./pages/CasaNovaEconomica";
 import Casamento from "./pages/Casamento";
+import CasamentoCompleto from "./pages/CasamentoCompleto";
+import CasamentoTradicional from "./pages/CasamentoTradicional";
+import Casamento12MesesAntes from "./pages/Casamento12MesesAntes";
+import Casamento6MesesAntes from "./pages/Casamento6MesesAntes";
+import Casamento3MesesAntes from "./pages/Casamento3MesesAntes";
+import CasamentoFornecedores from "./pages/CasamentoFornecedores";
+import CasamentoConvidados from "./pages/CasamentoConvidados";
+import ChecklistLuaDeMel from "./pages/ChecklistLuaDeMel";
 import Blog from "./pages/Blog";
 import DicasEconomizarSupermercado from "./pages/blog/DicasEconomizarSupermercado";
 import PoliticaDePrivacidade from "./pages/PoliticaDePrivacidade";
@@ -90,6 +98,14 @@ const App = () => (
           <Route path="/lista-de-casa-nova-area-de-servico" element={<CasaNovaAreaServico />} />
           <Route path="/lista-de-casa-nova-economica" element={<CasaNovaEconomica />} />
           <Route path="/lista-de-casamento" element={<Casamento />} />
+          <Route path="/checklist-de-casamento-completo" element={<CasamentoCompleto />} />
+          <Route path="/lista-de-casamento-tradicional" element={<CasamentoTradicional />} />
+          <Route path="/lista-de-casamento-12-meses-antes" element={<Casamento12MesesAntes />} />
+          <Route path="/lista-de-casamento-6-meses-antes" element={<Casamento6MesesAntes />} />
+          <Route path="/lista-de-casamento-3-meses-antes" element={<Casamento3MesesAntes />} />
+          <Route path="/lista-de-fornecedores-casamento" element={<CasamentoFornecedores />} />
+          <Route path="/lista-de-convidados-casamento" element={<CasamentoConvidados />} />
+          <Route path="/checklist-lua-de-mel" element={<ChecklistLuaDeMel />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/dicas-economizar-supermercado" element={<DicasEconomizarSupermercado />} />
           <Route path="/como-usar" element={<ComoUsar />} />

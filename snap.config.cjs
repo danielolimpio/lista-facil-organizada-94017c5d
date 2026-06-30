@@ -43,6 +43,8 @@ module.exports = {
     "/checklist-lua-de-mel",
     "/blog",
     "/blog/dicas-economizar-supermercado",
+    "/blog/casa-inteligente-guia-2026",
+    "/blog/energia-solar-residencial-2026",
     "/como-usar",
     "/baixar-em-pdf",
     "/imprimir-listas",

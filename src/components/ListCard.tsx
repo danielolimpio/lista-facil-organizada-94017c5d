@@ -25,14 +25,14 @@ const ListCard = ({ title, description, path, badge, categoryColor }: ListCardPr
       : "hsl(var(--primary))";
 
   return (
-    <Card className="group relative p-6 overflow-hidden bg-white border border-border/70 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
+    <Card className="group relative p-6 h-full flex overflow-hidden bg-white border border-border/70 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
       {/* Top accent line */}
       <span
         aria-hidden
         className="absolute inset-x-0 top-0 h-px opacity-60 group-hover:opacity-100 transition-opacity"
         style={{ background: accent }}
       />
-      <div className="flex flex-col h-full">
+      <div className="flex flex-col h-full w-full">
         {badge && (
           <span
             className="inline-flex items-center gap-1 w-fit px-2.5 py-1 mb-3 text-[10px] font-semibold uppercase tracking-[0.08em] text-white rounded-sm shadow-sm"

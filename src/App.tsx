@@ -45,6 +45,8 @@ import CasamentoConvidados from "./pages/CasamentoConvidados";
 import ChecklistLuaDeMel from "./pages/ChecklistLuaDeMel";
 import Blog from "./pages/Blog";
 import DicasEconomizarSupermercado from "./pages/blog/DicasEconomizarSupermercado";
+import CasaInteligente2026 from "./pages/blog/CasaInteligente2026";
+import EnergiaSolarResidencial2026 from "./pages/blog/EnergiaSolarResidencial2026";
 import PoliticaDePrivacidade from "./pages/PoliticaDePrivacidade";
 import PoliticaDeCookies from "./pages/PoliticaDeCookies";
 import TermosDeUso from "./pages/TermosDeUso";
@@ -108,6 +110,8 @@ const App = () => (
           <Route path="/checklist-lua-de-mel" element={<ChecklistLuaDeMel />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/dicas-economizar-supermercado" element={<DicasEconomizarSupermercado />} />
+          <Route path="/blog/casa-inteligente-guia-2026" element={<CasaInteligente2026 />} />
+          <Route path="/blog/energia-solar-residencial-2026" element={<EnergiaSolarResidencial2026 />} />
           <Route path="/como-usar" element={<ComoUsar />} />
           <Route path="/baixar-em-pdf" element={<BaixarPDF />} />
           <Route path="/imprimir-listas" element={<ImprimirListas />} />

@@ -219,10 +219,12 @@ const Index = () => {
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
             Escolha a categoria que melhor atende suas necessidades
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
             {categories.map((category, index) => (
-              <div key={category.path} className="animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
-                <CategoryCard {...category} />
+              <div key={category.path} className="animate-fade-in h-full flex" style={{ animationDelay: `${index * 100}ms` }}>
+                <div className="w-full">
+                  <CategoryCard {...category} />
+                </div>
               </div>
             ))}
           </div>
@@ -316,10 +318,12 @@ const Index = () => {
           <p className="text-center text-muted-foreground mb-12">
             Escolha a lista ideal para o seu perfil e necessidades
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
             {shoppingLists.map((list, index) => (
-              <div key={list.path} className="animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
-                <ListCard {...list} />
+              <div key={list.path} className="animate-fade-in h-full flex" style={{ animationDelay: `${index * 100}ms` }}>
+                <div className="w-full">
+                  <ListCard {...list} />
+                </div>
               </div>
             ))}
           </div>

@@ -95,21 +95,23 @@ const ListaDeCompras = () => {
           </Card>
 
           {/* Grade de Listas */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
             {subLists.map((list, index) => (
-              <Card key={list.path} className="p-6 hover:shadow-lg hover:border-primary/50 transition-all duration-300 group animate-scale-in" style={{ animationDelay: `${index * 50}ms` }}>
-                {list.badge && (
+              <Card key={list.path} className="h-full flex flex-col p-6 hover:shadow-lg hover:border-primary/50 transition-all duration-300 group animate-scale-in" style={{ animationDelay: `${index * 50}ms` }}>
+                {list.badge ? (
                   <span className="inline-block w-fit px-3 py-1 mb-3 text-xs font-semibold text-primary bg-primary/10 rounded-full">
                     {list.badge}
                   </span>
+                ) : (
+                  <span aria-hidden className="inline-block w-fit px-3 py-1 mb-3 text-xs font-semibold opacity-0 select-none">.</span>
                 )}
                 <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
                   {list.title}
                 </h3>
-                <p className="text-muted-foreground mb-4">
+                <p className="text-muted-foreground mb-4 flex-1">
                   {list.description}
                 </p>
-                <Link to={list.path}>
+                <Link to={list.path} className="mt-auto">
                   <Button variant="outline" className="w-full justify-between group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary">
                     Ver Lista
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />

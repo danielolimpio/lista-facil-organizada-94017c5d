@@ -49,26 +49,28 @@
 
   # ============================================
   # 4. REMOVER BARRA FINAL (Redirecionar /page/ para /page)
+  # Aplica-se inclusive quando existe um diretório com o mesmo nome
+  # (ex: /blog/ que possui artigos dentro) — evita 403 do Apache
+  # em diretórios sem index.
   # ============================================
-  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !^/$
   RewriteCond %{REQUEST_URI} ^(.+)/$
   RewriteRule ^(.+)/$ /$1 [L,R=301]
 
   # ============================================
   # 5. SERVIR ARQUIVOS .html SEM EXTENSÃO
-  # Se a URL é /page, servir /page.html
+  # Se a URL é /page, servir /page.html (mesmo se existir
+  # um diretório com o mesmo nome, priorizar o .html)
   # ============================================
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME}.html -f
-  RewriteRule ^(.+)$ $1.html [L]
+  RewriteRule ^(.+)$ /$1.html [L]
 
   # ============================================
   # 6. SERVIR SUBPASTAS COM ARQUIVOS .html
   # Se /blog/artigo existe como /blog/artigo.html
   # ============================================
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{DOCUMENT_ROOT}/$1.html -f
   RewriteRule ^(.+)$ /$1.html [L]
 

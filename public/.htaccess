@@ -49,26 +49,28 @@
 
   # ============================================
   # 4. REMOVER BARRA FINAL (Redirecionar /page/ para /page)
+  # Aplica-se inclusive quando existe um diretório com o mesmo nome
+  # (ex: /blog/ que possui artigos dentro) — evita 403 do Apache
+  # em diretórios sem index.
   # ============================================
-  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !^/$
   RewriteCond %{REQUEST_URI} ^(.+)/$
   RewriteRule ^(.+)/$ /$1 [L,R=301]
 
   # ============================================
   # 5. SERVIR ARQUIVOS .html SEM EXTENSÃO
-  # Se a URL é /page, servir /page.html
+  # Se a URL é /page, servir /page.html (mesmo se existir
+  # um diretório com o mesmo nome, priorizar o .html)
   # ============================================
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME}.html -f
-  RewriteRule ^(.+)$ $1.html [L]
+  RewriteRule ^(.+)$ /$1.html [L]
 
   # ============================================
   # 6. SERVIR SUBPASTAS COM ARQUIVOS .html
   # Se /blog/artigo existe como /blog/artigo.html
   # ============================================
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{DOCUMENT_ROOT}/$1.html -f
   RewriteRule ^(.+)$ /$1.html [L]
 
@@ -103,9 +105,21 @@
   ExpiresByType application/javascript "access plus 1 month"
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType image/x-icon "access plus 1 year"
-  ExpiresByType text/html "access plus 1 hour"
+  ExpiresByType text/html "access plus 0 seconds"
   ExpiresByType text/plain "access plus 1 hour"
 </IfModule>
+
+# Sem cache agressivo para HTML — evita servir HTML antigo
+# apontando para assets com hash já removidos após um deploy
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# Bloquear listagem de diretórios (retorna 404 em vez de 403)
+Options -Indexes
+ErrorDocument 403 /index.html
 
 # ============================================
 # SECURITY HEADERS

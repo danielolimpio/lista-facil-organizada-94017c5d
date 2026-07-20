@@ -131,6 +131,9 @@ const BlogPostLayout = ({
                   alt={coverAlt}
                   width={1536}
                   height={864}
+                  loading="eager"
+                  fetchPriority="high"
+                  decoding="async"
                   className="w-full h-auto object-cover aspect-video"
                 />
               </div>

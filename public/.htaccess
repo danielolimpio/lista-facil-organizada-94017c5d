@@ -105,9 +105,21 @@
   ExpiresByType application/javascript "access plus 1 month"
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType image/x-icon "access plus 1 year"
-  ExpiresByType text/html "access plus 1 hour"
+  ExpiresByType text/html "access plus 0 seconds"
   ExpiresByType text/plain "access plus 1 hour"
 </IfModule>
+
+# Sem cache agressivo para HTML — evita servir HTML antigo
+# apontando para assets com hash já removidos após um deploy
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# Bloquear listagem de diretórios (retorna 404 em vez de 403)
+Options -Indexes
+ErrorDocument 403 /index.html
 
 # ============================================
 # SECURITY HEADERS

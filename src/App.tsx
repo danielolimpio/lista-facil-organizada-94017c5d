@@ -57,6 +57,8 @@ import Contato from "./pages/Contato";
 import Sitemap from "./pages/Sitemap";
 import NotFound from "./pages/NotFound";
 import CriarLista from "./pages/CriarLista";
+import Glossario from "./pages/Glossario";
+import GlossarioVerbete from "./pages/GlossarioVerbete";
 
 const queryClient = new QueryClient();
 
@@ -120,6 +122,8 @@ const App = () => (
           <Route path="/termos-de-uso" element={<TermosDeUso />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/sitemap" element={<Sitemap />} />
+          <Route path="/glossario" element={<Glossario />} />
+          <Route path="/glossario/o-que-e-:slug" element={<GlossarioVerbete />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

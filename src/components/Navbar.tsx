@@ -16,6 +16,7 @@ const Navbar = () => {
     { name: "Lista Escolar", path: "/lista-de-material-escolar" },
     { name: "Lista Casa Nova", path: "/lista-de-casa-nova" },
     { name: "Lista Casamento", path: "/lista-de-casamento" },
+    { name: "Glossário", path: "/glossario" },
     { name: "Blog", path: "/blog" },
   ];
 

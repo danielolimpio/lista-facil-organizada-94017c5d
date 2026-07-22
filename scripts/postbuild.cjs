@@ -305,6 +305,48 @@ const routes = [
   },
 ];
 
+function compactText(text, max = 155) {
+  const clean = text.replace(/\s+/g, " ").trim();
+  return clean.length <= max ? clean : `${clean.slice(0, max - 3).trim()}...`;
+}
+
+function buildGlossaryTitle(term) {
+  const title = `O que é ${term}? | Glossário`;
+  return title.length <= 58 ? title : `O que é ${term}?`;
+}
+
+function readGlossaryRoutes() {
+  const glossaryPath = path.resolve(__dirname, "../src/data/glossario.ts");
+  if (!fs.existsSync(glossaryPath)) return [];
+
+  const source = fs.readFileSync(glossaryPath, "utf8");
+  const matches = [...source.matchAll(/slug:\s*"([^"]+)",\s*term:\s*"([^"]+)",\s*category:\s*"([^"]+)",\s*definition:\s*"([^"]+)"/gs)];
+
+  return matches.map(([, slug, term, category, definition]) => ({
+    path: `/glossario/o-que-e-${slug}`,
+    title: buildGlossaryTitle(term),
+    description: compactText(definition),
+    h1: `O que é ${term}?`,
+    h2s: ["Definição direta", "Exemplo prático", "Por que isso importa"],
+    intro: definition,
+    schema: "DefinedTerm",
+    term,
+    category,
+  }));
+}
+
+routes.push({
+  path: "/glossario",
+  title: "Glossário de Organização e Listas | Helplistas",
+  description: "Glossário A-Z com termos de organização, listas de compras, casa nova, casamento, material escolar e produtividade.",
+  h1: "Glossário de Organização, Compras e Checklists",
+  h2s: ["Termos de organização", "Listas práticas", "Definições com exemplos"],
+  intro: "Consulte definições claras sobre organização doméstica, listas de compras, material escolar, casamento e produtividade, com exemplos práticos e links para listas prontas.",
+  schema: "DefinedTermSet",
+});
+
+routes.push(...readGlossaryRoutes());
+
 // Função para gerar Schema.org JSON-LD
 function generateSchema(route) {
   const baseUrl = "https://helplistas.com.br";
@@ -358,7 +400,7 @@ function generateSchema(route) {
         "headline": route.h1,
         "description": route.description,
         "url": baseUrl + route.path,
-        "datePublished": "2025-01-01",
+        "datePublished": "2026-01-01",
         "dateModified": "2026-01-15",
         "author": {
           "@type": "Organization",
@@ -372,6 +414,33 @@ function generateSchema(route) {
             "@type": "ImageObject",
             "url": baseUrl + "/og-image.jpg"
           }
+        }
+      };
+      break;
+    case "DefinedTermSet":
+      schema = {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": route.h1,
+        "description": route.description,
+        "url": baseUrl + route.path,
+        "publisher": {
+          "@type": "Organization",
+          "name": "Helplistas"
+        }
+      };
+      break;
+    case "DefinedTerm":
+      schema = {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": route.term || route.h1,
+        "description": route.description,
+        "url": baseUrl + route.path,
+        "inDefinedTermSet": {
+          "@type": "DefinedTermSet",
+          "name": "Glossário Help Listas",
+          "url": baseUrl + "/glossario"
         }
       };
       break;
@@ -419,6 +488,8 @@ function generateBreadcrumb(route) {
     breadcrumbs.push({ position: 2, name: "Casamento", url: baseUrl + "/lista-de-casamento" });
   } else if (route.path.includes("blog")) {
     breadcrumbs.push({ position: 2, name: "Blog", url: baseUrl + "/blog" });
+  } else if (route.path.includes("glossario")) {
+    breadcrumbs.push({ position: 2, name: "Glossário", url: baseUrl + "/glossario" });
   }
   
   // Adicionar página atual se não for a categoria pai
@@ -472,7 +543,12 @@ routes.forEach((route) => {
   
   // Links internos contextuais por categoria (URLs sem barra final)
   let relatedLinks = "";
-  if (route.path.includes("lista-de-compras") || route.path.includes("lista-supermercado") || 
+  if (route.path.includes("glossario")) {
+    relatedLinks = `
+      <nav class="related-links" aria-label="Termos e listas relacionadas">
+        <p>Veja também: <a href="/glossario">Glossário</a> | <a href="/lista-de-compras">Listas de Compras</a> | <a href="/lista-de-casa-nova">Casa Nova</a> | <a href="/lista-de-material-escolar">Material Escolar</a></p>
+      </nav>`;
+  } else if (route.path.includes("lista-de-compras") || route.path.includes("lista-supermercado") || 
       route.path.includes("lista-duas") || route.path.includes("lista-mensal") || 
       route.path.includes("lista-solteiro") || route.path.includes("lista-saudavel")) {
     relatedLinks = `

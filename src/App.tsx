@@ -123,7 +123,7 @@ const App = () => (
           <Route path="/contato" element={<Contato />} />
           <Route path="/sitemap" element={<Sitemap />} />
           <Route path="/glossario" element={<Glossario />} />
-          <Route path="/glossario/o-que-e-:slug" element={<GlossarioVerbete />} />
+          <Route path="/glossario/:slug" element={<GlossarioVerbete />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

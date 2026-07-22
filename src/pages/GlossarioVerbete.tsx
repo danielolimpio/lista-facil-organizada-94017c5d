@@ -18,9 +18,13 @@ const SITE = "https://helplistas.com.br";
 
 const GlossarioVerbete = () => {
   const { slug = "" } = useParams();
-  const term = glossaryBySlug[slug];
+  const normalizedSlug = slug.startsWith("o-que-e-") ? slug.slice("o-que-e-".length) : slug;
+  const term = glossaryBySlug[normalizedSlug];
 
   if (!term) return <Navigate to="/glossario" replace />;
+  if (!slug.startsWith("o-que-e-")) {
+    return <Navigate to={`/glossario/o-que-e-${term.slug}`} replace />;
+  }
 
   const url = `${SITE}/glossario/o-que-e-${term.slug}`;
   const title = `O que é ${term.term}? Definição, Exemplos e Lista Pronta`;

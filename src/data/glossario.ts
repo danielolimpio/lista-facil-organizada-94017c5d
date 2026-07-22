@@ -15,7 +15,7 @@ export interface GlossaryTerm {
   faq: { q: string; a: string }[];
 }
 
-export const glossary: GlossaryTerm[] = [
+const baseGlossary: GlossaryTerm[] = [
   {
     slug: "checklist-de-casa-nova",
     term: "Checklist de Casa Nova",
@@ -689,6 +689,695 @@ export const glossary: GlossaryTerm[] = [
     ],
   },
 ];
+
+const extraGlossary: GlossaryTerm[] = [
+  {
+    slug: "lista-de-compras-semanal",
+    term: "Lista de Compras Semanal",
+    category: "Compras",
+    definition:
+      "Lista de compras semanal é o planejamento dos alimentos, produtos de higiene e itens de reposição que uma casa precisa comprar para sete dias. Ela ajuda a controlar o cardápio, evitar idas extras ao mercado e reduzir desperdícios de perecíveis como frutas, verduras, pães e laticínios.",
+    exemploPratico:
+      "Uma família define o cardápio de segunda a domingo e transforma cada refeição em itens de compra, separando hortifruti, carnes, mercearia e limpeza rápida.",
+    exemploItens: ["Hortifruti para 7 dias", "Proteínas da semana", "Lanches e café da manhã", "Reposição de higiene e limpeza"],
+    porQueImporta:
+      "A compra semanal diminui desperdício porque trabalha com quantidades menores e mais frescas. Também facilita comparar preços, aproveitar ofertas reais e manter a geladeira organizada, especialmente em casas com rotina corrida, crianças ou alimentação planejada.",
+    aprofundamento: {
+      texto: "Use a lista de supermercado pronta como base para montar sua compra semanal sem esquecer os itens essenciais.",
+      linkText: "Abrir Lista de Supermercado",
+      linkHref: "/lista-supermercado",
+    },
+    relacionados: ["lista-de-supermercado", "planejamento-de-cardapio", "cardapio-semanal"],
+    faq: [{ q: "Lista semanal substitui a compra mensal?", a: "Não necessariamente. O ideal é comprar perecíveis semanalmente e deixar itens de limpeza e mercearia para compras mensais." }],
+  },
+  {
+    slug: "compras-do-mes",
+    term: "Compras do Mês",
+    category: "Compras",
+    definition:
+      "Compras do mês são as compras maiores, planejadas para abastecer a casa por aproximadamente 30 dias com itens de mercearia, higiene, limpeza e produtos de uso recorrente. A estratégia costuma funcionar melhor quando separa não perecíveis dos alimentos frescos, que devem continuar sendo comprados semanalmente.",
+    exemploPratico:
+      "Um casal faz a compra do mês no atacarejo com arroz, feijão, óleo, café, papel higiênico e sabão, deixando frutas e verduras para o mercado da semana.",
+    exemploItens: ["Mercearia básica", "Higiene pessoal", "Produtos de limpeza", "Itens de despensa e atacado"],
+    porQueImporta:
+      "Comprar para o mês reduz deslocamentos, melhora a negociação por volume e deixa o orçamento mais previsível. Quando bem planejada, evita compras pequenas e caras no mercado de bairro e impede que a família fique sem produtos essenciais no fim do mês.",
+    aprofundamento: {
+      texto: "A lista mensal já organiza os itens por categoria para facilitar compras em supermercado e atacarejo.",
+      linkText: "Abrir Lista Mensal de Compras",
+      linkHref: "/lista-mensal",
+    },
+    relacionados: ["lista-mensal-de-compras", "orcamento-domestico", "atacarejo"],
+    faq: [{ q: "O que não comprar para o mês inteiro?", a: "Evite comprar em grande volume frutas muito maduras, folhas, pães frescos e carnes sem espaço adequado de congelamento." }],
+  },
+  {
+    slug: "despensa-organizada",
+    term: "Despensa Organizada",
+    category: "Organização",
+    definition:
+      "Despensa organizada é o método de armazenar alimentos e produtos de reposição por categoria, validade e frequência de uso. O objetivo é enxergar rapidamente o que existe em casa, evitar compras duplicadas e impedir que itens como farinha, arroz, enlatados e temperos vençam esquecidos no fundo do armário.",
+    exemploPratico:
+      "Uma pessoa separa a despensa em prateleiras de café da manhã, mercearia, enlatados, temperos e reposição, deixando os vencimentos mais próximos sempre na frente.",
+    exemploItens: ["Potes transparentes etiquetados", "Produtos por validade", "Setor de reposição", "Lista fixa de estoque mínimo"],
+    porQueImporta:
+      "Uma despensa desorganizada aumenta desperdício e faz a família comprar itens que já tem. Com organização simples, a lista de compras fica mais precisa, o preparo das refeições ganha velocidade e o orçamento doméstico deixa de perder dinheiro com alimentos vencidos.",
+    aprofundamento: {
+      texto: "Depois de organizar a despensa, use uma lista completa para repor apenas o que realmente está faltando.",
+      linkText: "Abrir Lista de Compras Completa",
+      linkHref: "/lista-de-compras-completa",
+    },
+    relacionados: ["lista-de-compras", "compras-do-mes", "orcamento-domestico"],
+    faq: [{ q: "Como começar a organizar a despensa?", a: "Retire tudo, confira validades, agrupe por categoria e anote o que precisa ser reposto antes de ir ao mercado." }],
+  },
+  {
+    slug: "lista-de-hortifruti",
+    term: "Lista de Hortifruti",
+    category: "Compras",
+    definition:
+      "Lista de hortifruti é a seleção planejada de frutas, verduras, legumes e temperos frescos para a semana. Ela ajuda a comprar quantidades realistas, variar nutrientes, escolher alimentos da estação e evitar que folhas, frutas maduras e legumes estraguem antes de serem consumidos.",
+    exemploPratico:
+      "Uma pessoa compra alface, tomate, cenoura, banana, maçã, mamão e cheiro-verde para sete dias, ajustando a quantidade conforme refeições fora de casa.",
+    exemploItens: ["Folhas para salada", "Frutas do café da manhã", "Legumes para almoço", "Temperos frescos"],
+    porQueImporta:
+      "O hortifruti é uma das áreas com maior desperdício quando a compra é feita por impulso. Uma lista enxuta melhora a alimentação, reduz perdas na geladeira e permite aproveitar produtos da estação, que costumam ser mais baratos e saborosos.",
+    aprofundamento: {
+      texto: "Monte um carrinho mais nutritivo usando a lista saudável pronta, com hortifruti e proteínas equilibradas.",
+      linkText: "Abrir Lista de Compras Saudável",
+      linkHref: "/lista-saudavel",
+    },
+    relacionados: ["lista-de-compras-saudavel", "planejamento-de-cardapio", "cardapio-semanal"],
+    faq: [{ q: "Quantas frutas comprar por semana?", a: "Calcule de 2 a 3 porções por pessoa por dia e ajuste conforme refeições feitas fora de casa." }],
+  },
+  {
+    slug: "lista-de-produtos-de-limpeza",
+    term: "Lista de Produtos de Limpeza",
+    category: "Compras",
+    definition:
+      "Lista de produtos de limpeza é o controle dos itens necessários para higienizar cozinha, banheiro, pisos, roupas e superfícies da casa. Ela evita compras repetidas, falta de produtos em dias de faxina e gastos com itens muito específicos quando produtos multiuso resolveriam a maior parte da rotina.",
+    exemploPratico:
+      "Uma casa mantém detergente, desinfetante, sabão em pó, água sanitária, multiuso, panos, esponjas e sacos de lixo como base mensal de limpeza.",
+    exemploItens: ["Detergente e esponja", "Desinfetante e multiuso", "Sabão em pó ou líquido", "Sacos de lixo e panos"],
+    porQueImporta:
+      "Produtos de limpeza parecem baratos individualmente, mas pesam no orçamento quando comprados sem controle. Uma lista por ambiente racionaliza o estoque, evita falta em emergências e reduz riscos de misturas perigosas entre químicos incompatíveis.",
+    aprofundamento: {
+      texto: "Veja uma lista focada em limpeza para casa nova e rotina doméstica com itens essenciais por ambiente.",
+      linkText: "Abrir Lista de Casa Nova Limpeza",
+      linkHref: "/lista-de-casa-nova-limpeza",
+    },
+    relacionados: ["despensa-organizada", "compras-do-mes", "lista-de-compras"],
+    faq: [{ q: "Quais produtos de limpeza são realmente básicos?", a: "Detergente, desinfetante, multiuso, sabão para roupas, água sanitária, panos, esponjas e sacos de lixo cobrem a maioria das rotinas." }],
+  },
+  {
+    slug: "lista-de-higiene-pessoal",
+    term: "Lista de Higiene Pessoal",
+    category: "Compras",
+    definition:
+      "Lista de higiene pessoal reúne itens de cuidado diário como sabonete, shampoo, condicionador, creme dental, desodorante, papel higiênico e absorventes. Ela ajuda a manter estoque mínimo em casa, comprar em promoções com consciência e evitar gastos emergenciais quando algum produto acaba sem aviso.",
+    exemploPratico:
+      "Uma família calcula consumo mensal de sabonete, shampoo e papel higiênico por morador e define uma quantidade de segurança para não faltar.",
+    exemploItens: ["Sabonete e shampoo", "Creme dental e fio dental", "Desodorante", "Papel higiênico e absorventes"],
+    porQueImporta:
+      "Itens de higiene têm consumo previsível e grande variação de preço entre marcas e embalagens. Controlar a lista permite comprar packs econômicos, evitar desperdício e manter dignidade e conforto no dia a dia da família.",
+    aprofundamento: {
+      texto: "Inclua higiene pessoal dentro da compra mensal para controlar melhor o orçamento do supermercado.",
+      linkText: "Abrir Lista Mensal de Compras",
+      linkHref: "/lista-mensal",
+    },
+    relacionados: ["compras-do-mes", "orcamento-domestico", "lista-de-compras"],
+    faq: [{ q: "Vale comprar higiene pessoal em atacado?", a: "Sim, quando a família usa marcas fixas e há espaço para armazenar sem risco de vencer ou estragar." }],
+  },
+  {
+    slug: "compra-economica",
+    term: "Compra Econômica",
+    category: "Compras",
+    definition:
+      "Compra econômica é a estratégia de comprar apenas o necessário, comparar preço por unidade, priorizar alimentos versáteis e evitar decisões por impulso no supermercado. Não significa comprar sempre o mais barato, mas escolher o melhor custo-benefício para a rotina, o orçamento e o tamanho da família.",
+    exemploPratico:
+      "Uma pessoa compara o preço por quilo do arroz, escolhe frutas da estação e troca produtos ultraprocessados caros por ingredientes básicos para cozinhar em casa.",
+    exemploItens: ["Comparar preço por unidade", "Evitar compras por impulso", "Priorizar marcas próprias", "Planejar cardápio antes"],
+    porQueImporta:
+      "A economia no supermercado vem de pequenas decisões repetidas. Comprar com lista, orçamento e cardápio reduz desperdício, melhora a previsibilidade financeira e impede que promoções falsas ocupem espaço no carrinho e no armário.",
+    aprofundamento: {
+      texto: "Veja dicas práticas para economizar no supermercado e aplicar a compra econômica no dia a dia.",
+      linkText: "Ler Dicas para Economizar no Supermercado",
+      linkHref: "/blog/dicas-economizar-supermercado",
+    },
+    relacionados: ["orcamento-domestico", "lista-de-compras", "atacarejo"],
+    faq: [{ q: "Comprar promoção sempre economiza?", a: "Não. Promoção só economiza quando o item já estava na lista, será consumido e tem preço unitário realmente menor." }],
+  },
+  {
+    slug: "atacarejo",
+    term: "Atacarejo",
+    category: "Compras",
+    definition:
+      "Atacarejo é o modelo de loja que combina venda de atacado e varejo, oferecendo preços menores principalmente em embalagens maiores ou compras por volume. Para famílias brasileiras, pode ser vantajoso em produtos de limpeza, higiene e alimentos não perecíveis, desde que exista planejamento e espaço de armazenamento.",
+    exemploPratico:
+      "Uma família compra papel higiênico, arroz, feijão, sabão em pó e leite longa vida no atacarejo, mas deixa verduras e carnes frescas para compras menores.",
+    exemploItens: ["Embalagens econômicas", "Produtos não perecíveis", "Itens de limpeza", "Comparação por quilo ou litro"],
+    porQueImporta:
+      "O atacarejo pode reduzir custos, mas também aumenta desperdício se a compra for feita sem lista. O segredo é comprar volume apenas do que a família realmente consome antes do vencimento, mantendo o orçamento sob controle.",
+    aprofundamento: {
+      texto: "Use a lista mensal para decidir quais itens valem a pena comprar em maior quantidade no atacarejo.",
+      linkText: "Abrir Lista Mensal de Compras",
+      linkHref: "/lista-mensal",
+    },
+    relacionados: ["compras-do-mes", "compra-economica", "orcamento-domestico"],
+    faq: [{ q: "Atacarejo é bom para quem mora sozinho?", a: "Pode ser, mas apenas para itens de longa validade e consumo certo, como higiene, limpeza e alguns alimentos básicos." }],
+  },
+  {
+    slug: "cardapio-semanal",
+    term: "Cardápio Semanal",
+    category: "Organização",
+    definition:
+      "Cardápio semanal é o planejamento das refeições principais ao longo de sete dias, geralmente almoço, jantar e lanches. Ele organiza o que será cozinhado, transforma receitas em lista de compras e reduz a dependência de delivery, improvisos caros e alimentos repetidos sem equilíbrio nutricional.",
+    exemploPratico:
+      "No domingo, uma família define arroz, feijão, frango, legumes, massa e sopa para a semana, aproveitando sobras planejadas em marmitas.",
+    exemploItens: ["Almoço e jantar por dia", "Proteínas alternadas", "Acompanhamentos", "Lista de ingredientes"],
+    porQueImporta:
+      "Planejar refeições reduz decisões diárias, economiza dinheiro e melhora a alimentação. O cardápio evita comprar ingredientes desconectados entre si e ajuda a usar tudo o que está na geladeira antes de estragar.",
+    aprofundamento: {
+      texto: "Transforme seu cardápio em uma lista de supermercado semanal prática e organizada por categoria.",
+      linkText: "Abrir Lista de Supermercado",
+      linkHref: "/lista-supermercado",
+    },
+    relacionados: ["planejamento-de-cardapio", "lista-de-hortifruti", "marmita-semanal"],
+    faq: [{ q: "Preciso seguir o cardápio à risca?", a: "Não. Use como guia flexível e troque refeições entre dias conforme agenda, validade dos alimentos e disposição." }],
+  },
+  {
+    slug: "marmita-semanal",
+    term: "Marmita Semanal",
+    category: "Organização",
+    definition:
+      "Marmita semanal é o preparo antecipado de refeições para vários dias, armazenadas em porções individuais na geladeira ou no congelador. A prática ajuda quem trabalha fora, estuda ou quer economizar, mantendo alimentação caseira pronta e reduzindo gastos com restaurantes, lanchonetes e aplicativos de entrega.",
+    exemploPratico:
+      "Uma pessoa prepara no domingo arroz, feijão, frango desfiado, legumes assados e carne moída, montando cinco marmitas equilibradas para dias úteis.",
+    exemploItens: ["Proteína porcionada", "Carboidrato base", "Legumes cozidos", "Potes adequados"],
+    porQueImporta:
+      "Marmitas bem planejadas economizam dinheiro e tempo durante a semana. Também ajudam a controlar porções, reduzir ultraprocessados e evitar decisões alimentares ruins quando a rotina aperta ou o intervalo de almoço é curto.",
+    aprofundamento: {
+      texto: "Comece escolhendo alimentos saudáveis e versáteis para montar marmitas equilibradas sem gastar demais.",
+      linkText: "Abrir Lista de Compras Saudável",
+      linkHref: "/lista-saudavel",
+    },
+    relacionados: ["cardapio-semanal", "lista-de-compras-saudavel", "planejamento-de-cardapio"],
+    faq: [{ q: "Marmita semanal dura quantos dias?", a: "Na geladeira, geralmente até 3 dias. Para a semana inteira, o ideal é congelar parte das porções." }],
+  },
+  {
+    slug: "enxoval-de-cozinha",
+    term: "Enxoval de Cozinha",
+    category: "Casa Nova",
+    definition:
+      "Enxoval de cozinha é o conjunto de panelas, louças, talheres, utensílios, panos e acessórios necessários para preparar e servir refeições em uma casa nova. Ele complementa o enxoval de cama, mesa e banho, garantindo que a cozinha funcione desde o primeiro café até o almoço completo.",
+    exemploPratico:
+      "Um casal compra jogo de panelas, pratos, copos, talheres, assadeiras, potes, panos de prato e utensílios básicos antes de se mudar.",
+    exemploItens: ["Panelas e frigideiras", "Pratos, copos e talheres", "Panos e potes", "Utensílios de preparo"],
+    porQueImporta:
+      "A cozinha é um dos cômodos mais usados da casa e também um dos que mais geram compras esquecidas. Um enxoval planejado evita depender de comida pronta, reduz gastos iniciais e torna a mudança mais confortável.",
+    aprofundamento: {
+      texto: "Veja a lista completa de cozinha para casa nova com utensílios separados por prioridade.",
+      linkText: "Abrir Lista de Casa Nova Cozinha",
+      linkHref: "/lista-de-casa-nova-cozinha",
+    },
+    relacionados: ["kit-cozinha-basica", "enxoval-de-casa", "checklist-de-casa-nova"],
+    faq: [{ q: "Qual a diferença entre kit e enxoval de cozinha?", a: "O kit é o mínimo para começar; o enxoval é mais completo e inclui servir, armazenar e organizar a cozinha." }],
+  },
+  {
+    slug: "itens-essenciais-para-casa",
+    term: "Itens Essenciais para Casa",
+    category: "Casa Nova",
+    definition:
+      "Itens essenciais para casa são os produtos, móveis e utensílios que tornam uma residência funcional logo nos primeiros dias. Incluem cama, geladeira, fogão, panelas, toalhas, itens de banho e limpeza, priorizando o que resolve necessidades básicas antes de decoração, acessórios e compras menos urgentes.",
+    exemploPratico:
+      "Quem vai se mudar compra primeiro colchão, roupa de cama, geladeira, fogão, panelas, prato, copo, toalha, vassoura, rodo e produtos de higiene.",
+    exemploItens: ["Dormir com conforto", "Cozinhar refeições básicas", "Tomar banho e limpar", "Guardar alimentos"],
+    porQueImporta:
+      "Começar pelo essencial evita comprometer o orçamento com decoração antes da casa funcionar. Essa priorização diminui estresse na mudança e ajuda a distribuir compras grandes ao longo dos meses sem prejudicar necessidades básicas.",
+    aprofundamento: {
+      texto: "Use o checklist completo por cômodo para priorizar o essencial e planejar compras futuras.",
+      linkText: "Abrir Checklist de Casa Nova",
+      linkHref: "/lista-de-casa-nova-completa",
+    },
+    relacionados: ["checklist-de-casa-nova", "primeira-casa", "lista-para-morar-sozinho"],
+    faq: [{ q: "O que comprar primeiro para casa nova?", a: "Priorize cama, geladeira, fogão, itens de banho, cozinha básica e limpeza antes de decoração." }],
+  },
+  {
+    slug: "kit-lavanderia",
+    term: "Kit Lavanderia",
+    category: "Casa Nova",
+    definition:
+      "Kit lavanderia é o conjunto de itens para lavar, secar, passar e organizar roupas em casa. Normalmente inclui cesto, prendedores, varal, sabão, amaciante, balde, escova, tábua e ferro, ajudando a área de serviço a funcionar sem improvisos logo após a mudança.",
+    exemploPratico:
+      "Uma pessoa compra cesto de roupa suja, varal de chão, prendedores, sabão líquido, amaciante, balde, escova e ferro de passar para montar a lavanderia.",
+    exemploItens: ["Cesto e balde", "Varal e prendedores", "Sabão e amaciante", "Ferro e tábua"],
+    porQueImporta:
+      "A lavanderia costuma ser lembrada tarde, mas sem ela a casa acumula roupa e limpeza pendente. Um kit básico evita gastos com lavanderia externa e mantém a rotina doméstica organizada desde a primeira semana.",
+    aprofundamento: {
+      texto: "Monte a área de serviço completa usando uma lista por cômodo pensada para casa nova.",
+      linkText: "Abrir Lista de Área de Serviço",
+      linkHref: "/lista-de-casa-nova-area-de-servico",
+    },
+    relacionados: ["lista-de-produtos-de-limpeza", "checklist-de-casa-nova", "itens-essenciais-para-casa"],
+    faq: [{ q: "Preciso comprar máquina de lavar antes da mudança?", a: "Se o orçamento permitir, sim. Caso contrário, organize um kit temporário e planeje a compra como prioridade." }],
+  },
+  {
+    slug: "checklist-de-apartamento-novo",
+    term: "Checklist de Apartamento Novo",
+    category: "Casa Nova",
+    definition:
+      "Checklist de apartamento novo é uma lista de conferência para mobiliar, equipar e verificar detalhes do imóvel antes e depois da mudança. Inclui medidas dos cômodos, itens essenciais, instalação de internet, vistoria, segurança e compras por ambiente, evitando decisões erradas em espaços menores.",
+    exemploPratico:
+      "Antes de comprar sofá e geladeira, o morador mede portas, elevador, cozinha e sala, depois confere tomadas, chuveiro, fechaduras e itens básicos por cômodo.",
+    exemploItens: ["Vistoria e medidas", "Móveis compactos", "Itens de cozinha", "Segurança e internet"],
+    porQueImporta:
+      "Apartamentos exigem cuidado com espaço, circulação e regras do condomínio. Um checklist reduz compras incompatíveis, fretes perdidos e atrasos de instalação, deixando a entrada no imóvel mais rápida e menos estressante.",
+    aprofundamento: {
+      texto: "Use a lista econômica de casa nova para priorizar itens essenciais em apartamentos menores.",
+      linkText: "Abrir Lista de Casa Nova Econômica",
+      linkHref: "/lista-de-casa-nova-economica",
+    },
+    relacionados: ["checklist-de-casa-nova", "itens-essenciais-para-casa", "primeira-casa"],
+    faq: [{ q: "O que medir antes de comprar móveis?", a: "Meça portas, elevador, corredores, paredes úteis e áreas de abertura de gavetas, portas e eletrodomésticos." }],
+  },
+  {
+    slug: "primeira-casa",
+    term: "Primeira Casa",
+    category: "Casa Nova",
+    definition:
+      "Primeira casa é o momento em que uma pessoa ou família monta um lar próprio pela primeira vez, seja alugado ou comprado. A organização envolve escolher prioridades, comprar itens essenciais, controlar orçamento e evitar a pressão de deixar tudo perfeito antes de a casa estar realmente funcional.",
+    exemploPratico:
+      "Um casal recém-saído da casa dos pais compra primeiro cama, fogão, geladeira, panelas e limpeza, deixando decoração e móveis extras para os meses seguintes.",
+    exemploItens: ["Orçamento inicial", "Essenciais por cômodo", "Compras em etapas", "Reserva para imprevistos"],
+    porQueImporta:
+      "Montar a primeira casa mistura emoção e ansiedade, o que facilita compras impulsivas. Planejar por prioridade protege o orçamento, evita dívidas e faz o lar ganhar conforto progressivamente, sem comprometer contas fixas.",
+    aprofundamento: {
+      texto: "Comece com uma lista completa por cômodo para montar sua primeira casa sem esquecer o básico.",
+      linkText: "Abrir Lista de Casa Nova",
+      linkHref: "/lista-de-casa-nova",
+    },
+    relacionados: ["checklist-de-casa-nova", "itens-essenciais-para-casa", "lista-para-morar-sozinho"],
+    faq: [{ q: "Dá para montar casa nova aos poucos?", a: "Sim. O ideal é comprar primeiro o essencial para dormir, cozinhar, tomar banho e limpar." }],
+  },
+  {
+    slug: "lista-para-morar-sozinho",
+    term: "Lista para Morar Sozinho",
+    category: "Casa Nova",
+    definition:
+      "Lista para morar sozinho é o planejamento de móveis, utensílios, alimentos, higiene e limpeza para quem vai assumir uma casa sem dividir todas as decisões com a família. Ela prioriza quantidades menores, itens práticos e compras que reduzem desperdício, facilitando a adaptação à nova rotina.",
+    exemploPratico:
+      "Um estudante monta a lista com cama, roupa de cama, frigideira, panela, pratos, talheres, alimentos básicos, produtos de limpeza e itens de banheiro.",
+    exemploItens: ["Cozinha compacta", "Compra individual", "Limpeza básica", "Organização de rotina"],
+    porQueImporta:
+      "Morar sozinho exige autonomia e controle de gastos. Uma lista adequada evita comprar em quantidade familiar, reduz desperdício de comida e cria uma base funcional para trabalhar, estudar, cozinhar e descansar com conforto.",
+    aprofundamento: {
+      texto: "Combine itens de casa nova com uma lista de compras pensada para quem mora sozinho.",
+      linkText: "Abrir Lista de Compras para Solteiro",
+      linkHref: "/lista-solteiro",
+    },
+    relacionados: ["primeira-casa", "lista-solteiro", "kit-cozinha-basica"],
+    faq: [{ q: "O que comprar de comida para morar sozinho?", a: "Priorize porções menores, alimentos versáteis, congeláveis e itens de preparo rápido para evitar desperdício." }],
+  },
+  {
+    slug: "cronograma-de-casamento",
+    term: "Cronograma de Casamento",
+    category: "Casamento",
+    definition:
+      "Cronograma de casamento é a linha do tempo com tarefas, decisões e contratações necessárias antes da cerimônia. Ele distribui responsabilidades por mês, evita acúmulo perto da data e ajuda os noivos a controlar buffet, decoração, documentos, roupas, convites e lua de mel com antecedência.",
+    exemploPratico:
+      "Com 12 meses de prazo, os noivos definem orçamento e local primeiro; com 6 meses fecham fornecedores; com 30 dias confirmam convidados e detalhes finais.",
+    exemploItens: ["12 meses antes", "6 meses antes", "3 meses antes", "Semana do casamento"],
+    porQueImporta:
+      "Sem cronograma, decisões caras ficam para a última hora e reduzem poder de negociação. Planejar por etapas diminui estresse, melhora contratos e evita esquecer tarefas críticas como documentos, provas de roupa e confirmação de fornecedores.",
+    aprofundamento: {
+      texto: "Use o checklist completo para acompanhar cada etapa do casamento de forma organizada.",
+      linkText: "Abrir Checklist de Casamento Completo",
+      linkHref: "/checklist-de-casamento-completo",
+    },
+    relacionados: ["checklist-de-casamento", "orcamento-de-casamento", "lista-de-fornecedores"],
+    faq: [{ q: "Qual o prazo ideal para organizar casamento?", a: "Doze meses é confortável para cerimônias médias; mini weddings podem ser organizados em seis meses com boa prioridade." }],
+  },
+  {
+    slug: "orcamento-de-casamento",
+    term: "Orçamento de Casamento",
+    category: "Casamento",
+    definition:
+      "Orçamento de casamento é o planejamento financeiro que define quanto os noivos podem gastar em cada área da cerimônia e festa. Inclui local, buffet, decoração, fotografia, música, roupas, beleza, papelaria e reserva para imprevistos, ajudando a transformar sonhos em escolhas possíveis.",
+    exemploPratico:
+      "Um casal define teto de R$ 40 mil e distribui percentuais para buffet, espaço, foto, decoração, vestido, música e lua de mel, atualizando a planilha a cada contrato.",
+    exemploItens: ["Teto total", "Percentual por categoria", "Pagamentos e vencimentos", "Reserva de emergência"],
+    porQueImporta:
+      "Casamentos mexem com emoção e pressão social, o que favorece gastos acima do planejado. Um orçamento claro protege a vida financeira do casal e evita começar a nova fase com dívidas desnecessárias.",
+    aprofundamento: {
+      texto: "Controle fornecedores, prazos e pagamentos com uma lista específica para organizar contratos do casamento.",
+      linkText: "Abrir Lista de Fornecedores",
+      linkHref: "/lista-de-fornecedores-casamento",
+    },
+    relacionados: ["cronograma-de-casamento", "lista-de-fornecedores", "checklist-de-casamento"],
+    faq: [{ q: "Quanto reservar para imprevistos?", a: "Reserve de 10% a 15% do orçamento para taxas, ajustes, fretes, horas extras e emergências." }],
+  },
+  {
+    slug: "lista-de-presentes-de-casamento",
+    term: "Lista de Presentes de Casamento",
+    category: "Casamento",
+    definition:
+      "Lista de presentes de casamento é a seleção organizada de itens que os convidados podem oferecer aos noivos, normalmente focada em casa nova, experiências ou cotas. Ela orienta convidados, evita presentes repetidos e ajuda o casal a montar o lar com produtos realmente úteis.",
+    exemploPratico:
+      "Os noivos montam uma lista com jogo de panelas, aparelho de jantar, roupa de cama, eletrodomésticos pequenos e cotas para lua de mel.",
+    exemploItens: ["Utensílios de cozinha", "Cama, mesa e banho", "Eletroportáteis", "Cotas de viagem"],
+    porQueImporta:
+      "Uma lista bem pensada reduz trocas, evita duplicidade e transforma presentes em apoio real para a nova fase. Também facilita para convidados escolherem algo adequado ao orçamento e ao estilo do casal.",
+    aprofundamento: {
+      texto: "Relacione a lista de presentes com o checklist de casa nova para priorizar o que será mais usado.",
+      linkText: "Abrir Checklist de Casa Nova",
+      linkHref: "/lista-de-casa-nova-completa",
+    },
+    relacionados: ["enxoval-de-casa", "checklist-de-casa-nova", "checklist-de-casamento"],
+    faq: [{ q: "Lista de presentes é obrigatória?", a: "Não, mas ajuda convidados e evita presentes repetidos ou pouco úteis para a rotina dos noivos." }],
+  },
+  {
+    slug: "casamento-civil",
+    term: "Casamento Civil",
+    category: "Casamento",
+    definition:
+      "Casamento civil é o ato legal realizado em cartório ou diligência para formalizar a união perante a lei brasileira. Exige documentos, escolha de regime de bens, testemunhas e cumprimento de prazos, sendo essencial mesmo quando o casal também fará cerimônia religiosa ou festa.",
+    exemploPratico:
+      "O casal reúne RG, CPF, certidão de nascimento atualizada, comprovante de endereço e duas testemunhas, depois agenda a habilitação no cartório.",
+    exemploItens: ["Documentos pessoais", "Certidões atualizadas", "Testemunhas", "Regime de bens"],
+    porQueImporta:
+      "A parte civil define direitos, deveres e efeitos patrimoniais do casamento. Organizar documentos com antecedência evita atrasos na cerimônia, custos extras de segunda via e problemas na escolha do regime de bens.",
+    aprofundamento: {
+      texto: "Inclua a etapa do cartório no checklist geral para não deixar documentos para a última hora.",
+      linkText: "Abrir Checklist de Casamento",
+      linkHref: "/lista-de-casamento",
+    },
+    relacionados: ["cronograma-de-casamento", "checklist-de-casamento", "orcamento-de-casamento"],
+    faq: [{ q: "Quanto tempo antes dar entrada no casamento civil?", a: "Em geral, de 30 a 90 dias antes, mas confirme o prazo diretamente no cartório da sua cidade." }],
+  },
+  {
+    slug: "mini-wedding",
+    term: "Mini Wedding",
+    category: "Casamento",
+    definition:
+      "Mini wedding é um casamento menor e mais intimista, geralmente com poucos convidados e foco em experiência, afeto e detalhes personalizados. No Brasil, costuma ser escolhido por casais que desejam celebrar com familiares e amigos próximos, controlando melhor orçamento, logística e qualidade dos fornecedores.",
+    exemploPratico:
+      "Um casal convida 40 pessoas para uma cerimônia em restaurante, com decoração delicada, fotógrafo por poucas horas e almoço especial em vez de festa grande.",
+    exemploItens: ["Lista enxuta de convidados", "Local intimista", "Menu especial", "Decoração personalizada"],
+    porQueImporta:
+      "Reduzir o número de convidados permite investir melhor em comida, fotografia e experiência sem extrapolar tanto o orçamento. Também deixa a celebração mais próxima da personalidade do casal e menos presa a protocolos.",
+    aprofundamento: {
+      texto: "Comece definindo convidados e orçamento para avaliar se o mini wedding é a melhor opção.",
+      linkText: "Abrir Lista de Convidados",
+      linkHref: "/lista-de-convidados-casamento",
+    },
+    relacionados: ["lista-de-convidados", "orcamento-de-casamento", "checklist-de-casamento"],
+    faq: [{ q: "Quantos convidados tem um mini wedding?", a: "Não há regra fixa, mas normalmente varia de 20 a 80 convidados, mantendo clima íntimo." }],
+  },
+  {
+    slug: "rsvp-de-casamento",
+    term: "RSVP de Casamento",
+    category: "Casamento",
+    definition:
+      "RSVP de casamento é a confirmação de presença dos convidados antes da festa. A sigla vem do francês e, na prática, ajuda os noivos a informar ao buffet, organizar mesas, ajustar lembrancinhas e evitar pagar por pessoas que não comparecerão ao evento.",
+    exemploPratico:
+      "Trinta dias antes, os noivos enviam link de confirmação por WhatsApp e atualizam a lista com confirmado, não vai, pendente e restrição alimentar.",
+    exemploItens: ["Confirmado", "Não comparecerá", "Acompanhante", "Restrição alimentar"],
+    porQueImporta:
+      "Cada ausência não controlada pode significar dinheiro desperdiçado em buffet e estrutura. O RSVP também melhora a experiência dos convidados, pois permite organizar mesas, alimentação especial e comunicação final com mais precisão.",
+    aprofundamento: {
+      texto: "Use a lista de convidados para controlar confirmações, acompanhantes e restrições alimentares.",
+      linkText: "Abrir Lista de Convidados",
+      linkHref: "/lista-de-convidados-casamento",
+    },
+    relacionados: ["lista-de-convidados", "mini-wedding", "checklist-de-casamento"],
+    faq: [{ q: "Quando pedir RSVP?", a: "O ideal é solicitar confirmação entre 30 e 45 dias antes do casamento." }],
+  },
+  {
+    slug: "volta-as-aulas",
+    term: "Volta às Aulas",
+    category: "Material Escolar",
+    definition:
+      "Volta às aulas é o período de preparação para o início do ano letivo, envolvendo compra de material escolar, ajuste de rotina, uniformes, transporte, mochila e organização emocional das crianças. Para famílias brasileiras, costuma exigir planejamento financeiro em janeiro e fevereiro, quando outros gastos também aparecem.",
+    exemploPratico:
+      "Os pais conferem a lista oficial da escola, reaproveitam materiais do ano anterior, etiquetam itens, ajustam horário de sono e organizam lancheira e mochila.",
+    exemploItens: ["Material escolar", "Uniforme e mochila", "Rotina de sono", "Lancheira e transporte"],
+    porQueImporta:
+      "Preparar a volta às aulas com antecedência reduz correria em papelarias, melhora preços e ajuda a criança a retornar à rotina com menos ansiedade. Também evita compras duplicadas e materiais inadequados para a série.",
+    aprofundamento: {
+      texto: "Escolha a lista de material escolar 2026 por série e organize a volta às aulas com economia.",
+      linkText: "Abrir Material Escolar 2026",
+      linkHref: "/lista-de-material-escolar-2026",
+    },
+    relacionados: ["material-escolar-2026", "lista-de-material-escolar", "organizacao-de-mochila"],
+    faq: [{ q: "Quando comprar material escolar?", a: "Compre após receber a lista oficial, mas pesquise preços com antecedência e reaproveite itens em bom estado." }],
+  },
+  {
+    slug: "material-escolar-educacao-infantil",
+    term: "Material Escolar Educação Infantil",
+    category: "Material Escolar",
+    definition:
+      "Material escolar para educação infantil é o conjunto de itens seguros, lúdicos e adequados a crianças pequenas, geralmente de creche e pré-escola. Prioriza materiais atóxicos, lápis grossos, papéis, tintas, massinha, agenda, troca de roupa e objetos de higiene alinhados à rotina escolar.",
+    exemploPratico:
+      "Uma escola pede mochila pequena, agenda, copo, toalhinha, muda de roupa, giz de cera grosso, cola branca, tinta guache atóxica e massa de modelar.",
+    exemploItens: ["Itens atóxicos", "Troca de roupa", "Agenda e copo", "Materiais de arte"],
+    porQueImporta:
+      "Nessa fase, segurança e desenvolvimento motor valem mais que quantidade. Materiais adequados evitam riscos, facilitam atividades sensoriais e ajudam pais a comprar somente o que a escola realmente pode solicitar.",
+    aprofundamento: {
+      texto: "Veja a lista específica para educação infantil com itens seguros e organizados por prioridade.",
+      linkText: "Abrir Lista Educação Infantil",
+      linkHref: "/lista-de-material-escolar-educacao-infantil",
+    },
+    relacionados: ["volta-as-aulas", "kit-alfabetizacao", "lista-de-material-escolar"],
+    faq: [{ q: "Educação infantil precisa de muitos cadernos?", a: "Normalmente não. A prioridade costuma ser materiais de arte, higiene, agenda e itens de rotina." }],
+  },
+  {
+    slug: "material-escolar-ensino-fundamental",
+    term: "Material Escolar Ensino Fundamental",
+    category: "Material Escolar",
+    definition:
+      "Material escolar do ensino fundamental reúne itens usados do 1º ao 9º ano, com mudanças importantes conforme a série. Começa com alfabetização, lápis e cadernos simples, depois evolui para disciplinas separadas, geometria, pesquisas, calculadora e organização mais autônoma dos estudos.",
+    exemploPratico:
+      "No 1º ano entram materiais de alfabetização; no 6º ano surgem mais cadernos por disciplina; no 9º ano aparecem simulados e organização para provas.",
+    exemploItens: ["Cadernos por série", "Estojo completo", "Materiais de geometria", "Organização por disciplina"],
+    porQueImporta:
+      "Comprar material sem considerar a etapa escolar gera excesso ou falta. Uma lista por série ajuda pais a economizar, prepara o estudante para novas exigências e evita carregar peso desnecessário na mochila.",
+    aprofundamento: {
+      texto: "Escolha a série correta e baixe uma lista ajustada para cada fase do ensino fundamental.",
+      linkText: "Ver Listas por Série",
+      linkHref: "/lista-de-material-escolar",
+    },
+    relacionados: ["lista-de-material-escolar", "organizacao-de-mochila", "volta-as-aulas"],
+    faq: [{ q: "A lista muda muito entre as séries?", a: "Sim. Os primeiros anos exigem alfabetização; os anos finais exigem mais organização por disciplina." }],
+  },
+  {
+    slug: "etiqueta-de-material-escolar",
+    term: "Etiqueta de Material Escolar",
+    category: "Material Escolar",
+    definition:
+      "Etiqueta de material escolar é a identificação com nome, turma e contato colocada em cadernos, livros, uniforme, garrafa, lancheira e objetos pessoais. Ela reduz perdas, facilita devolução de itens encontrados e ajuda escolas e famílias a manterem os materiais das crianças organizados.",
+    exemploPratico:
+      "Antes do primeiro dia de aula, os pais etiquetam mochila, estojo, lápis, cadernos, livros, casaco, garrafa e potes da lancheira.",
+    exemploItens: ["Nome completo", "Turma", "Telefone dos responsáveis", "Etiqueta resistente"],
+    porQueImporta:
+      "Materiais escolares se misturam facilmente, principalmente na educação infantil e nos primeiros anos. Etiquetar evita prejuízo, economiza tempo da escola e ensina a criança a reconhecer e cuidar dos próprios pertences.",
+    aprofundamento: {
+      texto: "Depois de comprar os itens, organize mochila e etiquetas para evitar perdas já na primeira semana.",
+      linkText: "Ver Organização de Mochila",
+      linkHref: "/glossario/o-que-e-organizacao-de-mochila",
+    },
+    relacionados: ["organizacao-de-mochila", "volta-as-aulas", "lista-de-material-escolar"],
+    faq: [{ q: "O que deve ser etiquetado?", a: "Tudo que pode ser trocado ou perdido: mochila, uniforme, garrafa, lancheira, livros, cadernos e estojo." }],
+  },
+  {
+    slug: "mochila-escolar",
+    term: "Mochila Escolar",
+    category: "Material Escolar",
+    definition:
+      "Mochila escolar é o item usado para transportar cadernos, livros, estojo, lancheira e objetos pessoais entre casa e escola. A escolha ideal considera tamanho da criança, peso, alças acolchoadas, compartimentos e resistência, evitando desconforto e ajudando na organização diária dos materiais.",
+    exemploPratico:
+      "Para uma criança do fundamental, os pais escolhem mochila leve, com duas alças, costas acolchoadas, bolsos laterais e tamanho proporcional ao corpo.",
+    exemploItens: ["Alças acolchoadas", "Tamanho proporcional", "Compartimentos", "Material resistente"],
+    porQueImporta:
+      "Uma mochila inadequada aumenta peso nas costas e dificulta encontrar materiais durante a aula. Escolher e organizar bem protege a postura, reduz esquecimentos e prolonga a vida útil do material escolar.",
+    aprofundamento: {
+      texto: "Aprenda a distribuir livros e cadernos corretamente para deixar a mochila mais leve e funcional.",
+      linkText: "Ver Organização de Mochila",
+      linkHref: "/glossario/o-que-e-organizacao-de-mochila",
+    },
+    relacionados: ["organizacao-de-mochila", "etiqueta-de-material-escolar", "material-escolar-ensino-fundamental"],
+    faq: [{ q: "Mochila de rodinha é sempre melhor?", a: "Não sempre. Ela ajuda com peso, mas pode ser ruim em escadas e calçadas irregulares." }],
+  },
+  {
+    slug: "lista-de-papelaria",
+    term: "Lista de Papelaria",
+    category: "Material Escolar",
+    definition:
+      "Lista de papelaria é a relação de itens como papel, canetas, lápis, cola, tesoura, pastas, cadernos, envelopes e materiais de escritório ou escola. Ela pode servir para estudantes, professores, home office e famílias que desejam manter um pequeno estoque organizado para tarefas e estudos.",
+    exemploPratico:
+      "Uma casa mantém lápis, canetas, borracha, cola, tesoura sem ponta, folhas sulfite, pasta, clips, fita adesiva e caderno reserva para emergências escolares.",
+    exemploItens: ["Canetas e lápis", "Papéis e cadernos", "Cola e tesoura", "Pastas e etiquetas"],
+    porQueImporta:
+      "Itens de papelaria são baratos, mas a falta deles atrasa tarefas, trabalhos escolares e documentos. Uma lista enxuta evita compras emergenciais caras e mantém a rotina de estudo e escritório mais fluida.",
+    aprofundamento: {
+      texto: "Compare a lista de papelaria com a lista oficial de material escolar antes de comprar itens repetidos.",
+      linkText: "Abrir Lista de Material Escolar",
+      linkHref: "/lista-de-material-escolar",
+    },
+    relacionados: ["lista-de-material-escolar", "volta-as-aulas", "etiqueta-de-material-escolar"],
+    faq: [{ q: "Lista de papelaria é só para escola?", a: "Não. Também é útil para home office, organização de documentos e tarefas domésticas." }],
+  },
+  {
+    slug: "organizacao-domestica",
+    term: "Organização Doméstica",
+    category: "Organização",
+    definition:
+      "Organização doméstica é o conjunto de rotinas, listas e métodos usados para manter a casa funcional, limpa e fácil de administrar. Envolve compras, limpeza, lavanderia, documentos, cardápio e divisão de tarefas, reduzindo bagunça acumulada e a sensação de que a casa nunca fica em ordem.",
+    exemploPratico:
+      "Uma família cria rotina semanal com dia de mercado, lavagem de roupas, limpeza dos banheiros, revisão da geladeira e planejamento do cardápio.",
+    exemploItens: ["Rotina de limpeza", "Lista de compras", "Divisão de tarefas", "Controle de documentos"],
+    porQueImporta:
+      "Casa organizada economiza tempo, reduz conflitos familiares e melhora o bem-estar. Quando as tarefas deixam de depender da memória de uma pessoa, a rotina fica mais justa, previsível e sustentável.",
+    aprofundamento: {
+      texto: "Comece por uma lista de tarefas e compras para transformar organização doméstica em rotina simples.",
+      linkText: "Criar Minha Lista Personalizada",
+      linkHref: "/criar-lista",
+    },
+    relacionados: ["rotina-da-casa", "lista-de-tarefas-domesticas", "checklist"],
+    faq: [{ q: "Como organizar a casa sem gastar muito?", a: "Comece por descarte, rotina, etiquetas simples e listas. Organizadores caros só devem vir depois." }],
+  },
+  {
+    slug: "rotina-da-casa",
+    term: "Rotina da Casa",
+    category: "Organização",
+    definition:
+      "Rotina da casa é a distribuição previsível de tarefas domésticas ao longo da semana, como lavar roupa, limpar banheiro, cozinhar, fazer compras e organizar ambientes. Ela evita acúmulos, torna responsabilidades visíveis e ajuda todos os moradores a participarem da manutenção do lar.",
+    exemploPratico:
+      "Segunda fica para roupa, quarta para banheiro, sexta para mercado e domingo para cardápio, com tarefas pequenas distribuídas entre os moradores.",
+    exemploItens: ["Tarefas diárias", "Tarefas semanais", "Responsáveis", "Horários realistas"],
+    porQueImporta:
+      "Sem rotina, a casa depende de mutirões cansativos e decisões de última hora. Uma divisão simples reduz sobrecarga mental, melhora convivência e mantém limpeza e compras em dia sem ocupar o fim de semana inteiro.",
+    aprofundamento: {
+      texto: "Monte uma lista personalizada com as tarefas fixas da sua casa e acompanhe tudo em um só lugar.",
+      linkText: "Criar Lista Personalizada",
+      linkHref: "/criar-lista",
+    },
+    relacionados: ["organizacao-domestica", "lista-de-tarefas-domesticas", "planner-semanal"],
+    faq: [{ q: "Rotina da casa precisa ser diária?", a: "Algumas tarefas são diárias, mas limpeza pesada e compras podem ser semanais ou quinzenais." }],
+  },
+  {
+    slug: "checklist-de-viagem",
+    term: "Checklist de Viagem",
+    category: "Organização",
+    definition:
+      "Checklist de viagem é a lista de documentos, roupas, reservas, remédios, eletrônicos e tarefas antes de sair de casa. Ele ajuda a evitar esquecimentos como carregador, documento, seguro, itens infantis ou cuidados com gás e janelas, tornando a viagem mais segura e tranquila.",
+    exemploPratico:
+      "Antes de viajar, uma família confere documentos, passagens, hospedagem, roupas por clima, kit farmácia, carregadores, casa trancada e lixo retirado.",
+    exemploItens: ["Documentos e reservas", "Roupas por clima", "Kit farmácia", "Casa segura antes de sair"],
+    porQueImporta:
+      "Esquecimentos em viagem custam caro e geram estresse. Um checklist reduz compras emergenciais, evita perder voos ou passeios e garante que a casa fique protegida enquanto todos estão fora.",
+    aprofundamento: {
+      texto: "Crie uma lista personalizada para viagem com itens do destino, duração e perfil da família.",
+      linkText: "Criar Lista de Viagem",
+      linkHref: "/criar-lista",
+    },
+    relacionados: ["checklist", "checklist-lua-de-mel", "to-do-list"],
+    faq: [{ q: "Quando fazer checklist de viagem?", a: "Comece uma semana antes e finalize no dia anterior, deixando apenas conferências rápidas para a saída." }],
+  },
+  {
+    slug: "lista-de-tarefas-domesticas",
+    term: "Lista de Tarefas Domésticas",
+    category: "Organização",
+    definition:
+      "Lista de tarefas domésticas é a organização das atividades necessárias para manter a casa limpa e funcional, como lavar louça, tirar lixo, varrer, limpar banheiro, trocar roupa de cama e organizar compras. Pode ser dividida por frequência, ambiente e responsável.",
+    exemploPratico:
+      "Um casal divide tarefas em diárias, semanais e mensais, alternando banheiro, cozinha, roupa, mercado e organização da geladeira.",
+    exemploItens: ["Diárias", "Semanais", "Mensais", "Responsável por tarefa"],
+    porQueImporta:
+      "Quando as tarefas ficam invisíveis, uma pessoa costuma carregar a maior parte da rotina. Listar e dividir atividades reduz conflitos, torna o trabalho doméstico mensurável e impede que a casa chegue ao ponto de caos.",
+    aprofundamento: {
+      texto: "Use o criador de listas para montar uma rotina doméstica adaptada à sua casa.",
+      linkText: "Criar Lista de Tarefas",
+      linkHref: "/criar-lista",
+    },
+    relacionados: ["rotina-da-casa", "organizacao-domestica", "planner-semanal"],
+    faq: [{ q: "Como dividir tarefas domésticas?", a: "Liste tudo, estime frequência e distribua por disponibilidade, não apenas por preferência." }],
+  },
+  {
+    slug: "metodo-kanban-pessoal",
+    term: "Método Kanban Pessoal",
+    category: "Produtividade",
+    definition:
+      "Método Kanban pessoal é uma forma visual de organizar tarefas em colunas como a fazer, em andamento e concluído. Adaptado do trabalho industrial e ágil, ele ajuda pessoas a enxergar prioridades, limitar tarefas simultâneas e transformar pendências soltas em fluxo claro de execução.",
+    exemploPratico:
+      "Uma pessoa usa três colunas no quadro: tarefas da semana, tarefas em andamento e concluídas, movendo cartões conforme avança.",
+    exemploItens: ["A fazer", "Em andamento", "Concluído", "Limite de tarefas abertas"],
+    porQueImporta:
+      "Visualizar tarefas reduz sobrecarga mental e evita começar muitas coisas ao mesmo tempo. O Kanban pessoal é simples, adaptável e funciona tanto para estudos quanto para casa, trabalho e projetos pessoais.",
+    aprofundamento: {
+      texto: "Combine Kanban com uma to-do list diária para executar prioridades sem perder visão do todo.",
+      linkText: "Ver To-Do List",
+      linkHref: "/glossario/o-que-e-to-do-list",
+    },
+    relacionados: ["to-do-list", "planner-semanal", "gestao-do-tempo"],
+    faq: [{ q: "Kanban pessoal precisa de aplicativo?", a: "Não. Pode ser feito com papel, quadro branco, post-its ou ferramenta digital." }],
+  },
+  {
+    slug: "matriz-de-prioridade",
+    term: "Matriz de Prioridade",
+    category: "Produtividade",
+    definition:
+      "Matriz de prioridade é uma ferramenta para decidir o que fazer primeiro, cruzando critérios como urgência, importância, impacto e esforço. Ela ajuda a sair da lista infinita de tarefas e escolher ações que realmente movem a rotina, o trabalho ou a organização da casa para frente.",
+    exemploPratico:
+      "Uma pessoa separa tarefas em urgente e importante, importante mas não urgente, urgente mas delegável e atividades que podem ser eliminadas.",
+    exemploItens: ["Urgente", "Importante", "Delegável", "Pode esperar"],
+    porQueImporta:
+      "Nem toda tarefa merece a mesma energia. Priorizar corretamente reduz procrastinação, evita apagar incêndios o dia inteiro e ajuda a proteger tempo para tarefas estratégicas, saúde, família e descanso.",
+    aprofundamento: {
+      texto: "Use a gestão do tempo para transformar prioridades em blocos reais na agenda da semana.",
+      linkText: "Ver Gestão do Tempo",
+      linkHref: "/glossario/o-que-e-gestao-do-tempo",
+    },
+    relacionados: ["gestao-do-tempo", "planner-semanal", "to-do-list"],
+    faq: [{ q: "Qual matriz de prioridade usar primeiro?", a: "Comece pela matriz urgente/importante, porque é simples e funciona para rotina pessoal e profissional." }],
+  },
+  {
+    slug: "organizacao-financeira",
+    term: "Organização Financeira",
+    category: "Organização",
+    definition:
+      "Organização financeira é o hábito de registrar ganhos, gastos, dívidas, metas e reservas para tomar melhores decisões com dinheiro. No contexto doméstico, envolve controlar supermercado, contas fixas, compras parceladas e emergências, criando clareza para economizar sem perder qualidade de vida.",
+    exemploPratico:
+      "Uma família anota renda, aluguel, energia, mercado, transporte, escola, lazer e parcelas, depois define limite para compras e meta de reserva mensal.",
+    exemploItens: ["Receitas", "Despesas fixas", "Despesas variáveis", "Metas e reserva"],
+    porQueImporta:
+      "Sem organização financeira, decisões pequenas viram dívidas grandes. Registrar gastos mostra vazamentos de dinheiro, reduz compras por impulso e permite planejar objetivos como material escolar, casamento, mudança ou compra da casa.",
+    aprofundamento: {
+      texto: "Comece pelo orçamento doméstico e reduza uma das maiores despesas mensais: o supermercado.",
+      linkText: "Abrir Lista Mensal de Compras",
+      linkHref: "/lista-mensal",
+    },
+    relacionados: ["orcamento-domestico", "compra-economica", "compras-do-mes"],
+    faq: [{ q: "Como organizar finanças começando do zero?", a: "Registre todos os gastos por 30 dias, separe por categoria e defina limites realistas para o mês seguinte." }],
+  },
+  {
+    slug: "inventario-domestico",
+    term: "Inventário Doméstico",
+    category: "Organização",
+    definition:
+      "Inventário doméstico é a lista de bens, eletrodomésticos, móveis, documentos e itens importantes que existem em uma casa. Ele ajuda em mudanças, seguros, manutenção, organização de garantia e controle patrimonial, especialmente quando a família está montando casa nova ou reorganizando ambientes.",
+    exemploPratico:
+      "Uma pessoa registra geladeira, fogão, televisão, notebook, móveis, notas fiscais, número de série e garantia em uma planilha simples.",
+    exemploItens: ["Nome do item", "Valor aproximado", "Nota fiscal", "Garantia e localização"],
+    porQueImporta:
+      "Ter inventário facilita acionar seguro, planejar manutenção, vender itens usados e evitar compras duplicadas. Em mudanças, também ajuda a conferir se tudo chegou corretamente ao novo endereço.",
+    aprofundamento: {
+      texto: "Ao mudar de casa, combine inventário com checklist por cômodo para controlar compras e transporte.",
+      linkText: "Abrir Checklist de Casa Nova",
+      linkHref: "/lista-de-casa-nova-completa",
+    },
+    relacionados: ["lista-de-mudanca", "checklist-de-casa-nova", "organizacao-domestica"],
+    faq: [{ q: "Inventário doméstico precisa ser detalhado?", a: "Para itens caros, sim. Registre valor, nota fiscal, garantia, fotos e localização." }],
+  },
+];
+
+export const glossary: GlossaryTerm[] = [...baseGlossary, ...extraGlossary];
 
 export const glossaryBySlug = Object.fromEntries(
   glossary.map((t) => [t.slug, t] as const),

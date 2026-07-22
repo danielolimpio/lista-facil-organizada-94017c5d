@@ -1,3 +1,11 @@
+const fs = require("fs");
+const path = require("path");
+
+const glossarySource = fs.readFileSync(path.join(__dirname, "src/data/glossario.ts"), "utf8");
+const glossaryRoutes = [...glossarySource.matchAll(/slug:\s*"([^"]+)"/g)].map(
+  ([, slug]) => `/glossario/o-que-e-${slug}`,
+);
+
 module.exports = {
   // Lista de todas as rotas para pré-renderizar (SEM barra final)
   include: [
@@ -51,28 +59,7 @@ module.exports = {
     "/contato",
     "/sitemap",
     "/glossario",
-    "/glossario/o-que-e-checklist-de-casa-nova",
-    "/glossario/o-que-e-enxoval-de-casa",
-    "/glossario/o-que-e-kit-cozinha-basica",
-    "/glossario/o-que-e-lista-de-mudanca",
-    "/glossario/o-que-e-lista-de-compras",
-    "/glossario/o-que-e-lista-de-supermercado",
-    "/glossario/o-que-e-lista-mensal-de-compras",
-    "/glossario/o-que-e-lista-de-compras-saudavel",
-    "/glossario/o-que-e-planejamento-de-cardapio",
-    "/glossario/o-que-e-checklist-de-casamento",
-    "/glossario/o-que-e-lista-de-convidados",
-    "/glossario/o-que-e-lista-de-fornecedores",
-    "/glossario/o-que-e-checklist-lua-de-mel",
-    "/glossario/o-que-e-lista-de-material-escolar",
-    "/glossario/o-que-e-material-escolar-2026",
-    "/glossario/o-que-e-kit-alfabetizacao",
-    "/glossario/o-que-e-organizacao-de-mochila",
-    "/glossario/o-que-e-planner-semanal",
-    "/glossario/o-que-e-to-do-list",
-    "/glossario/o-que-e-checklist",
-    "/glossario/o-que-e-gestao-do-tempo",
-    "/glossario/o-que-e-orcamento-domestico",
+    ...glossaryRoutes,
     "/politica-de-privacidade",
     "/politica-de-cookies",
     "/termos-de-uso",

@@ -1375,6 +1375,804 @@ const extraGlossary: GlossaryTerm[] = [
     relacionados: ["lista-de-mudanca", "checklist-de-casa-nova", "organizacao-domestica"],
     faq: [{ q: "Inventário doméstico precisa ser detalhado?", a: "Para itens caros, sim. Registre valor, nota fiscal, garantia, fotos e localização." }],
   },
+  {
+    slug: "lista-de-compras-para-churrasco",
+    term: "Lista de Compras para Churrasco",
+    category: "Compras",
+    definition:
+      "Lista de compras para churrasco é o planejamento completo de carnes, acompanhamentos, bebidas, carvão e utensílios descartáveis calculados por número de convidados. Ela evita a compra excessiva, garante variedade de proteínas e assegura que nenhum item essencial — como sal grosso, guardanapos ou gelo — seja esquecido no dia do evento.",
+    exemploPratico:
+      "Para 10 pessoas, calcule cerca de 400g de carne por adulto, 1 saco de carvão de 3kg, 5 litros de refrigerante, 12 cervejas e itens de guarnição para acompanhar.",
+    exemploItens: ["Picanha, linguiça, coração e frango", "Pão de alho, farofa, vinagrete, arroz", "Cerveja, refrigerante, água, gelo", "Carvão, acendedor, sal grosso, guardanapos"],
+    porQueImporta:
+      "Sem cálculo por convidado, é comum sobrar carne cara ou faltar bebida no meio do churrasco. Uma lista bem dimensionada economiza até 30% no orçamento do evento e evita idas de última hora ao mercado, que acabam custando o dobro por item.",
+    aprofundamento: {
+      texto: "Adapte a base da lista de supermercado para incluir os itens de churrasco e monte a compra em uma só ida ao mercado.",
+      linkText: "Abrir Lista de Supermercado",
+      linkHref: "/lista-supermercado",
+    },
+    relacionados: ["lista-de-supermercado", "compra-economica", "atacarejo"],
+    faq: [{ q: "Quanto de carne por pessoa no churrasco?", a: "400g de carne por adulto e 200g por criança é uma média segura, considerando acompanhamentos." }],
+  },
+  {
+    slug: "lista-de-compras-para-festa-infantil",
+    term: "Lista de Compras para Festa Infantil",
+    category: "Compras",
+    definition:
+      "Lista de compras para festa infantil reúne salgados, doces, bolo, bebidas, descartáveis temáticos e itens de decoração dimensionados por número de convidados. Ajuda a controlar orçamento, evitar sobras exageradas e garantir que a festa tenha comida, brinquedos e lembrancinhas suficientes sem estouros de última hora.",
+    exemploPratico:
+      "Para 20 crianças, calcule 10 salgados por convidado, 5 doces, 300ml de refrigerante por criança e 1 lembrancinha por convidado, além de descartáveis no tema escolhido.",
+    exemploItens: ["Salgados variados e brigadeiros", "Bolo, refrigerante, suco de caixinha", "Pratos, copos, guardanapos temáticos", "Balões, painel, lembrancinhas"],
+    porQueImporta:
+      "Festas infantis mal planejadas podem custar 40% a mais por causa de compras emergenciais e descartáveis duplicados. Uma lista organizada por categoria (comida, bebida, decoração, lembrancinhas) ajuda a comparar orçamentos, negociar em atacarejos e evitar excesso de doces que sobra e estraga.",
+    aprofundamento: {
+      texto: "Complemente com a lista de supermercado para não esquecer itens de base como gelo, guardanapos e refrigerante.",
+      linkText: "Ver Lista de Supermercado",
+      linkHref: "/lista-supermercado",
+    },
+    relacionados: ["lista-de-supermercado", "compra-economica", "atacarejo"],
+    faq: [{ q: "Quantos salgados por criança em festa infantil?", a: "De 8 a 10 salgados por criança e 4 a 5 doces é a média usada por buffets." }],
+  },
+  {
+    slug: "lista-de-compras-para-cafe-da-manha",
+    term: "Lista de Compras para Café da Manhã",
+    category: "Compras",
+    definition:
+      "Lista de compras para café da manhã é o conjunto de pães, laticínios, frutas, cereais e bebidas quentes que abastecem a primeira refeição da casa por uma semana ou um mês. Facilita a rotina matinal, evita esquecer itens frescos e ajuda a equilibrar variedade, custo e valor nutricional da família.",
+    exemploPratico:
+      "Uma família de 4 pessoas planeja 2 pães franceses por pessoa/dia, 1 litro de leite, café, frutas da estação, requeijão, queijo, presunto e granola para variar durante a semana.",
+    exemploItens: ["Pão, tapioca, cuscuz, ovos", "Leite, café, achocolatado, iogurte", "Frutas: banana, maçã, mamão", "Queijo, presunto, requeijão, geleia"],
+    porQueImporta:
+      "Comprar café da manhã pronto na padaria custa 3 a 5 vezes mais que preparar em casa. Uma lista semanal reduz esse gasto, garante variedade e evita a rotina de comer sempre o mesmo por falta de planejamento — problema comum em casas com rotina corrida.",
+    aprofundamento: {
+      texto: "Combine com o planejamento de cardápio semanal para otimizar todas as refeições da casa.",
+      linkText: "Abrir Lista de Supermercado",
+      linkHref: "/lista-supermercado",
+    },
+    relacionados: ["planejamento-de-cardapio", "cardapio-semanal", "lista-de-compras-semanal"],
+    faq: [{ q: "Quanto de leite comprar por semana para 4 pessoas?", a: "Cerca de 5 a 7 litros, considerando café, achocolatado, mingau e receitas." }],
+  },
+  {
+    slug: "lista-de-compras-fitness",
+    term: "Lista de Compras Fitness",
+    category: "Compras",
+    definition:
+      "Lista de compras fitness reúne alimentos ricos em proteína, carboidratos complexos, gorduras boas e vegetais frescos, planejados para uma rotina de treinos e dieta com controle de macronutrientes. Ela ajuda a manter foco no objetivo — hipertrofia, emagrecimento ou definição — sem cair em compras impulsivas de industrializados.",
+    exemploPratico:
+      "Uma pessoa em fase de hipertrofia compra 2kg de peito de frango, 12 ovos, 1kg de patinho, aveia, batata-doce, brócolis, folhas verdes e whey protein para a semana.",
+    exemploItens: ["Peito de frango, patinho, ovos, atum", "Arroz integral, batata-doce, aveia", "Brócolis, espinafre, tomate, pepino", "Azeite, castanhas, whey, pasta de amendoim"],
+    porQueImporta:
+      "Comer bem para treinar exige planejamento. Sem lista, é comum apelar para marmita congelada industrializada ou fast food, quebrando a dieta e desperdiçando o esforço na academia. Uma compra fitness bem feita custa menos que restaurantes e mantém o resultado dos treinos.",
+    aprofundamento: {
+      texto: "Combine com a lista saudável para ter uma alimentação equilibrada dentro e fora dos treinos.",
+      linkText: "Ver Lista de Compras Saudável",
+      linkHref: "/lista-saudavel",
+    },
+    relacionados: ["lista-de-compras-saudavel", "marmita-semanal", "cardapio-semanal"],
+    faq: [{ q: "Quanto de proteína comprar por semana para dieta fitness?", a: "Em média, 1,6 a 2,2g por kg corporal por dia — planeje frango, ovos, carne e ovos como base." }],
+  },
+  {
+    slug: "lista-de-compras-vegetariana",
+    term: "Lista de Compras Vegetariana",
+    category: "Compras",
+    definition:
+      "Lista de compras vegetariana reúne leguminosas, cereais integrais, vegetais, frutas, ovos, laticínios e substitutos de proteína animal, garantindo equilíbrio nutricional em uma alimentação sem carne. Ela evita a armadilha de dietas restritivas e mal planejadas, comuns em quem inicia a transição sem uma base semanal organizada.",
+    exemploPratico:
+      "Uma pessoa vegetariana monta a semana com feijão preto, lentilha, grão-de-bico, arroz integral, quinoa, ovos, tofu, legumes variados e frutas para lanches.",
+    exemploItens: ["Feijão, lentilha, grão-de-bico, ervilha", "Arroz integral, quinoa, aveia, pão integral", "Tofu, ovos, queijos, iogurte natural", "Verduras, legumes, frutas, castanhas"],
+    porQueImporta:
+      "Sem planejamento, dietas vegetarianas ficam repetitivas e pobres em ferro e vitamina B12. Uma lista variada equilibra proteína vegetal, ferro, cálcio e ômega-3, reduzindo desperdício de folhas frescas e otimizando o custo da feira e do mercado.",
+    aprofundamento: {
+      texto: "Use como base a lista saudável e adapte proteínas animais por leguminosas e ovos.",
+      linkText: "Ver Lista de Compras Saudável",
+      linkHref: "/lista-saudavel",
+    },
+    relacionados: ["lista-de-compras-saudavel", "cardapio-semanal", "planejamento-de-cardapio"],
+    faq: [{ q: "É mais caro comer vegetariano?", a: "Não. Leguminosas custam muito menos que carne por porção de proteína — o segredo é planejar." }],
+  },
+  {
+    slug: "lista-de-compras-para-bebe",
+    term: "Lista de Compras para Bebê",
+    category: "Compras",
+    definition:
+      "Lista de compras para bebê inclui fraldas, lenços umedecidos, papinhas, fórmulas, produtos de higiene e vestuário, calculados por faixa etária e consumo médio mensal. Ela evita compras emergenciais em farmácias caras e ajuda pais de primeira viagem a controlar um dos itens de maior peso no orçamento familiar.",
+    exemploPratico:
+      "Uma mãe de bebê de 6 meses lista 6 pacotes de fraldas M, 3 pacotes de lenços umedecidos, papinhas de frutas e legumes, shampoo infantil e um jogo básico de bodies para o mês.",
+    exemploItens: ["Fraldas descartáveis e lenços umedecidos", "Papinhas, fórmulas, cereais infantis", "Sabonete líquido, shampoo, pomada de assadura", "Bodies, meias, macacões"],
+    porQueImporta:
+      "Fraldas e higiene infantil consomem entre 15% e 25% do orçamento de uma família com bebê. Comprar em atacarejo com lista organizada pode reduzir esse gasto em até 30% comparado à compra pulverizada em farmácias e mercados de bairro.",
+    aprofundamento: {
+      texto: "Combine com o kit lavanderia e a lista de higiene pessoal para cobrir toda a rotina de cuidados da casa.",
+      linkText: "Ver Lista de Supermercado",
+      linkHref: "/lista-supermercado",
+    },
+    relacionados: ["lista-de-higiene-pessoal", "kit-lavanderia", "compra-economica"],
+    faq: [{ q: "Quantas fraldas por mês um bebê usa?", a: "Recém-nascido: 240 a 300 por mês; entre 6 e 12 meses: 150 a 180 por mês em média." }],
+  },
+  {
+    slug: "lista-de-compras-baixo-custo",
+    term: "Lista de Compras de Baixo Custo",
+    category: "Compras",
+    definition:
+      "Lista de compras de baixo custo é o planejamento de mercado focado em alimentos básicos, marcas próprias e itens em promoção, sem sacrificar variedade e nutrição. Ela é ideal para famílias que precisam ajustar o orçamento sem passar aperto, priorizando arroz, feijão, ovos, frango e vegetais da estação.",
+    exemploPratico:
+      "Uma família de 4 pessoas monta a semana com arroz, feijão, ovos, frango, ovos, macarrão, molho de tomate, banana, cenoura e repolho, mantendo custo semanal reduzido.",
+    exemploItens: ["Arroz, feijão, macarrão, óleo", "Ovos, frango, carne moída de segunda", "Banana, laranja, cenoura, repolho", "Sabão em pó, sabonete, papel higiênico"],
+    porQueImporta:
+      "Comprar sem lista e sem foco em preço faz o mesmo carrinho custar de 30% a 50% a mais. Escolher marca própria de itens básicos, comprar hortifruti da estação e evitar industrializados pode manter uma família bem alimentada gastando muito menos por mês.",
+    aprofundamento: {
+      texto: "Aplique as estratégias de compra econômica e considere ir ao atacarejo para itens de reposição.",
+      linkText: "Ver Lista de Supermercado",
+      linkHref: "/lista-supermercado",
+    },
+    relacionados: ["compra-economica", "atacarejo", "lista-mensal-de-compras"],
+    faq: [{ q: "Marca própria vale a pena?", a: "Na maioria dos itens básicos como arroz, feijão, papel higiênico e limpeza, sim — mesma qualidade por até 40% menos." }],
+  },
+  {
+    slug: "lista-de-compras-low-carb",
+    term: "Lista de Compras Low Carb",
+    category: "Compras",
+    definition:
+      "Lista de compras low carb reúne proteínas, gorduras boas, vegetais folhosos e alimentos com baixo teor de carboidratos, evitando pães, massas, açúcar e cereais refinados. É a base para quem segue dietas de emagrecimento, controle glicêmico ou estilo de vida com menos açúcar e mais saciedade.",
+    exemploPratico:
+      "Uma pessoa em dieta low carb monta a semana com ovos, frango, carne bovina, salmão, brócolis, couve-flor, abacate, azeite, queijos e castanhas.",
+    exemploItens: ["Ovos, frango, carnes, peixes", "Brócolis, couve-flor, espinafre, tomate", "Abacate, azeite, castanhas, coco", "Queijos, iogurte natural, manteiga"],
+    porQueImporta:
+      "Dietas low carb bem feitas exigem planejamento — sem lista, é comum apelar para industrializados 'zero' caros e cheios de aditivos. Uma compra bem estruturada mantém a dieta consistente, reduz gasto com produtos ultraprocessados e evita recaídas por falta de opção rápida.",
+    aprofundamento: {
+      texto: "Complemente com o cardápio semanal para variar as refeições sem sair do plano alimentar.",
+      linkText: "Ver Lista de Compras Saudável",
+      linkHref: "/lista-saudavel",
+    },
+    relacionados: ["lista-de-compras-saudavel", "cardapio-semanal", "marmita-semanal"],
+    faq: [{ q: "Frutas entram na lista low carb?", a: "Sim, com moderação — priorize frutas vermelhas, abacate e coco, que têm menos carboidrato." }],
+  },
+  {
+    slug: "desperdicio-de-alimentos",
+    term: "Desperdício de Alimentos",
+    category: "Compras",
+    definition:
+      "Desperdício de alimentos é a perda de comida comprada que é descartada antes do consumo, seja por vencimento, mau armazenamento ou compras em excesso. No Brasil, cerca de 30% dos alimentos comprados são jogados fora — evitá-lo é um dos maiores impactos de uma lista bem planejada no orçamento da casa.",
+    exemploPratico:
+      "Uma família revisa a geladeira antes de fazer a lista, planeja receitas com o que já tem e compra apenas o que falta, aproveitando cascas, talos e sobras em novas preparações.",
+    exemploItens: ["Checar validade antes de comprar", "Congelar carnes e pães em porções", "Aproveitar sobras em omeletes, sopas e patês", "Priorizar hortifruti fresco em quantidade certa"],
+    porQueImporta:
+      "Reduzir o desperdício em 50% pode devolver o equivalente a uma semana inteira de compras por mês ao orçamento. Além do impacto financeiro, evitar o descarte reduz consumo de água, energia e produção de resíduos orgânicos em casa.",
+    aprofundamento: {
+      texto: "Combine com o planejamento de cardápio e a despensa organizada para eliminar quase todo o desperdício.",
+      linkText: "Ver Lista de Supermercado",
+      linkHref: "/lista-supermercado",
+    },
+    relacionados: ["planejamento-de-cardapio", "despensa-organizada", "compra-economica"],
+    faq: [{ q: "Como evitar desperdício de hortifruti?", a: "Compre quantidades semanais, guarde folhas em pote com papel toalha e congele o que estiver perto de estragar." }],
+  },
+  {
+    slug: "cupom-de-desconto-supermercado",
+    term: "Cupom de Desconto de Supermercado",
+    category: "Compras",
+    definition:
+      "Cupom de desconto de supermercado é um código ou voucher promocional oferecido por redes, aplicativos e cartões de crédito, que reduz o preço final da compra em porcentagem, valor fixo ou cashback. Bem usado, combina com listas planejadas para amplificar economia sem estimular compras por impulso.",
+    exemploPratico:
+      "Uma pessoa faz a lista semanal, entra no app do supermercado, ativa cupons de itens que já ia comprar e paga com cartão que devolve cashback, acumulando dois descontos na mesma compra.",
+    exemploItens: ["Apps oficiais do supermercado", "Programas de fidelidade com pontos", "Cashback via cartão de crédito", "Sites e newsletters de promoções"],
+    porQueImporta:
+      "Cupons combinados a uma lista de compras planejada reduzem o ticket final em 10% a 25%. Sem lista, os cupons viram armadilha e estimulam compras por impulso — o segredo é comprar apenas o que já estava planejado, ativando o desconto por cima do orçamento.",
+    aprofundamento: {
+      texto: "Use estratégias de compra econômica junto ao cupom para maximizar a economia sem comprar por impulso.",
+      linkText: "Ver Lista de Supermercado",
+      linkHref: "/lista-supermercado",
+    },
+    relacionados: ["compra-economica", "atacarejo", "orcamento-domestico"],
+    faq: [{ q: "Cupom sempre compensa?", a: "Só quando aplicado a itens que você já compraria — do contrário, é gasto extra disfarçado de economia." }],
+  },
+  {
+    slug: "lista-de-utilidades-domesticas",
+    term: "Lista de Utilidades Domésticas",
+    category: "Casa Nova",
+    definition:
+      "Lista de utilidades domésticas reúne os pequenos itens de uso diário — panelas, porta-temperos, escorredor, tábuas, potes herméticos, ganchos, cestos — que costumam faltar em quem monta a casa pela primeira vez. Complementa o enxoval, os móveis e os eletrodomésticos com o que realmente faz o dia a dia funcionar.",
+    exemploPratico:
+      "Ao mudar para o primeiro apartamento, o morador organiza a lista por cômodo e prioriza utilidades essenciais antes de itens estéticos, garantindo que a rotina básica esteja funcional.",
+    exemploItens: ["Escorredor de louça, porta-temperos, potes", "Tábuas de corte, abridor, coador", "Ganchos, cabides, cestos de roupa", "Balde, rodo, pá de lixo, lixeiras"],
+    porQueImporta:
+      "Utilidades domésticas parecem baratas isoladamente, mas somam gastos altos quando compradas por impulso ao longo de meses. Uma lista consolidada permite comprar tudo em um atacarejo ou loja especializada, com desconto por volume e sem repetições.",
+    aprofundamento: {
+      texto: "Combine com o checklist completo de casa nova para não esquecer nenhum cômodo.",
+      linkText: "Ver Checklist de Casa Nova",
+      linkHref: "/lista-de-casa-nova-completa",
+    },
+    relacionados: ["checklist-de-casa-nova", "kit-cozinha-basica", "itens-essenciais-para-casa"],
+    faq: [{ q: "O que são utilidades domésticas?", a: "São pequenos itens de uso diário para cozinha, banheiro, lavanderia e limpeza — não incluem móveis nem eletrodomésticos." }],
+  },
+  {
+    slug: "checklist-de-mudanca-de-cidade",
+    term: "Checklist de Mudança de Cidade",
+    category: "Casa Nova",
+    definition:
+      "Checklist de mudança de cidade organiza todas as tarefas de uma mudança interestadual ou intermunicipal — transferência de documentos, contratação de transportadora, cancelamento de contas, matrícula escolar e adaptação inicial. Vai além da mudança de casa comum, porque envolve burocracia, prazos legais e planejamento financeiro maior.",
+    exemploPratico:
+      "Uma família que muda de estado organiza o checklist com 60 dias de antecedência, contratando frete, transferindo escola das crianças, cancelando planos locais e agendando entrega dos móveis no destino.",
+    exemploItens: ["Transportadora, seguro, embalagens", "Transferência de escola, cartório, banco", "Cancelamento de água, luz, internet", "Aluguel ou compra confirmada no destino"],
+    porQueImporta:
+      "Mudanças de cidade sem checklist geram custos ocultos com multas, tarifas duplicadas, transporte adicional e improvisos. Um plano com 60 a 90 dias reduz esse desperdício em milhares de reais e diminui o estresse típico do primeiro mês em uma cidade nova.",
+    aprofundamento: {
+      texto: "Combine com o checklist de casa nova e a lista de mudança para não perder nada durante o processo.",
+      linkText: "Ver Checklist de Casa Nova",
+      linkHref: "/lista-de-casa-nova-completa",
+    },
+    relacionados: ["lista-de-mudanca", "checklist-de-casa-nova", "primeira-casa"],
+    faq: [{ q: "Quanto tempo antes começar a planejar mudança de cidade?", a: "O ideal é entre 60 e 90 dias para contratar frete, transferir documentos e organizar o destino." }],
+  },
+  {
+    slug: "kit-banheiro-basico",
+    term: "Kit Banheiro Básico",
+    category: "Casa Nova",
+    definition:
+      "Kit banheiro básico é o conjunto essencial para começar a usar o banheiro logo após a mudança: cortina de box, tapete, porta-escovas, lixeira, papeleira, toalhas e produtos de higiene. Foca no que é indispensável nos primeiros dias, sem itens de decoração ou reforma.",
+    exemploPratico:
+      "Ao chegar na casa nova, o morador monta o banheiro em uma tarde com cortina, tapete, porta-escovas, papel higiênico, sabonete líquido, shampoo e duas toalhas de banho.",
+    exemploItens: ["Cortina de box, tapete, ganchos", "Porta-escovas, saboneteira, lixeira", "Toalhas de banho e rosto", "Papel higiênico, sabonete, shampoo, condicionador"],
+    porQueImporta:
+      "O banheiro é o primeiro cômodo que precisa estar funcional na casa nova. Sem o kit básico, os primeiros dias viram improviso e você paga caro em compras avulsas em farmácias e mercados de conveniência para resolver a urgência.",
+    aprofundamento: {
+      texto: "Combine com o kit lavanderia e o enxoval de casa para ter todos os cômodos funcionais rapidamente.",
+      linkText: "Ver Checklist de Casa Nova",
+      linkHref: "/lista-de-casa-nova-completa",
+    },
+    relacionados: ["enxoval-de-casa", "kit-lavanderia", "checklist-de-casa-nova"],
+    faq: [{ q: "Quantas toalhas comprar por pessoa?", a: "Duas de banho e duas de rosto por pessoa é o mínimo confortável para o dia a dia." }],
+  },
+  {
+    slug: "kit-primeiros-socorros-casa",
+    term: "Kit de Primeiros Socorros para Casa",
+    category: "Casa Nova",
+    definition:
+      "Kit de primeiros socorros para casa é o conjunto de curativos, medicamentos básicos, termômetro, antisséptico e material de emergência guardado em local acessível para resolver pequenos acidentes domésticos. Toda residência com crianças, idosos ou pets deveria ter um kit revisado a cada seis meses.",
+    exemploPratico:
+      "A casa mantém uma caixa organizada com band-aid, gaze, esparadrapo, álcool 70%, soro fisiológico, analgésico, antitérmico, pomada para queimaduras e termômetro digital.",
+    exemploItens: ["Band-aid, gaze, esparadrapo, algodão", "Álcool 70%, soro fisiológico, antisséptico", "Analgésico, antitérmico, antialérgico", "Termômetro, tesoura sem ponta, luvas descartáveis"],
+    porQueImporta:
+      "Ter um kit em casa evita idas emergenciais à farmácia à noite ou em feriados, quando o preço triplica. Também garante atendimento rápido a cortes, queimaduras leves e febre — o que pode ser decisivo com crianças e idosos.",
+    aprofundamento: {
+      texto: "Complemente com o inventário doméstico para monitorar prazos de validade dos medicamentos.",
+      linkText: "Ver Checklist de Casa Nova",
+      linkHref: "/lista-de-casa-nova-completa",
+    },
+    relacionados: ["itens-essenciais-para-casa", "inventario-domestico", "checklist-de-casa-nova"],
+    faq: [{ q: "Onde guardar o kit de primeiros socorros?", a: "Em local seco, fresco, longe do alcance de crianças, mas de fácil acesso para adultos." }],
+  },
+  {
+    slug: "lista-de-eletrodomesticos-essenciais",
+    term: "Lista de Eletrodomésticos Essenciais",
+    category: "Casa Nova",
+    definition:
+      "Lista de eletrodomésticos essenciais reúne os aparelhos indispensáveis para que a casa funcione: geladeira, fogão, micro-ondas, máquina de lavar, liquidificador e ferro. Serve para priorizar compras em uma mudança nova, quando o orçamento não permite adquirir todos os equipamentos de uma só vez.",
+    exemploPratico:
+      "Um casal recém-mudado prioriza geladeira, fogão e máquina de lavar no primeiro mês, deixando micro-ondas, batedeira e air fryer para os meses seguintes.",
+    exemploItens: ["Geladeira, fogão, forno", "Máquina de lavar, ferro de passar", "Micro-ondas, liquidificador, batedeira", "Air fryer, cafeteira, sanduicheira"],
+    porQueImporta:
+      "Comprar eletrodomésticos sem priorização gera dívidas altas de cartão e parcelas que apertam o orçamento por meses. Uma lista com priorização clara evita comprar itens supérfluos antes dos essenciais e permite negociar melhor com lojas de departamento e Black Friday.",
+    aprofundamento: {
+      texto: "Combine com o enxoval e o kit cozinha básica para montar toda a estrutura da casa nova.",
+      linkText: "Ver Checklist de Casa Nova",
+      linkHref: "/lista-de-casa-nova-completa",
+    },
+    relacionados: ["checklist-de-casa-nova", "kit-cozinha-basica", "primeira-casa"],
+    faq: [{ q: "Quais eletrodomésticos comprar primeiro?", a: "Geladeira, fogão e máquina de lavar são os três indispensáveis para começar a rotina." }],
+  },
+  {
+    slug: "lista-de-moveis-para-sala",
+    term: "Lista de Móveis para Sala",
+    category: "Casa Nova",
+    definition:
+      "Lista de móveis para sala reúne sofá, rack, mesa de centro, poltrona, tapete e itens de iluminação e decoração planejados para a área social da casa. Ajuda a projetar o ambiente com equilíbrio entre conforto, orçamento e circulação, evitando comprar peças que não cabem ou não combinam entre si.",
+    exemploPratico:
+      "Um casal mede a sala, define estilo e prioridades, e monta a lista com sofá de três lugares, rack para TV, mesa de centro, tapete 2×3m e luminária de piso.",
+    exemploItens: ["Sofá, poltrona, puff", "Rack, painel de TV, aparador", "Mesa de centro, tapete, cortina", "Luminária, quadros, almofadas"],
+    porQueImporta:
+      "Comprar móveis sem lista e medidas gera devoluções, atrasos e frete duplicado. Uma lista com dimensões, cores e prioridades evita erros caros e permite comprar em conjunto para ganhar desconto por volume em lojas de móveis.",
+    aprofundamento: {
+      texto: "Combine com o checklist completo de casa nova para não esquecer nenhum cômodo além da sala.",
+      linkText: "Ver Móveis para Sala",
+      linkHref: "/lista-de-casa-nova-sala",
+    },
+    relacionados: ["checklist-de-casa-nova", "primeira-casa", "checklist-de-apartamento-novo"],
+    faq: [{ q: "Como escolher o tamanho do sofá?", a: "Meça a parede onde ficará o sofá e deixe pelo menos 40cm de folga em cada lado para circulação." }],
+  },
+  {
+    slug: "lista-de-moveis-para-quarto",
+    term: "Lista de Móveis para Quarto",
+    category: "Casa Nova",
+    definition:
+      "Lista de móveis para quarto reúne cama, colchão, guarda-roupa, criado-mudo, cômoda e itens de iluminação planejados para o ambiente de descanso. Ajuda a projetar o quarto com foco em conforto, armazenamento e estética, respeitando o tamanho do cômodo e o orçamento disponível.",
+    exemploPratico:
+      "Uma pessoa monta o quarto com cama de casal, colchão de molas ensacadas, guarda-roupa de 6 portas, dois criados-mudos, cômoda com espelho e abajur.",
+    exemploItens: ["Cama, colchão, cabeceira", "Guarda-roupa, cômoda, sapateira", "Criado-mudo, abajur, luminária", "Cortina, tapete, quadros"],
+    porQueImporta:
+      "O colchão é responsável por até 40% da qualidade do sono. Uma lista de quarto bem planejada equilibra o investimento entre cama e demais móveis, evitando gastar tudo em guarda-roupa e economizar no que realmente afeta a saúde e disposição diária.",
+    aprofundamento: {
+      texto: "Combine com o enxoval de cama para completar o quarto com jogos de lençol e edredons.",
+      linkText: "Ver Móveis para Quarto",
+      linkHref: "/lista-de-casa-nova-quarto",
+    },
+    relacionados: ["enxoval-de-casa", "checklist-de-casa-nova", "primeira-casa"],
+    faq: [{ q: "Onde vale mais investir no quarto?", a: "No colchão. Um colchão bom dura 10 anos e melhora sono, coluna e disposição." }],
+  },
+  {
+    slug: "organizacao-de-armario",
+    term: "Organização de Armário",
+    category: "Organização",
+    definition:
+      "Organização de armário é o processo de separar, categorizar e distribuir peças e objetos por frequência de uso, tipo e estação, aproveitando divisórias, cabides, caixas e etiquetas. Aplicada ao guarda-roupa, à cozinha ou à área de serviço, transforma o dia a dia ao eliminar buscas demoradas e o hábito de comprar itens duplicados.",
+    exemploPratico:
+      "Uma pessoa organiza o guarda-roupa por categoria (blusas, calças, vestidos), depois por cor, guarda peças de outra estação em caixas altas e etiqueta as gavetas.",
+    exemploItens: ["Divisórias, caixas organizadoras, cabides", "Etiquetas por categoria e estação", "Cestos para peças íntimas e meias", "Sachês antimofo e desumidificadores"],
+    porQueImporta:
+      "Um armário organizado economiza em média 15 minutos por dia na rotina de se arrumar. Também revela roupas esquecidas, evita compras repetidas e mantém peças em melhor estado por mais tempo, aumentando a vida útil do enxoval.",
+    aprofundamento: {
+      texto: "Combine com a organização doméstica para aplicar o mesmo método em toda a casa.",
+      linkText: "Ver Móveis para Quarto",
+      linkHref: "/lista-de-casa-nova-quarto",
+    },
+    relacionados: ["organizacao-domestica", "rotina-da-casa", "inventario-domestico"],
+    faq: [{ q: "Com que frequência reorganizar o armário?", a: "A cada troca de estação ou pelo menos duas vezes por ano." }],
+  },
+  {
+    slug: "organizacao-de-guarda-roupa",
+    term: "Organização de Guarda-Roupa",
+    category: "Organização",
+    definition:
+      "Organização de guarda-roupa é o método de arrumar peças por tipo, cor, estação e frequência de uso, utilizando cabides padronizados, divisores de gaveta e caixas. Facilita o dia a dia, aumenta a vida útil das roupas e ajuda a identificar o que já se tem antes de qualquer compra nova.",
+    exemploPratico:
+      "Uma pessoa faz um desapego inicial, separa roupas em usar, doar e descartar, padroniza cabides, dobra camisetas em pé para visualização vertical e cria zonas por categoria.",
+    exemploItens: ["Cabides padronizados por tipo de peça", "Divisores para gavetas de íntimas e meias", "Caixas altas para roupas de outra estação", "Sachês perfumados e antimofo"],
+    porQueImporta:
+      "Guarda-roupa organizado reduz o tempo de escolha diária, evita amassar roupas e permite comprar de forma consciente — quando você vê tudo que tem, não repete peças. Esse ajuste sozinho economiza dezenas de reais por mês em compras por impulso.",
+    aprofundamento: {
+      texto: "Combine com a organização de armário e a rotina da casa para manter o resultado a longo prazo.",
+      linkText: "Ver Móveis para Quarto",
+      linkHref: "/lista-de-casa-nova-quarto",
+    },
+    relacionados: ["organizacao-de-armario", "organizacao-domestica", "rotina-da-casa"],
+    faq: [{ q: "Devo dobrar ou pendurar as camisetas?", a: "Dobrar em pé (método vertical) economiza espaço e permite ver todas as peças de uma vez." }],
+  },
+  {
+    slug: "faxina-pesada",
+    term: "Faxina Pesada",
+    category: "Organização",
+    definition:
+      "Faxina pesada é a limpeza profunda da casa, feita periodicamente, que envolve mover móveis, limpar geladeira, fogão, azulejos, teto, ventiladores e áreas que a rotina semanal não alcança. Difere da limpeza diária pela profundidade e pelo tempo necessário, exigindo produtos específicos e um checklist bem definido.",
+    exemploPratico:
+      "Uma pessoa reserva um sábado, define o checklist por cômodo, começa pelos ambientes altos e termina pelo chão, gastando cerca de 5 horas para faxinar toda a casa.",
+    exemploItens: ["Descongelar e limpar geladeira", "Lavar azulejos, rejuntes, box do banheiro", "Limpar teto, ventiladores, luminárias", "Higienizar sofá, colchões e tapetes"],
+    porQueImporta:
+      "Faxinas pesadas trimestrais evitam acúmulo de ácaros, mofo e sujeira em profundidade, reduzindo alergias e prolongando a vida de móveis, eletrodomésticos e revestimentos. Uma faxina bem feita substitui contratação pontual de serviços profissionais caros.",
+    aprofundamento: {
+      texto: "Combine com a rotina da casa para manter o resultado com pequenas ações semanais.",
+      linkText: "Ver Lista de Casa Nova",
+      linkHref: "/lista-de-casa-nova-limpeza",
+    },
+    relacionados: ["rotina-da-casa", "lista-de-tarefas-domesticas", "lista-de-produtos-de-limpeza"],
+    faq: [{ q: "Com que frequência fazer faxina pesada?", a: "A cada 2 a 3 meses, ou uma vez por estação, é o ideal para a maioria dos lares." }],
+  },
+  {
+    slug: "lista-de-cha-de-cozinha",
+    term: "Lista de Chá de Cozinha",
+    category: "Casamento",
+    definition:
+      "Lista de chá de cozinha é o conjunto de utensílios de cozinha, panelas, eletroportáteis e itens de mesa que os noivos sugerem aos convidados como presente antes do casamento. Facilita a escolha, evita presentes repetidos e ajuda o casal a montar a cozinha da casa nova sem gastar do próprio bolso.",
+    exemploPratico:
+      "Os noivos organizam a lista dividida em faixas de preço, com panelas, jogo de facas, mixer, batedeira, potes herméticos e utensílios básicos, e enviam o link aos convidados.",
+    exemploItens: ["Panelas, frigideiras, jogo de facas", "Batedeira, mixer, sanduicheira", "Jogo de pratos, taças, talheres", "Potes herméticos, escorredor, tábuas"],
+    porQueImporta:
+      "Chá de cozinha bem planejado pode equipar 60% a 80% da cozinha nova, economizando milhares de reais no início da vida a dois. Uma lista organizada por faixa de preço facilita para o convidado escolher, evita repetição e garante que o casal receba o que realmente precisa.",
+    aprofundamento: {
+      texto: "Combine com o checklist completo de casamento para não esquecer os detalhes do evento.",
+      linkText: "Ver Checklist de Casamento",
+      linkHref: "/casamento-completo",
+    },
+    relacionados: ["checklist-de-casamento", "kit-cozinha-basica", "enxoval-de-cozinha"],
+    faq: [{ q: "Chá de cozinha e chá de panela são a mesma coisa?", a: "Não. O chá de panela foca em panelas e utensílios; o chá de cozinha é mais amplo, incluindo eletroportáteis e utensílios em geral." }],
+  },
+  {
+    slug: "lista-de-cha-de-panela",
+    term: "Lista de Chá de Panela",
+    category: "Casamento",
+    definition:
+      "Lista de chá de panela é a seleção específica de panelas, frigideiras, utensílios de cozimento e assadeiras que os noivos pedem como presente. Focada em preparar o casal para cozinhar em casa, garante que a cozinha nova comece com equipamentos de qualidade sem gasto direto.",
+    exemploPratico:
+      "A noiva organiza a lista com jogo de panelas antiaderentes, panela de pressão, frigideira grande, wok, assadeiras de vidro e caçarolas em diferentes tamanhos.",
+    exemploItens: ["Jogo de panelas antiaderentes 5 peças", "Panela de pressão, wok, caçarolas", "Frigideiras grande, média e pequena", "Assadeiras, formas, refratários"],
+    porQueImporta:
+      "Panelas de qualidade duram mais de 10 anos e representam gasto alto para quem monta a cozinha do zero. Um chá de panela bem estruturado presenteia o casal com peças duráveis, evita duplicidade e complementa perfeitamente o chá de cozinha, o chá bar ou o próprio casamento.",
+    aprofundamento: {
+      texto: "Combine com o kit cozinha básica para não faltar nenhum utensílio importante.",
+      linkText: "Ver Checklist de Casamento",
+      linkHref: "/casamento-completo",
+    },
+    relacionados: ["lista-de-cha-de-cozinha", "kit-cozinha-basica", "checklist-de-casamento"],
+    faq: [{ q: "Quantas panelas incluir na lista?", a: "Um jogo de 5 peças mais panela de pressão e frigideira grande cobre a maioria dos preparos do dia a dia." }],
+  },
+  {
+    slug: "lista-de-cha-bar",
+    term: "Lista de Chá Bar",
+    category: "Casamento",
+    definition:
+      "Lista de chá bar é a coletânea de bebidas, taças, garrafas, itens de bar e acessórios para receber convidados que os noivos indicam como presente antes do casamento. Une utilidade e diversão, sendo alternativa moderna aos tradicionais chás de cozinha e panela.",
+    exemploPratico:
+      "O casal monta a lista com garrafas de vinho, whisky, gin, coqueteleira, taças de vinho, copos long drink e acessórios como abridor e balde de gelo.",
+    exemploItens: ["Vinhos, espumantes, destilados", "Taças, copos, canecas", "Coqueteleira, abridor, dosador", "Balde de gelo, decantador, tábua de queijos"],
+    porQueImporta:
+      "Chá bar equipa a casa nova para receber amigos e família sem gasto extra dos noivos. Também é uma forma de casais que já moram juntos e não precisam de utensílios básicos aproveitarem os presentes com itens que agregam à rotina social.",
+    aprofundamento: {
+      texto: "Combine com o checklist completo de casamento para alinhar chá bar, cerimônia e recepção.",
+      linkText: "Ver Checklist de Casamento",
+      linkHref: "/casamento-completo",
+    },
+    relacionados: ["checklist-de-casamento", "lista-de-cha-de-cozinha", "mini-wedding"],
+    faq: [{ q: "Chá bar substitui chá de cozinha?", a: "Sim, especialmente quando o casal já tem os utensílios básicos e prefere focar em itens sociais." }],
+  },
+  {
+    slug: "cha-de-fraldas",
+    term: "Chá de Fraldas",
+    category: "Casamento",
+    definition:
+      "Chá de fraldas é um evento em que amigos e familiares presenteiam os futuros pais com pacotes de fraldas descartáveis de vários tamanhos, ajudando a formar o estoque inicial do bebê. É uma das formas mais práticas de reduzir o gasto mensal com um dos itens mais caros da primeira infância.",
+    exemploPratico:
+      "A gestante organiza o chá de fraldas com sorteios por tamanho (RN, P, M, G), garantindo variedade de estoque e evitando muitos pacotes do mesmo número.",
+    exemploItens: ["Fraldas RN, P, M, G e GG", "Lenços umedecidos", "Pomada de assadura, sabonete infantil", "Toalhas de fralda de pano"],
+    porQueImporta:
+      "Nos primeiros 12 meses, uma família gasta em média milhares de reais só em fraldas. Um chá de fraldas bem estruturado pode cobrir de 4 a 6 meses de estoque, aliviando significativamente o orçamento familiar no início da vida do bebê.",
+    aprofundamento: {
+      texto: "Complemente com a lista de compras para bebê para cobrir os demais itens de higiene e alimentação.",
+      linkText: "Ver Checklist de Casamento",
+      linkHref: "/casamento-completo",
+    },
+    relacionados: ["lista-de-compras-para-bebe", "checklist-de-casamento", "lista-de-higiene-pessoal"],
+    faq: [{ q: "Como evitar muitas fraldas do mesmo tamanho?", a: "Faça sorteio por número e peça que cada convidado leve o tamanho sorteado." }],
+  },
+  {
+    slug: "padrinhos-de-casamento",
+    term: "Padrinhos de Casamento",
+    category: "Casamento",
+    definition:
+      "Padrinhos de casamento são os convidados escolhidos pelos noivos para exercer papel simbólico e legal na cerimônia, geralmente pessoas próximas da família ou de longa amizade. Além do compromisso afetivo, envolvem custos com trajes coordenados, presentes e, muitas vezes, participação em despesas do evento.",
+    exemploPratico:
+      "O casal define 6 padrinhos e 6 madrinhas, comunica com 6 meses de antecedência, alinha o dress code e organiza um jantar de agradecimento antes do casamento.",
+    exemploItens: ["Convite formal para padrinhos", "Definição de dress code e paleta", "Presente de agradecimento aos padrinhos", "Jantar ou brinde antes da cerimônia"],
+    porQueImporta:
+      "Padrinhos bem escolhidos e alinhados aos noivos tornam a cerimônia mais leve e organizada. Um número equilibrado (entre 4 e 8 casais é o mais comum) reduz custos com convites, arranjos e presentes, mantendo a intimidade sem excessos protocolares.",
+    aprofundamento: {
+      texto: "Combine com o checklist completo e a lista de convidados para organizar todos os papéis do casamento.",
+      linkText: "Ver Checklist de Casamento",
+      linkHref: "/casamento-completo",
+    },
+    relacionados: ["checklist-de-casamento", "lista-de-convidados", "cronograma-de-casamento"],
+    faq: [{ q: "Quantos padrinhos ter no casamento?", a: "Entre 4 e 8 casais é o mais comum, mas depende do estilo da cerimônia e do orçamento." }],
+  },
+  {
+    slug: "bem-casado",
+    term: "Bem-Casado",
+    category: "Casamento",
+    definition:
+      "Bem-casado é um doce tradicional brasileiro, feito de dois discos de massa amanteigada recheados com doce de leite, embalado em papel crepom e entregue aos convidados como lembrança do casamento. É um símbolo de sorte e prosperidade ao casal e faz parte do menu clássico da recepção brasileira.",
+    exemploPratico:
+      "Os noivos encomendam 1,5 bem-casado por convidado para um casamento de 150 pessoas, escolhendo embalagem personalizada com nome do casal e data.",
+    exemploItens: ["Bem-casado tradicional de doce de leite", "Embalagem personalizada com iniciais", "Etiqueta ou tag de agradecimento", "Kit de degustação para provar antes"],
+    porQueImporta:
+      "Bem-casados representam entre 5% e 10% do orçamento gastronômico do casamento. Calcular quantidade correta (1,5 por convidado é referência), fechar com fornecedores em atacado e ajustar embalagem ao estilo do evento evita sobra e mantém o custo sob controle.",
+    aprofundamento: {
+      texto: "Combine com o orçamento e a lista de fornecedores para negociar melhor com confeitarias.",
+      linkText: "Ver Checklist de Casamento",
+      linkHref: "/casamento-completo",
+    },
+    relacionados: ["orcamento-de-casamento", "lista-de-fornecedores", "checklist-de-casamento"],
+    faq: [{ q: "Quantos bem-casados calcular por convidado?", a: "1,5 por convidado é a referência usada por confeiteiros para evitar falta e excesso." }],
+  },
+  {
+    slug: "cerimonial-de-casamento",
+    term: "Cerimonial de Casamento",
+    category: "Casamento",
+    definition:
+      "Cerimonial de casamento é o serviço profissional responsável por planejar, coordenar e executar o evento, desde a escolha de fornecedores até o cronograma do dia da festa. Um bom cerimonial reduz estresse dos noivos, evita imprevistos e garante que a cerimônia e a recepção sigam o roteiro sem falhas.",
+    exemploPratico:
+      "Os noivos contratam a cerimonialista com 8 meses de antecedência, que negocia fornecedores, monta o cronograma, coordena o ensaio e conduz o dia do evento minuto a minuto.",
+    exemploItens: ["Contrato, briefing, orçamento inicial", "Seleção de fornecedores e visitas técnicas", "Cronograma detalhado do dia do evento", "Coordenação da cerimônia, recepção e desmontagem"],
+    porQueImporta:
+      "Casamento sem cerimonial exige que os noivos ou a família assumam a coordenação, o que consome tempo, gera erros e reduz a experiência do próprio dia. O cerimonial custa entre 5% e 10% do orçamento total, mas evita retrabalho e negocia descontos que muitas vezes cobrem o próprio investimento.",
+    aprofundamento: {
+      texto: "Combine com a lista de fornecedores e o cronograma de casamento para maximizar o resultado do cerimonial.",
+      linkText: "Ver Checklist de Casamento",
+      linkHref: "/casamento-completo",
+    },
+    relacionados: ["lista-de-fornecedores", "cronograma-de-casamento", "orcamento-de-casamento"],
+    faq: [{ q: "Vale a pena contratar cerimonial?", a: "Para casamentos com mais de 50 convidados, sim — o retorno em organização e negociação com fornecedores costuma cobrir o custo." }],
+  },
+  {
+    slug: "daminha-e-pajem",
+    term: "Daminha e Pajem",
+    category: "Casamento",
+    definition:
+      "Daminha e pajem são crianças convidadas para participar da cerimônia do casamento, geralmente entrando na frente dos noivos com almofada de alianças, pétalas ou plaquinha. Envolvem custos com trajes específicos, ensaio prévio e cuidados durante o evento para garantir que a participação corra bem.",
+    exemploPratico:
+      "Os noivos escolhem duas daminhas e um pajem, compram os trajes com 3 meses de antecedência, ensaiam a entrada no dia do casamento e reservam brindes de agradecimento.",
+    exemploItens: ["Traje de daminha (vestido combinando)", "Traje de pajem (terno ou conjunto)", "Almofada de alianças ou plaquinha", "Brinde ou lembrança para as crianças"],
+    porQueImporta:
+      "Crianças na cerimônia trazem leveza e emoção, mas exigem planejamento. Um número pequeno (1 a 3 crianças) e ensaio prévio evitam imprevistos, choros e atrasos, mantendo a solenidade e a memória afetiva do momento para toda a família.",
+    aprofundamento: {
+      texto: "Combine com o cronograma de casamento para incluir ensaio, entrada e cuidados durante a cerimônia.",
+      linkText: "Ver Checklist de Casamento",
+      linkHref: "/casamento-completo",
+    },
+    relacionados: ["cronograma-de-casamento", "checklist-de-casamento", "padrinhos-de-casamento"],
+    faq: [{ q: "Qual a melhor idade para daminha e pajem?", a: "Entre 4 e 8 anos — mais novos podem se assustar, e mais velhos preferem outros papéis." }],
+  },
+  {
+    slug: "save-the-date",
+    term: "Save the Date",
+    category: "Casamento",
+    definition:
+      "Save the date é o aviso enviado pelos noivos aos convidados, geralmente com 6 a 12 meses de antecedência, para que reservem a data do casamento na agenda. Antecede o convite oficial e é essencial em eventos com destination wedding, feriados ou convidados que precisam se organizar com viagem.",
+    exemploPratico:
+      "Os noivos criam um cartão digital com data, cidade e link para hotsite, enviando por WhatsApp e e-mail 8 meses antes do casamento.",
+    exemploItens: ["Cartão digital com data e local", "Hotsite com informações de hospedagem", "Envio por WhatsApp, e-mail ou correio", "Confirmação inicial de disponibilidade"],
+    porQueImporta:
+      "Save the date reduz o número de ausências no casamento, especialmente quando envolve viagem, feriado ou destino turístico. Também ajuda os noivos a estimar público real antes de contratar buffet, espaço e convite oficial, evitando super ou subdimensionamento.",
+    aprofundamento: {
+      texto: "Combine com o cronograma de casamento e RSVP para acompanhar todas as respostas dos convidados.",
+      linkText: "Ver Checklist de Casamento",
+      linkHref: "/casamento-completo",
+    },
+    relacionados: ["cronograma-de-casamento", "rsvp-de-casamento", "lista-de-convidados"],
+    faq: [{ q: "Quando enviar o save the date?", a: "De 6 a 12 meses antes do casamento, principalmente para eventos em destino turístico." }],
+  },
+  {
+    slug: "material-escolar-ensino-medio",
+    term: "Material Escolar Ensino Médio",
+    category: "Material Escolar",
+    definition:
+      "Material escolar do ensino médio reúne cadernos, canetas, calculadora científica, agenda, kit de geometria e itens específicos exigidos por disciplinas como física, química e biologia. É uma lista mais enxuta que a do fundamental, mas com itens de maior valor unitário, como calculadora e livros de exercícios preparatórios.",
+    exemploPratico:
+      "Os pais de um aluno do 1º ano do ensino médio compram 5 cadernos universitários, calculadora científica, kit de geometria, canetas, marcadores e agenda.",
+    exemploItens: ["Cadernos universitários e fichários", "Calculadora científica, kit de geometria", "Canetas, lapiseiras, marcadores", "Livros didáticos e paradidáticos"],
+    porQueImporta:
+      "Material do ensino médio é mais caro por unidade e envolve itens duradouros. Uma lista bem planejada com comparação de preços em papelarias, marketplaces e atacarejos pode reduzir o gasto em 30% em relação à compra rápida em uma única loja.",
+    aprofundamento: {
+      texto: "Combine com estratégias de volta às aulas e mochila escolar para organizar toda a rotina do aluno.",
+      linkText: "Ver Material Escolar Ensino Médio",
+      linkHref: "/material-escolar-ensino-medio",
+    },
+    relacionados: ["volta-as-aulas", "lista-de-papelaria", "mochila-escolar"],
+    faq: [{ q: "Calculadora científica é obrigatória no ensino médio?", a: "Para disciplinas de exatas, sim. Modelos básicos custam menos de R$ 60 e duram anos." }],
+  },
+  {
+    slug: "estojo-escolar-completo",
+    term: "Estojo Escolar Completo",
+    category: "Material Escolar",
+    definition:
+      "Estojo escolar completo reúne lápis, canetas, borracha, apontador, régua, marcadores e tesoura em um único acessório organizado. Diferente do estojo simples, ele suporta a rotina do dia todo sem depender da mochila ou da bolsa da criança, evitando perdas e pedidos emergenciais em plena aula.",
+    exemploPratico:
+      "Pais escolhem estojo de dois zíperes com divisões, montam com 3 lápis pretos, 2 borrachas, apontador com depósito, 12 lápis de cor, canetas, régua e tesoura sem ponta.",
+    exemploItens: ["Lápis, borracha, apontador, régua", "Lápis de cor, canetas hidrocor", "Marca texto, cola bastão, tesoura sem ponta", "Cola líquida e canetas coloridas"],
+    porQueImporta:
+      "Estojo completo evita a rotina de esquecer itens em casa e comprar duplicatas caras nas papelarias próximas à escola. Um estojo bem equipado no início do ano dura pelo menos um semestre com pequenas reposições, reduzindo custos em 40% ao longo do período letivo.",
+    aprofundamento: {
+      texto: "Combine com a lista completa de material escolar e a organização de mochila.",
+      linkText: "Ver Material Escolar",
+      linkHref: "/material-escolar",
+    },
+    relacionados: ["lista-de-material-escolar", "organizacao-de-mochila", "lista-de-papelaria"],
+    faq: [{ q: "Um ou dois estojos para escola?", a: "Um completo com divisões costuma ser suficiente e mais leve na mochila." }],
+  },
+  {
+    slug: "lancheira-escolar",
+    term: "Lancheira Escolar",
+    category: "Material Escolar",
+    definition:
+      "Lancheira escolar é o acessório térmico onde a criança leva o lanche da escola, incluindo pote hermético, garrafinha, gelo reciclável e guardanapo. Substitui o hábito de comprar salgados na cantina, reduzindo custo e melhorando a qualidade nutricional do lanche diário.",
+    exemploPratico:
+      "A família monta lancheira térmica com sanduíche integral, fruta, biscoito, garrafinha de suco natural e pote com iogurte, alternando cardápio ao longo da semana.",
+    exemploItens: ["Lancheira térmica com divisórias", "Pote hermético, garrafinha reutilizável", "Gelo reciclável, guardanapo, talher", "Lanche variado: fruta, sanduíche, iogurte"],
+    porQueImporta:
+      "Comprar lanche na cantina custa em média R$ 15 a R$ 25 por dia. Levar de casa reduz esse gasto para R$ 5 a R$ 8 diários e ainda melhora a alimentação. No ano letivo, a economia passa fácil de R$ 2.000 por criança.",
+    aprofundamento: {
+      texto: "Combine com a lista de compras para café da manhã para variar os lanches da semana.",
+      linkText: "Ver Material Escolar",
+      linkHref: "/material-escolar",
+    },
+    relacionados: ["lista-de-compras-para-cafe-da-manha", "mochila-escolar", "volta-as-aulas"],
+    faq: [{ q: "Lancheira térmica mantém o lanche fresco quantas horas?", a: "De 4 a 6 horas com gelo reciclável — suficiente para o turno escolar." }],
+  },
+  {
+    slug: "livros-didaticos",
+    term: "Livros Didáticos",
+    category: "Material Escolar",
+    definition:
+      "Livros didáticos são as obras oficiais adotadas pela escola para cada disciplina do ano letivo, incluindo exercícios, textos e conteúdo alinhado à BNCC. Podem ser comprados novos, seminovos ou reutilizados, sendo um dos itens de maior peso na lista de material escolar do ano.",
+    exemploPratico:
+      "A família compra a lista de livros combinando novos (para as disciplinas com muito exercício), seminovos em sebos online e reaproveita os que a escola permite manter em uso.",
+    exemploItens: ["Lista oficial fornecida pela escola", "Comparação novo x seminovo x usado", "Sebos digitais e grupos de pais", "Livros paradidáticos exigidos por professor"],
+    porQueImporta:
+      "Livros didáticos podem representar até 60% do custo do material escolar no início do ano. Buscar seminovos em bom estado, negociar em grupos de pais e comprar com antecedência (fora do pico de janeiro e fevereiro) reduz esse gasto em até 50%.",
+    aprofundamento: {
+      texto: "Combine com a lista completa de material escolar e estratégias de volta às aulas para economizar mais.",
+      linkText: "Ver Material Escolar",
+      linkHref: "/material-escolar",
+    },
+    relacionados: ["lista-de-material-escolar", "volta-as-aulas", "material-escolar-2026"],
+    faq: [{ q: "Vale a pena comprar livro didático usado?", a: "Sim, quando está em bom estado e o modelo é o mesmo adotado pela escola — economia pode chegar a 50%." }],
+  },
+  {
+    slug: "uniforme-escolar",
+    term: "Uniforme Escolar",
+    category: "Material Escolar",
+    definition:
+      "Uniforme escolar é o conjunto de peças padronizadas exigidas pela escola — camisetas, calças, saias, moletons e tênis — que a criança usa no dia a dia letivo. Envolve custo anual significativo e pode ser reduzido com compra planejada, reuso de peças em bom estado e aproveitamento de programas de troca entre pais.",
+    exemploPratico:
+      "A família compra 4 camisetas, 2 calças e 1 moletom do uniforme, priorizando peças que aguentem lavagem frequente, e reutiliza as do ano anterior que ainda servem.",
+    exemploItens: ["4 camisetas de manga curta ou longa", "2 a 3 calças ou saias", "1 moletom ou blusa de frio", "1 par de tênis padrão da escola"],
+    porQueImporta:
+      "Uniforme mal planejado gera compra emergencial em lojas oficiais da escola, com preços 30% a 50% acima do mercado. Comprar antes do início das aulas em fornecedores alternativos autorizados ou aproveitar bazares de escola reduz muito o gasto anual.",
+    aprofundamento: {
+      texto: "Combine com a lista de material escolar e estratégias de volta às aulas para consolidar tudo em uma compra.",
+      linkText: "Ver Material Escolar",
+      linkHref: "/material-escolar",
+    },
+    relacionados: ["lista-de-material-escolar", "volta-as-aulas", "material-escolar-2026"],
+    faq: [{ q: "Quantas peças de uniforme comprar por criança?", a: "4 camisetas, 2 calças e 1 moletom cobrem uma semana com lavagem intercalada." }],
+  },
+  {
+    slug: "material-escolar-barato",
+    term: "Material Escolar Barato",
+    category: "Material Escolar",
+    definition:
+      "Material escolar barato é a estratégia de comprar toda a lista da escola com foco em economia, combinando marcas próprias, atacarejos, compra antecipada e reuso de itens em bom estado do ano anterior. Reduz significativamente o impacto do início do ano letivo no orçamento familiar.",
+    exemploPratico:
+      "A família revisa material do ano anterior em novembro, monta lista do que falta, compara preços em 3 atacarejos e finaliza a compra em janeiro com desconto por volume.",
+    exemploItens: ["Reuso de mochila, estojo e réguas", "Marcas próprias de cadernos e canetas", "Compra em atacarejo com desconto por volume", "Grupos de pais para trocas e vendas"],
+    porQueImporta:
+      "O material escolar de janeiro é um dos maiores impactos anuais no orçamento familiar brasileiro. Aplicar estratégias de compra econômica pode reduzir esse gasto em 40% a 60%, sem sacrificar qualidade ou o que a escola pede.",
+    aprofundamento: {
+      texto: "Combine com o atacarejo e a lista completa de material escolar para maximizar a economia.",
+      linkText: "Ver Material Escolar",
+      linkHref: "/material-escolar",
+    },
+    relacionados: ["compra-economica", "atacarejo", "lista-de-material-escolar"],
+    faq: [{ q: "Quando começar a comprar material escolar barato?", a: "Em novembro e dezembro, aproveitando Black Friday e evitando o pico de preços de janeiro." }],
+  },
+  {
+    slug: "metodo-getting-things-done",
+    term: "Método Getting Things Done (GTD)",
+    category: "Produtividade",
+    definition:
+      "Getting Things Done, ou GTD, é o método de produtividade criado por David Allen que organiza tarefas em cinco etapas: capturar, esclarecer, organizar, refletir e engajar. Aplicado ao dia a dia, ele reduz a sobrecarga mental ao tirar da cabeça tudo que precisa ser feito e transferir para um sistema confiável de listas.",
+    exemploPratico:
+      "Uma pessoa captura ideias em um caderno ao longo do dia, revisa à noite, define ações claras (próximo passo), agenda ou delega, e revisa semanalmente para manter o sistema atualizado.",
+    exemploItens: ["Caixa de entrada única para capturar tarefas", "Listas por contexto: casa, trabalho, ligações", "Revisão semanal do sistema", "Próxima ação definida para cada projeto"],
+    porQueImporta:
+      "Manter tarefas na cabeça consome energia mental e gera ansiedade. GTD libera essa carga ao transferir tudo para listas revisáveis, aumentando foco no que está sendo feito no momento e melhorando a qualidade das decisões diárias.",
+    aprofundamento: {
+      texto: "Combine com listas de tarefas domésticas e gestão do tempo para aplicar GTD em toda a rotina.",
+      linkText: "Abrir Criador de Listas",
+      linkHref: "/criar-lista",
+    },
+    relacionados: ["to-do-list", "gestao-do-tempo", "matriz-de-prioridade"],
+    faq: [{ q: "Preciso de aplicativo para usar GTD?", a: "Não. GTD funciona em papel, agenda ou app — o método é o mesmo, o suporte é escolha pessoal." }],
+  },
+  {
+    slug: "metodo-pomodoro",
+    term: "Método Pomodoro",
+    category: "Produtividade",
+    definition:
+      "Método Pomodoro é uma técnica de produtividade que divide o trabalho em ciclos de 25 minutos de foco intenso seguidos por 5 minutos de pausa curta, com uma pausa longa a cada quatro ciclos. Reduz distrações, aumenta a concentração e ajuda a estimar tempo real gasto em cada tipo de tarefa.",
+    exemploPratico:
+      "Uma pessoa escolhe uma tarefa, liga o timer por 25 minutos, foca sem checar celular, faz pausa de 5 minutos e repete o ciclo até concluir ou até quatro pomodoros seguidos.",
+    exemploItens: ["Timer físico ou app de Pomodoro", "Lista com tarefas do dia priorizadas", "Regra de não interromper durante o ciclo", "Registro de quantos pomodoros por tarefa"],
+    porQueImporta:
+      "Manter foco por longos períodos é difícil. Blocos curtos de 25 minutos são mais realistas para o cérebro, ajudam a começar tarefas difíceis e evitam a procrastinação. Estudos mostram aumento de produtividade em até 40% em atividades cognitivas.",
+    aprofundamento: {
+      texto: "Combine Pomodoro com to-do list e matriz de prioridade para maximizar a concentração diária.",
+      linkText: "Abrir Criador de Listas",
+      linkHref: "/criar-lista",
+    },
+    relacionados: ["to-do-list", "gestao-do-tempo", "checklist-diario"],
+    faq: [{ q: "Posso ajustar o tempo do Pomodoro?", a: "Sim. Alguns preferem 50 minutos de foco e 10 de pausa para tarefas complexas — o importante é manter o padrão." }],
+  },
+  {
+    slug: "bullet-journal",
+    term: "Bullet Journal",
+    category: "Produtividade",
+    definition:
+      "Bullet Journal, ou BuJo, é um sistema analógico de produtividade e organização pessoal criado por Ryder Carroll, feito à mão em um caderno em branco. Combina agenda, planner, diário e checklist em um único formato flexível, com uma linguagem visual baseada em bullets, hábitos e coleções.",
+    exemploPratico:
+      "Uma pessoa monta o bullet journal com índice, log anual, log mensal, log diário e coleções (livros lidos, gastos, hábitos), atualizando à noite antes de dormir.",
+    exemploItens: ["Caderno pontilhado e canetas", "Índice, log mensal, log diário", "Coleções: hábitos, gastos, livros", "Migração de tarefas mês a mês"],
+    porQueImporta:
+      "Escrever à mão ativa memória e planejamento de forma diferente de aplicativos digitais. O bullet journal traz consciência sobre tempo, hábitos e emoções, ajudando quem quer reduzir tempo de tela e desenvolver hábito de reflexão diária.",
+    aprofundamento: {
+      texto: "Complemente o bullet journal com planners semanais e listas de metas anuais.",
+      linkText: "Abrir Criador de Listas",
+      linkHref: "/criar-lista",
+    },
+    relacionados: ["planner-semanal", "to-do-list", "checklist-diario"],
+    faq: [{ q: "Preciso saber desenhar para fazer bullet journal?", a: "Não. O método original é minimalista — desenhos e caligrafia caprichada são opcionais." }],
+  },
+  {
+    slug: "checklist-diario",
+    term: "Checklist Diário",
+    category: "Produtividade",
+    definition:
+      "Checklist diário é uma lista curta de tarefas essenciais para o dia, revisada de manhã e finalizada à noite. Diferente de uma to-do list infinita, ele foca em 3 a 5 prioridades reais, garantindo progresso mesmo em dias corridos e evitando a sensação de estar sempre atrasado.",
+    exemploPratico:
+      "A pessoa acorda, escreve 5 tarefas essenciais do dia, marca à medida que conclui e faz revisão rápida à noite passando o que sobrou para o dia seguinte.",
+    exemploItens: ["3 a 5 tarefas prioritárias do dia", "Espaço para tarefas rápidas (chamadas, e-mails)", "Bloco de hábitos: água, exercício, leitura", "Revisão noturna e migração de pendências"],
+    porQueImporta:
+      "Listas gigantes geram frustração e paralisia. Um checklist diário curto e realista aumenta a sensação de progresso, melhora a autoestima produtiva e ajuda a manter foco no essencial em vez de dispersar em urgências não importantes.",
+    aprofundamento: {
+      texto: "Combine com o método Pomodoro e a matriz de prioridade para executar o checklist com máximo foco.",
+      linkText: "Abrir Criador de Listas",
+      linkHref: "/criar-lista",
+    },
+    relacionados: ["to-do-list", "matriz-de-prioridade", "metodo-pomodoro"],
+    faq: [{ q: "Quantas tarefas colocar no checklist diário?", a: "De 3 a 5 tarefas realmente prioritárias — mais que isso costuma virar lista de desejos." }],
+  },
+  {
+    slug: "rotina-matinal",
+    term: "Rotina Matinal",
+    category: "Produtividade",
+    definition:
+      "Rotina matinal é a sequência de hábitos praticada nas primeiras horas do dia — como acordar cedo, se hidratar, exercitar-se, meditar, planejar o dia e tomar café da manhã — que define o tom físico e mental para as horas seguintes. Uma rotina consistente aumenta energia, foco e sensação de controle.",
+    exemploPratico:
+      "Uma pessoa acorda às 6h, bebe 500ml de água, se alonga por 10 minutos, medita por 5, planeja o dia e toma café da manhã antes de começar a trabalhar.",
+    exemploItens: ["Despertador em horário fixo", "Copo de água antes de qualquer bebida", "Exercício, alongamento ou meditação", "Revisão da agenda e checklist do dia"],
+    porQueImporta:
+      "Manhãs planejadas evitam começar o dia reagindo a notificações e prazos. Uma rotina de 30 a 60 minutos antes do trabalho melhora foco, humor e saúde, com impacto direto no rendimento profissional e pessoal ao longo do dia inteiro.",
+    aprofundamento: {
+      texto: "Combine com o checklist diário e o planner semanal para consolidar a rotina completa.",
+      linkText: "Abrir Criador de Listas",
+      linkHref: "/criar-lista",
+    },
+    relacionados: ["checklist-diario", "planner-semanal", "rotina-da-casa"],
+    faq: [{ q: "Preciso acordar de madrugada para ter rotina matinal?", a: "Não. O importante é ter um horário fixo e uma sequência consistente — pode ser às 6h ou às 8h." }],
+  },
+  {
+    slug: "minimalismo-domestico",
+    term: "Minimalismo Doméstico",
+    category: "Organização",
+    definition:
+      "Minimalismo doméstico é o estilo de vida que reduz a quantidade de objetos, roupas e móveis em casa ao essencial e ao que traz valor real, eliminando excessos. Difere da simples arrumação porque foca em possuir menos, e não apenas em organizar mais itens em caixas e armários.",
+    exemploPratico:
+      "Uma pessoa aplica o método por cômodo, elimina duplicatas, doa roupas não usadas há um ano, mantém apenas louças e utensílios que usa e reduz decoração ao essencial.",
+    exemploItens: ["Desapego por categoria: roupas, livros, papéis", "Regra de um item que entra, outro que sai", "Reduzir duplicatas de louças e utensílios", "Manter superfícies livres em cada cômodo"],
+    porQueImporta:
+      "Menos objetos em casa significam menos limpeza, menos manutenção e menos gasto com compras por impulso. Também reduz estresse visual e ansiedade, e libera espaço físico e mental para atividades mais importantes que ambientar e arrumar.",
+    aprofundamento: {
+      texto: "Combine com a organização doméstica e o inventário para começar a jornada minimalista de forma prática.",
+      linkText: "Abrir Criador de Listas",
+      linkHref: "/criar-lista",
+    },
+    relacionados: ["organizacao-domestica", "inventario-domestico", "organizacao-de-armario"],
+    faq: [{ q: "Minimalismo significa viver com pouquíssimas coisas?", a: "Não. Significa viver com o que traz valor — o número é pessoal e varia para cada família." }],
+  },
+  {
+    slug: "lista-de-metas-anuais",
+    term: "Lista de Metas Anuais",
+    category: "Produtividade",
+    definition:
+      "Lista de metas anuais é o conjunto de objetivos definidos no início do ano em áreas como saúde, carreira, finanças, relacionamentos e desenvolvimento pessoal. Escrita de forma específica e mensurável, ela orienta decisões ao longo do ano e serve como referência para revisões trimestrais e ajustes de rota.",
+    exemploPratico:
+      "Uma pessoa define 5 metas anuais divididas em áreas, quebra cada uma em ações trimestrais, revisa a cada 90 dias e ajusta o planejamento conforme a realidade do ano.",
+    exemploItens: ["Metas por área: saúde, carreira, finanças", "Objetivos SMART: específico, mensurável, prazo", "Revisão trimestral com ajustes", "Registro de progresso mensal"],
+    porQueImporta:
+      "Sem metas escritas, o ano passa e a pessoa termina no mesmo lugar. Listas anuais bem estruturadas aumentam significativamente as chances de concluir objetivos importantes, transformam intenções em ações concretas e dão sensação de propósito ao longo dos 12 meses.",
+    aprofundamento: {
+      texto: "Combine com o planner semanal e o bullet journal para acompanhar as metas ao longo de todo o ano.",
+      linkText: "Abrir Criador de Listas",
+      linkHref: "/criar-lista",
+    },
+    relacionados: ["planner-semanal", "bullet-journal", "organizacao-financeira"],
+    faq: [{ q: "Quantas metas colocar na lista anual?", a: "Entre 3 e 7 metas é ideal — muito mais dispersa energia e reduz taxa de conclusão." }],
+  },
 ];
 
 export const glossary: GlossaryTerm[] = [...baseGlossary, ...extraGlossary];

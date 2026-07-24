@@ -2173,6 +2173,3406 @@ const extraGlossary: GlossaryTerm[] = [
     relacionados: ["planner-semanal", "bullet-journal", "organizacao-financeira"],
     faq: [{ q: "Quantas metas colocar na lista anual?", a: "Entre 3 e 7 metas é ideal — muito mais dispersa energia e reduz taxa de conclusão." }],
   },
+{
+  "slug": "lista-de-compras-para-idosos",
+  "term": "Lista de Compras para Idosos",
+  "category": "Compras",
+  "definition": "Lista de Compras para Idosos é uma lista organizada com foco em alimentação equilibrada, higiene e cuidados diários para a terceira idade. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras para idosos no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras para idosos bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras para idosos personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Lista Saudável",
+    "linkHref": "/lista-saudavel"
+  },
+  "relacionados": [
+    "lista-de-compras",
+    "lista-de-higiene-pessoal",
+    "lista-de-compras-para-diabeticos"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras para idosos?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre alimentação equilibrada, higiene e cuidados diários para a terceira idade, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras para idosos depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-para-estudantes",
+  "term": "Lista de Compras para Estudantes",
+  "category": "Compras",
+  "definition": "Lista de Compras para Estudantes é uma lista organizada com foco em alimentos práticos, baratos e nutritivos para quem mora fora ou estuda em tempo integral. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras para estudantes no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras para estudantes bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras para estudantes personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista para Solteiro",
+    "linkHref": "/lista-solteiro"
+  },
+  "relacionados": [
+    "lista-para-morar-sozinho",
+    "lista-de-compras",
+    "lista-de-compras-para-cafe-da-manha"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras para estudantes?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre alimentos práticos, baratos e nutritivos para quem mora fora ou estuda em tempo integral, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras para estudantes depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-vegana",
+  "term": "Lista de Compras Vegana",
+  "category": "Compras",
+  "definition": "Lista de Compras Vegana é uma lista organizada com foco em alimentos 100% de origem vegetal, proteínas alternativas e substitutos de laticínios. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras vegana no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras vegana bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras vegana personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista Saudável",
+    "linkHref": "/lista-saudavel"
+  },
+  "relacionados": [
+    "lista-de-compras-vegetariana",
+    "lista-de-hortifruti",
+    "lista-de-compras-saudavel"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras vegana?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre alimentos 100% de origem vegetal, proteínas alternativas e substitutos de laticínios, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras vegana depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-sem-gluten",
+  "term": "Lista de Compras Sem Glúten",
+  "category": "Compras",
+  "definition": "Lista de Compras Sem Glúten é uma lista organizada com foco em produtos livres de trigo, cevada e centeio para celíacos e sensíveis. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras sem glúten no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras sem glúten bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras sem glúten personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista Saudável",
+    "linkHref": "/lista-saudavel"
+  },
+  "relacionados": [
+    "lista-de-compras-saudavel",
+    "lista-de-hortifruti",
+    "lista-de-compras-low-carb"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras sem glúten?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre produtos livres de trigo, cevada e centeio para celíacos e sensíveis, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras sem glúten depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-sem-lactose",
+  "term": "Lista de Compras Sem Lactose",
+  "category": "Compras",
+  "definition": "Lista de Compras Sem Lactose é uma lista organizada com foco em substitutos vegetais do leite, queijos e produtos zero lactose. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras sem lactose no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras sem lactose bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras sem lactose personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista Saudável",
+    "linkHref": "/lista-saudavel"
+  },
+  "relacionados": [
+    "lista-de-compras-vegana",
+    "lista-de-compras-saudavel",
+    "lista-de-hortifruti"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras sem lactose?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre substitutos vegetais do leite, queijos e produtos zero lactose, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras sem lactose depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-para-diabeticos",
+  "term": "Lista de Compras para Diabéticos",
+  "category": "Compras",
+  "definition": "Lista de Compras para Diabéticos é uma lista organizada com foco em alimentos com baixo índice glicêmico e zero açúcar refinado. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras para diabéticos no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras para diabéticos bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras para diabéticos personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista Saudável",
+    "linkHref": "/lista-saudavel"
+  },
+  "relacionados": [
+    "lista-de-compras-low-carb",
+    "lista-de-compras-saudavel",
+    "cardapio-semanal"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras para diabéticos?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre alimentos com baixo índice glicêmico e zero açúcar refinado, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras para diabéticos depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-para-hipertensos",
+  "term": "Lista de Compras para Hipertensos",
+  "category": "Compras",
+  "definition": "Lista de Compras para Hipertensos é uma lista organizada com foco em alimentos com baixo sódio e ricos em potássio para controle da pressão. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras para hipertensos no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras para hipertensos bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras para hipertensos personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista Saudável",
+    "linkHref": "/lista-saudavel"
+  },
+  "relacionados": [
+    "lista-de-compras-saudavel",
+    "lista-de-hortifruti",
+    "cardapio-semanal"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras para hipertensos?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre alimentos com baixo sódio e ricos em potássio para controle da pressão, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras para hipertensos depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-para-gestantes",
+  "term": "Lista de Compras para Gestantes",
+  "category": "Compras",
+  "definition": "Lista de Compras para Gestantes é uma lista organizada com foco em alimentos ricos em ácido fólico, ferro e cálcio para uma gravidez saudável. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras para gestantes no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras para gestantes bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras para gestantes personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista Saudável",
+    "linkHref": "/lista-saudavel"
+  },
+  "relacionados": [
+    "lista-de-compras-para-bebe",
+    "lista-de-compras-saudavel",
+    "lista-de-hortifruti"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras para gestantes?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre alimentos ricos em ácido fólico, ferro e cálcio para uma gravidez saudável, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras para gestantes depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-quinzenal",
+  "term": "Lista de Compras Quinzenal",
+  "category": "Compras",
+  "definition": "Lista de Compras Quinzenal é uma lista organizada com foco em planejamento de compras a cada 15 dias com foco em economia e variedade. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras quinzenal no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras quinzenal bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras quinzenal personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista Mensal",
+    "linkHref": "/lista-mensal"
+  },
+  "relacionados": [
+    "lista-mensal-de-compras",
+    "lista-de-compras-semanal",
+    "compras-do-mes"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras quinzenal?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre planejamento de compras a cada 15 dias com foco em economia e variedade, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras quinzenal depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-para-4-pessoas",
+  "term": "Lista de Compras para 4 Pessoas",
+  "category": "Compras",
+  "definition": "Lista de Compras para 4 Pessoas é uma lista organizada com foco em quantidades e itens dimensionados para uma família de quatro. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras para 4 pessoas no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras para 4 pessoas bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras para 4 pessoas personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista para 2 Pessoas",
+    "linkHref": "/lista-duas-pessoas"
+  },
+  "relacionados": [
+    "lista-de-compras-para-familia-grande",
+    "compras-do-mes",
+    "cardapio-semanal"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras para 4 pessoas?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre quantidades e itens dimensionados para uma família de quatro, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras para 4 pessoas depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-para-familia-grande",
+  "term": "Lista de Compras para Família Grande",
+  "category": "Compras",
+  "definition": "Lista de Compras para Família Grande é uma lista organizada com foco em volumes maiores, atacado e planejamento para 5+ pessoas. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras para família grande no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras para família grande bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras para família grande personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista Mensal",
+    "linkHref": "/lista-mensal"
+  },
+  "relacionados": [
+    "atacarejo",
+    "lista-mensal-de-compras",
+    "lista-de-compras-para-4-pessoas"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras para família grande?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre volumes maiores, atacado e planejamento para 5+ pessoas, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras para família grande depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-congelados",
+  "term": "Lista de Congelados",
+  "category": "Compras",
+  "definition": "Lista de Congelados é uma lista organizada com foco em carnes, legumes, refeições prontas e sobremesas para o freezer. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de congelados no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de congelados bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de congelados personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista de Supermercado",
+    "linkHref": "/lista-supermercado"
+  },
+  "relacionados": [
+    "lista-de-compras",
+    "marmita-semanal",
+    "lista-de-hortifruti"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de congelados?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre carnes, legumes, refeições prontas e sobremesas para o freezer, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de congelados depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-bebidas-para-festa",
+  "term": "Lista de Bebidas para Festa",
+  "category": "Compras",
+  "definition": "Lista de Bebidas para Festa é uma lista organizada com foco em cálculo de refrigerantes, sucos, cervejas e destilados por convidado. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de bebidas para festa no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de bebidas para festa bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de bebidas para festa personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-compras-para-churrasco",
+    "lista-de-compras-para-festa-infantil",
+    "lista-de-compras-para-reveillon"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de bebidas para festa?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre cálculo de refrigerantes, sucos, cervejas e destilados por convidado, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de bebidas para festa depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-pet-shop",
+  "term": "Lista de Compras Pet Shop",
+  "category": "Compras",
+  "definition": "Lista de Compras Pet Shop é uma lista organizada com foco em ração, higiene, brinquedos e acessórios para cães e gatos. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras pet shop no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras pet shop bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras pet shop personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-compras",
+    "lista-de-produtos-de-limpeza",
+    "organizacao-domestica"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras pet shop?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre ração, higiene, brinquedos e acessórios para cães e gatos, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras pet shop depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-para-viagem",
+  "term": "Lista de Compras para Viagem",
+  "category": "Compras",
+  "definition": "Lista de Compras para Viagem é uma lista organizada com foco em lanches, kits de higiene e itens práticos para viagens de carro ou avião. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras para viagem no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras para viagem bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras para viagem personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "checklist-de-viagem",
+    "lista-de-compras-para-camping",
+    "kit-primeiros-socorros-casa"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras para viagem?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre lanches, kits de higiene e itens práticos para viagens de carro ou avião, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras para viagem depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-para-camping",
+  "term": "Lista de Compras para Camping",
+  "category": "Compras",
+  "definition": "Lista de Compras para Camping é uma lista organizada com foco em alimentos não perecíveis, utensílios e equipamentos para acampar. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras para camping no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras para camping bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras para camping personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "checklist-de-viagem",
+    "lista-de-compras-para-viagem",
+    "kit-primeiros-socorros-casa"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras para camping?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre alimentos não perecíveis, utensílios e equipamentos para acampar, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras para camping depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-de-natal",
+  "term": "Lista de Compras de Natal",
+  "category": "Compras",
+  "definition": "Lista de Compras de Natal é uma lista organizada com foco em ceia, presentes, decoração e itens típicos das festas de fim de ano. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras de natal no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras de natal bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras de natal personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-compras-de-ano-novo",
+    "lista-de-compras-para-reveillon",
+    "lista-de-compras"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras de natal?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre ceia, presentes, decoração e itens típicos das festas de fim de ano, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras de natal depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-de-ano-novo",
+  "term": "Lista de Compras de Ano Novo",
+  "category": "Compras",
+  "definition": "Lista de Compras de Ano Novo é uma lista organizada com foco em itens tradicionais para a virada, roupas brancas e comidas da sorte. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras de ano novo no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras de ano novo bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras de ano novo personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-compras-de-natal",
+    "lista-de-compras-para-reveillon",
+    "lista-de-metas-anuais"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras de ano novo?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre itens tradicionais para a virada, roupas brancas e comidas da sorte, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras de ano novo depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-de-pascoa",
+  "term": "Lista de Compras de Páscoa",
+  "category": "Compras",
+  "definition": "Lista de Compras de Páscoa é uma lista organizada com foco em chocolates, peixes, bacalhau e itens para o almoço de família. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras de páscoa no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras de páscoa bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras de páscoa personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-compras",
+    "lista-de-compras-para-cafe-da-manha",
+    "lista-de-hortifruti"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras de páscoa?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre chocolates, peixes, bacalhau e itens para o almoço de família, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras de páscoa depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-para-festa-junina",
+  "term": "Lista de Compras para Festa Junina",
+  "category": "Compras",
+  "definition": "Lista de Compras para Festa Junina é uma lista organizada com foco em comidas típicas, bebidas quentes e decoração para arraiá. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras para festa junina no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras para festa junina bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras para festa junina personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-compras-para-festa-infantil",
+    "lista-de-bebidas-para-festa",
+    "lista-de-compras"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras para festa junina?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre comidas típicas, bebidas quentes e decoração para arraiá, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras para festa junina depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-para-reveillon",
+  "term": "Lista de Compras para Réveillon",
+  "category": "Compras",
+  "definition": "Lista de Compras para Réveillon é uma lista organizada com foco em ceia, espumantes, roupas e itens de superstição para a virada. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras para réveillon no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de compras para réveillon bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras para réveillon personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-compras-de-ano-novo",
+    "lista-de-compras-de-natal",
+    "lista-de-bebidas-para-festa"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras para réveillon?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre ceia, espumantes, roupas e itens de superstição para a virada, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras para réveillon depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-padaria",
+  "term": "Lista de Padaria",
+  "category": "Compras",
+  "definition": "Lista de Padaria é uma lista organizada com foco em pães, bolos, frios e itens básicos do café da manhã. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de padaria no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de padaria bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de padaria personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista de Supermercado",
+    "linkHref": "/lista-supermercado"
+  },
+  "relacionados": [
+    "lista-de-compras-para-cafe-da-manha",
+    "lista-de-frios",
+    "lista-de-compras"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de padaria?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre pães, bolos, frios e itens básicos do café da manhã, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de padaria depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-acougue",
+  "term": "Lista de Açougue",
+  "category": "Compras",
+  "definition": "Lista de Açougue é uma lista organizada com foco em cortes bovinos, suínos, aves e peixes com quantidades por pessoa. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de açougue no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de açougue bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de açougue personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista de Supermercado",
+    "linkHref": "/lista-supermercado"
+  },
+  "relacionados": [
+    "lista-de-compras-para-churrasco",
+    "lista-de-compras",
+    "marmita-semanal"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de açougue?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre cortes bovinos, suínos, aves e peixes com quantidades por pessoa, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de açougue depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-frios",
+  "term": "Lista de Frios",
+  "category": "Compras",
+  "definition": "Lista de Frios é uma lista organizada com foco em presuntos, queijos, embutidos e derivados para tábuas e sanduíches. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de frios no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma lista de frios bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de frios personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista de Supermercado",
+    "linkHref": "/lista-supermercado"
+  },
+  "relacionados": [
+    "lista-de-padaria",
+    "lista-de-compras-para-cafe-da-manha",
+    "lista-de-bebidas-para-festa"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de frios?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre presuntos, queijos, embutidos e derivados para tábuas e sanduíches, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de frios depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "black-friday-supermercado",
+  "term": "Black Friday no Supermercado",
+  "category": "Compras",
+  "definition": "Black Friday no Supermercado é uma lista organizada com foco em estratégia de estoque de itens não perecíveis nas promoções de novembro. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a black friday no supermercado no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias por corredor do mercado",
+    "Anotar quantidades e marcas preferidas",
+    "Estimar orçamento antes de sair",
+    "Marcar itens em promoção"
+  ],
+  "porQueImporta": "Sem uma black friday no supermercado bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua black friday no supermercado personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista Mensal",
+    "linkHref": "/lista-mensal"
+  },
+  "relacionados": [
+    "compra-economica",
+    "atacarejo",
+    "cupom-de-desconto-supermercado"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma black friday no supermercado?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre estratégia de estoque de itens não perecíveis nas promoções de novembro, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a black friday no supermercado depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-utensilios-de-cozinha",
+  "term": "Lista de Utensílios de Cozinha",
+  "category": "Casa Nova",
+  "definition": "Lista de Utensílios de Cozinha é uma lista organizada com foco em panelas, talheres, potes e acessórios essenciais para cozinhar. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de utensílios de cozinha no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de utensílios de cozinha bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de utensílios de cozinha personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Casa Nova - Cozinha",
+    "linkHref": "/lista-de-casa-nova-cozinha"
+  },
+  "relacionados": [
+    "kit-cozinha-basica",
+    "enxoval-de-cozinha",
+    "lista-de-eletroportateis"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de utensílios de cozinha?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre panelas, talheres, potes e acessórios essenciais para cozinhar, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de utensílios de cozinha depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-moveis-para-cozinha",
+  "term": "Lista de Móveis para Cozinha",
+  "category": "Casa Nova",
+  "definition": "Lista de Móveis para Cozinha é uma lista organizada com foco em armários, mesa, cadeiras e bancadas para montar a cozinha. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de móveis para cozinha no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de móveis para cozinha bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de móveis para cozinha personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Casa Nova - Cozinha",
+    "linkHref": "/lista-de-casa-nova-cozinha"
+  },
+  "relacionados": [
+    "lista-de-utensilios-de-cozinha",
+    "lista-de-eletrodomesticos-essenciais",
+    "lista-de-eletroportateis"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de móveis para cozinha?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre armários, mesa, cadeiras e bancadas para montar a cozinha, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de móveis para cozinha depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-moveis-para-banheiro",
+  "term": "Lista de Móveis para Banheiro",
+  "category": "Casa Nova",
+  "definition": "Lista de Móveis para Banheiro é uma lista organizada com foco em gabinete, espelho, armários e organizadores para o banheiro. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de móveis para banheiro no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de móveis para banheiro bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de móveis para banheiro personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Casa Nova - Banheiro",
+    "linkHref": "/lista-de-casa-nova-banheiro"
+  },
+  "relacionados": [
+    "kit-banheiro-basico",
+    "lista-de-higiene-pessoal",
+    "organizacao-domestica"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de móveis para banheiro?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre gabinete, espelho, armários e organizadores para o banheiro, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de móveis para banheiro depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-moveis-para-escritorio",
+  "term": "Lista de Móveis para Escritório",
+  "category": "Casa Nova",
+  "definition": "Lista de Móveis para Escritório é uma lista organizada com foco em mesa, cadeira ergonômica, estante e apoios para home office. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de móveis para escritório no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de móveis para escritório bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de móveis para escritório personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-moveis-para-quarto",
+    "organizacao-de-documentos",
+    "planner-semanal"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de móveis para escritório?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre mesa, cadeira ergonômica, estante e apoios para home office, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de móveis para escritório depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-decoracao",
+  "term": "Lista de Decoração",
+  "category": "Casa Nova",
+  "definition": "Lista de Decoração é uma lista organizada com foco em quadros, tapetes, cortinas e itens decorativos por cômodo. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de decoração no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de decoração bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de decoração personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Casa Nova Completa",
+    "linkHref": "/lista-de-casa-nova-completa"
+  },
+  "relacionados": [
+    "enxoval-de-casa",
+    "lista-de-varanda",
+    "organizacao-domestica"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de decoração?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre quadros, tapetes, cortinas e itens decorativos por cômodo, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de decoração depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "checklist-de-reforma",
+  "term": "Checklist de Reforma",
+  "category": "Casa Nova",
+  "definition": "Checklist de Reforma é uma lista organizada com foco em materiais, mão de obra e prazos para reformar sem estourar orçamento. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a checklist de reforma no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma checklist de reforma bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua checklist de reforma personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "checklist-de-pintura",
+    "lista-de-ferramentas-basicas",
+    "checklist-de-apartamento-novo"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma checklist de reforma?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre materiais, mão de obra e prazos para reformar sem estourar orçamento, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a checklist de reforma depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "checklist-de-pintura",
+  "term": "Checklist de Pintura",
+  "category": "Casa Nova",
+  "definition": "Checklist de Pintura é uma lista organizada com foco em tinta, rolos, pincéis e materiais para pintar cômodos. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a checklist de pintura no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma checklist de pintura bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua checklist de pintura personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "checklist-de-reforma",
+    "lista-de-ferramentas-basicas",
+    "lista-de-decoracao"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma checklist de pintura?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre tinta, rolos, pincéis e materiais para pintar cômodos, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a checklist de pintura depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-ferramentas-basicas",
+  "term": "Lista de Ferramentas Básicas",
+  "category": "Casa Nova",
+  "definition": "Lista de Ferramentas Básicas é uma lista organizada com foco em furadeira, chaves, alicates e ferramentas manuais indispensáveis. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de ferramentas básicas no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de ferramentas básicas bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de ferramentas básicas personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Área de Serviço",
+    "linkHref": "/lista-de-casa-nova-area-de-servico"
+  },
+  "relacionados": [
+    "checklist-de-reforma",
+    "checklist-de-pintura",
+    "lista-de-seguranca-residencial"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de ferramentas básicas?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre furadeira, chaves, alicates e ferramentas manuais indispensáveis, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de ferramentas básicas depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-eletroportateis",
+  "term": "Lista de Eletroportáteis",
+  "category": "Casa Nova",
+  "definition": "Lista de Eletroportáteis é uma lista organizada com foco em liquidificador, batedeira, sanduicheira e pequenos eletros úteis. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de eletroportáteis no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de eletroportáteis bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de eletroportáteis personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Casa Nova - Cozinha",
+    "linkHref": "/lista-de-casa-nova-cozinha"
+  },
+  "relacionados": [
+    "lista-de-eletrodomesticos-essenciais",
+    "lista-de-utensilios-de-cozinha",
+    "kit-cozinha-basica"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de eletroportáteis?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre liquidificador, batedeira, sanduicheira e pequenos eletros úteis, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de eletroportáteis depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-utensilios-de-churrasco",
+  "term": "Lista de Utensílios de Churrasco",
+  "category": "Casa Nova",
+  "definition": "Lista de Utensílios de Churrasco é uma lista organizada com foco em churrasqueira, espetos, facas e acessórios para o churrasco. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de utensílios de churrasco no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de utensílios de churrasco bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de utensílios de churrasco personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-compras-para-churrasco",
+    "lista-de-varanda",
+    "kit-cozinha-basica"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de utensílios de churrasco?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre churrasqueira, espetos, facas e acessórios para o churrasco, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de utensílios de churrasco depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-quarto-de-bebe",
+  "term": "Lista de Quarto de Bebê",
+  "category": "Casa Nova",
+  "definition": "Lista de Quarto de Bebê é uma lista organizada com foco em berço, cômoda, decoração e itens de segurança para o quarto do bebê. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de quarto de bebê no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de quarto de bebê bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de quarto de bebê personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-compras-para-bebe",
+    "enxoval-de-casa",
+    "lista-de-moveis-para-quarto"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de quarto de bebê?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre berço, cômoda, decoração e itens de segurança para o quarto do bebê, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de quarto de bebê depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-varanda",
+  "term": "Lista de Varanda",
+  "category": "Casa Nova",
+  "definition": "Lista de Varanda é uma lista organizada com foco em mesa, cadeiras, plantas e iluminação para varanda gourmet ou de descanso. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de varanda no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de varanda bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de varanda personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Casa Nova - Sala",
+    "linkHref": "/lista-de-casa-nova-sala"
+  },
+  "relacionados": [
+    "lista-de-decoracao",
+    "lista-de-utensilios-de-churrasco",
+    "lista-de-jardim"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de varanda?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre mesa, cadeiras, plantas e iluminação para varanda gourmet ou de descanso, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de varanda depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-jardim",
+  "term": "Lista de Jardim",
+  "category": "Casa Nova",
+  "definition": "Lista de Jardim é uma lista organizada com foco em plantas, terra, vasos e ferramentas para montar o jardim. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de jardim no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de jardim bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de jardim personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-varanda",
+    "lista-de-ferramentas-basicas",
+    "lista-de-decoracao"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de jardim?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre plantas, terra, vasos e ferramentas para montar o jardim, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de jardim depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-lavanderia",
+  "term": "Lista de Lavanderia",
+  "category": "Casa Nova",
+  "definition": "Lista de Lavanderia é uma lista organizada com foco em tanque, varal, produtos e organizadores para a área de serviço. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de lavanderia no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de lavanderia bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de lavanderia personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Área de Serviço",
+    "linkHref": "/lista-de-casa-nova-area-de-servico"
+  },
+  "relacionados": [
+    "kit-lavanderia",
+    "lista-de-produtos-de-limpeza",
+    "organizacao-domestica"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de lavanderia?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre tanque, varal, produtos e organizadores para a área de serviço, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de lavanderia depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-para-quitinete",
+  "term": "Lista para Quitinete",
+  "category": "Casa Nova",
+  "definition": "Lista para Quitinete é uma lista organizada com foco em móveis compactos e utensílios essenciais para espaços de até 30 m². Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista para quitinete no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista para quitinete bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista para quitinete personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista para Solteiro",
+    "linkHref": "/lista-solteiro"
+  },
+  "relacionados": [
+    "lista-para-morar-sozinho",
+    "checklist-de-apartamento-novo",
+    "kit-cozinha-basica"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista para quitinete?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre móveis compactos e utensílios essenciais para espaços de até 30 m², depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista para quitinete depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-para-republica",
+  "term": "Lista para República",
+  "category": "Casa Nova",
+  "definition": "Lista para República é uma lista organizada com foco em itens compartilhados e individuais para dividir casa com amigos. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista para república no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista para república bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista para república personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista para Solteiro",
+    "linkHref": "/lista-solteiro"
+  },
+  "relacionados": [
+    "lista-para-morar-sozinho",
+    "lista-para-quitinete",
+    "kit-cozinha-basica"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista para república?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre itens compartilhados e individuais para dividir casa com amigos, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista para república depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-para-casa-de-praia",
+  "term": "Lista para Casa de Praia",
+  "category": "Casa Nova",
+  "definition": "Lista para Casa de Praia é uma lista organizada com foco em utensílios, roupas de cama e itens específicos para casas de veraneio. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista para casa de praia no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista para casa de praia bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista para casa de praia personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Casa Nova Completa",
+    "linkHref": "/lista-de-casa-nova-completa"
+  },
+  "relacionados": [
+    "enxoval-de-casa",
+    "lista-de-decoracao",
+    "checklist-de-viagem"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista para casa de praia?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre utensílios, roupas de cama e itens específicos para casas de veraneio, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista para casa de praia depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-seguranca-residencial",
+  "term": "Lista de Segurança Residencial",
+  "category": "Casa Nova",
+  "definition": "Lista de Segurança Residencial é uma lista organizada com foco em fechaduras, câmeras, alarmes e itens para proteger o lar. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de segurança residencial no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Listar por cômodo",
+    "Separar essenciais e complementares",
+    "Definir prioridades e prazos",
+    "Comparar preços em 3 lojas"
+  ],
+  "porQueImporta": "Sem uma lista de segurança residencial bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de segurança residencial personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "kit-primeiros-socorros-casa",
+    "lista-de-ferramentas-basicas",
+    "checklist-de-apartamento-novo"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de segurança residencial?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre fechaduras, câmeras, alarmes e itens para proteger o lar, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de segurança residencial depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-lembrancinhas-de-casamento",
+  "term": "Lista de Lembrancinhas de Casamento",
+  "category": "Casamento",
+  "definition": "Lista de Lembrancinhas de Casamento é uma lista organizada com foco em opções criativas e econômicas de lembrança para os convidados. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de lembrancinhas de casamento no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma lista de lembrancinhas de casamento bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de lembrancinhas de casamento personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista de Casamento",
+    "linkHref": "/lista-de-casamento"
+  },
+  "relacionados": [
+    "lista-de-presentes-de-casamento",
+    "bem-casado",
+    "cerimonial-de-casamento"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de lembrancinhas de casamento?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre opções criativas e econômicas de lembrança para os convidados, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de lembrancinhas de casamento depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-musicas-para-casamento",
+  "term": "Lista de Músicas para Casamento",
+  "category": "Casamento",
+  "definition": "Lista de Músicas para Casamento é uma lista organizada com foco em repertório para cerimônia, entrada da noiva e festa. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de músicas para casamento no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma lista de músicas para casamento bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de músicas para casamento personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Checklist Completo",
+    "linkHref": "/checklist-de-casamento-completo"
+  },
+  "relacionados": [
+    "cronograma-de-casamento",
+    "cerimonial-de-casamento",
+    "checklist-de-casamento"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de músicas para casamento?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre repertório para cerimônia, entrada da noiva e festa, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de músicas para casamento depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-fotografo-casamento",
+  "term": "Lista para Contratar Fotógrafo de Casamento",
+  "category": "Casamento",
+  "definition": "Lista para Contratar Fotógrafo de Casamento é uma lista organizada com foco em perguntas, pacotes, contratos e referências para escolher fotógrafo. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista para contratar fotógrafo de casamento no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma lista para contratar fotógrafo de casamento bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista para contratar fotógrafo de casamento personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista de Fornecedores",
+    "linkHref": "/lista-de-fornecedores-casamento"
+  },
+  "relacionados": [
+    "lista-de-fornecedores",
+    "orcamento-de-casamento",
+    "checklist-de-casamento"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista para contratar fotógrafo de casamento?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre perguntas, pacotes, contratos e referências para escolher fotógrafo, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista para contratar fotógrafo de casamento depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-decoracao-de-casamento",
+  "term": "Lista de Decoração de Casamento",
+  "category": "Casamento",
+  "definition": "Lista de Decoração de Casamento é uma lista organizada com foco em paleta, flores, mobiliário e ambientação da cerimônia e recepção. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de decoração de casamento no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma lista de decoração de casamento bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de decoração de casamento personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista de Casamento",
+    "linkHref": "/lista-de-casamento"
+  },
+  "relacionados": [
+    "cerimonial-de-casamento",
+    "lista-de-fornecedores",
+    "cronograma-de-casamento"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de decoração de casamento?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre paleta, flores, mobiliário e ambientação da cerimônia e recepção, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de decoração de casamento depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-buffet-casamento",
+  "term": "Lista de Buffet de Casamento",
+  "category": "Casamento",
+  "definition": "Lista de Buffet de Casamento é uma lista organizada com foco em cardápio, cálculo de porções e degustação com o buffet. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de buffet de casamento no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma lista de buffet de casamento bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de buffet de casamento personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista de Casamento",
+    "linkHref": "/lista-de-casamento"
+  },
+  "relacionados": [
+    "orcamento-de-casamento",
+    "lista-de-fornecedores",
+    "cerimonial-de-casamento"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de buffet de casamento?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre cardápio, cálculo de porções e degustação com o buffet, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de buffet de casamento depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "cerimonia-religiosa-casamento",
+  "term": "Cerimônia Religiosa de Casamento",
+  "category": "Casamento",
+  "definition": "Cerimônia Religiosa de Casamento é uma lista organizada com foco em documentação, cursos de noivos e ritos para casar na igreja. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a cerimônia religiosa de casamento no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma cerimônia religiosa de casamento bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua cerimônia religiosa de casamento personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Casamento Tradicional",
+    "linkHref": "/lista-de-casamento-tradicional"
+  },
+  "relacionados": [
+    "casamento-civil",
+    "checklist-de-casamento",
+    "padrinhos-de-casamento"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma cerimônia religiosa de casamento?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre documentação, cursos de noivos e ritos para casar na igreja, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a cerimônia religiosa de casamento depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "bodas-de-casamento",
+  "term": "Bodas de Casamento",
+  "category": "Casamento",
+  "definition": "Bodas de Casamento é uma lista organizada com foco em significado e comemoração de cada aniversário de casamento. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a bodas de casamento no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma bodas de casamento bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua bodas de casamento personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "checklist-lua-de-mel",
+    "cronograma-de-casamento",
+    "lista-de-presentes-de-casamento"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma bodas de casamento?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre significado e comemoração de cada aniversário de casamento, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a bodas de casamento depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "despedida-de-solteira",
+  "term": "Despedida de Solteira",
+  "category": "Casamento",
+  "definition": "Despedida de Solteira é uma lista organizada com foco em roteiro, decoração, brincadeiras e presentes para a noiva. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a despedida de solteira no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma despedida de solteira bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua despedida de solteira personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-cha-de-panela",
+    "cronograma-de-casamento",
+    "checklist-de-casamento"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma despedida de solteira?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre roteiro, decoração, brincadeiras e presentes para a noiva, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a despedida de solteira depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "despedida-de-solteiro",
+  "term": "Despedida de Solteiro",
+  "category": "Casamento",
+  "definition": "Despedida de Solteiro é uma lista organizada com foco em viagem, festa e atividades para o noivo antes do casamento. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a despedida de solteiro no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma despedida de solteiro bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua despedida de solteiro personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-cha-bar",
+    "cronograma-de-casamento",
+    "checklist-de-casamento"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma despedida de solteiro?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre viagem, festa e atividades para o noivo antes do casamento, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a despedida de solteiro depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "noivado",
+  "term": "Noivado",
+  "category": "Casamento",
+  "definition": "Noivado é uma lista organizada com foco em cerimônia íntima que oficializa o compromisso antes do casamento. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a noivado no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma noivado bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua noivado personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Casamento 12 Meses Antes",
+    "linkHref": "/lista-de-casamento-12-meses-antes"
+  },
+  "relacionados": [
+    "cronograma-de-casamento",
+    "padrinhos-de-casamento",
+    "save-the-date"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma noivado?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre cerimônia íntima que oficializa o compromisso antes do casamento, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a noivado depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "chuveiro-de-panela",
+  "term": "Chuveiro de Panela",
+  "category": "Casamento",
+  "definition": "Chuveiro de Panela é uma lista organizada com foco em versão descontraída do chá de panela com formato de festa surpresa. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a chuveiro de panela no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma chuveiro de panela bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua chuveiro de panela personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista de Casamento",
+    "linkHref": "/lista-de-casamento"
+  },
+  "relacionados": [
+    "lista-de-cha-de-panela",
+    "lista-de-cha-de-cozinha",
+    "despedida-de-solteira"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma chuveiro de panela?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre versão descontraída do chá de panela com formato de festa surpresa, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a chuveiro de panela depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-presentes-loja-online",
+  "term": "Lista de Presentes em Loja Online",
+  "category": "Casamento",
+  "definition": "Lista de Presentes em Loja Online é uma lista organizada com foco em criar e divulgar a lista de casamento em lojas virtuais. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de presentes em loja online no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma lista de presentes em loja online bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de presentes em loja online personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista de Casamento",
+    "linkHref": "/lista-de-casamento"
+  },
+  "relacionados": [
+    "lista-de-presentes-de-casamento",
+    "rsvp-de-casamento",
+    "save-the-date"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de presentes em loja online?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre criar e divulgar a lista de casamento em lojas virtuais, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de presentes em loja online depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-documentos-casamento",
+  "term": "Lista de Documentos para Casamento",
+  "category": "Casamento",
+  "definition": "Lista de Documentos para Casamento é uma lista organizada com foco em RG, certidões, comprovantes e prazos no cartório. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de documentos para casamento no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma lista de documentos para casamento bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de documentos para casamento personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Casamento 3 Meses Antes",
+    "linkHref": "/lista-de-casamento-3-meses-antes"
+  },
+  "relacionados": [
+    "casamento-civil",
+    "cerimonia-religiosa-casamento",
+    "checklist-de-casamento"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de documentos para casamento?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre RG, certidões, comprovantes e prazos no cartório, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de documentos para casamento depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "votos-de-casamento",
+  "term": "Votos de Casamento",
+  "category": "Casamento",
+  "definition": "Votos de Casamento é uma lista organizada com foco em estrutura, dicas e exemplos para escrever votos emocionantes. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a votos de casamento no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma votos de casamento bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua votos de casamento personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Casamento 3 Meses Antes",
+    "linkHref": "/lista-de-casamento-3-meses-antes"
+  },
+  "relacionados": [
+    "cronograma-de-casamento",
+    "cerimonial-de-casamento",
+    "checklist-de-casamento"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma votos de casamento?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre estrutura, dicas e exemplos para escrever votos emocionantes, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a votos de casamento depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "destination-wedding",
+  "term": "Destination Wedding",
+  "category": "Casamento",
+  "definition": "Destination Wedding é uma lista organizada com foco em casamento em destino turístico com convidados hospedados no local. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a destination wedding no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir data e local",
+    "Listar fornecedores por categoria",
+    "Controlar contratos e pagamentos",
+    "Revisar a cada 30 dias"
+  ],
+  "porQueImporta": "Sem uma destination wedding bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua destination wedding personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Lista de Casamento",
+    "linkHref": "/lista-de-casamento"
+  },
+  "relacionados": [
+    "mini-wedding",
+    "checklist-lua-de-mel",
+    "cronograma-de-casamento"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma destination wedding?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre casamento em destino turístico com convidados hospedados no local, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a destination wedding depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "material-escolar-por-serie",
+  "term": "Material Escolar por Série",
+  "category": "Material Escolar",
+  "definition": "Material Escolar por Série é uma lista organizada com foco em lista adaptada para cada ano do fundamental e médio. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a material escolar por série no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Conferir a lista da escola",
+    "Reaproveitar do ano anterior",
+    "Comparar preços por marca",
+    "Etiquetar todos os itens"
+  ],
+  "porQueImporta": "Sem uma material escolar por série bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua material escolar por série personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Material Escolar",
+    "linkHref": "/lista-de-material-escolar"
+  },
+  "relacionados": [
+    "material-escolar-ensino-fundamental",
+    "material-escolar-ensino-medio",
+    "volta-as-aulas"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma material escolar por série?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre lista adaptada para cada ano do fundamental e médio, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a material escolar por série depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "material-escolar-supletivo",
+  "term": "Material Escolar para Supletivo",
+  "category": "Material Escolar",
+  "definition": "Material Escolar para Supletivo é uma lista organizada com foco em itens práticos e enxutos para EJA e supletivo. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a material escolar para supletivo no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Conferir a lista da escola",
+    "Reaproveitar do ano anterior",
+    "Comparar preços por marca",
+    "Etiquetar todos os itens"
+  ],
+  "porQueImporta": "Sem uma material escolar para supletivo bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua material escolar para supletivo personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Material Escolar",
+    "linkHref": "/lista-de-material-escolar"
+  },
+  "relacionados": [
+    "material-escolar-ensino-medio",
+    "estojo-escolar-completo",
+    "mochila-escolar"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma material escolar para supletivo?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre itens práticos e enxutos para EJA e supletivo, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a material escolar para supletivo depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "material-escolar-vestibular",
+  "term": "Material para Vestibular e ENEM",
+  "category": "Material Escolar",
+  "definition": "Material para Vestibular e ENEM é uma lista organizada com foco em apostilas, canetas, cronômetros e itens para provas. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a material para vestibular e enem no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Conferir a lista da escola",
+    "Reaproveitar do ano anterior",
+    "Comparar preços por marca",
+    "Etiquetar todos os itens"
+  ],
+  "porQueImporta": "Sem uma material para vestibular e enem bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua material para vestibular e enem personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "material-escolar-ensino-medio",
+    "planner-semanal",
+    "checklist-diario"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma material para vestibular e enem?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre apostilas, canetas, cronômetros e itens para provas, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a material para vestibular e enem depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "material-escolar-faculdade",
+  "term": "Material Escolar para Faculdade",
+  "category": "Material Escolar",
+  "definition": "Material Escolar para Faculdade é uma lista organizada com foco em cadernos universitários, notebook, softwares e acessórios. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a material escolar para faculdade no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Conferir a lista da escola",
+    "Reaproveitar do ano anterior",
+    "Comparar preços por marca",
+    "Etiquetar todos os itens"
+  ],
+  "porQueImporta": "Sem uma material escolar para faculdade bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua material escolar para faculdade personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "material-escolar-ensino-medio",
+    "lista-de-papelaria",
+    "organizacao-de-documentos"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma material escolar para faculdade?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre cadernos universitários, notebook, softwares e acessórios, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a material escolar para faculdade depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "kit-arte-escolar",
+  "term": "Kit de Arte Escolar",
+  "category": "Material Escolar",
+  "definition": "Kit de Arte Escolar é uma lista organizada com foco em tintas, pincéis, papéis e materiais para aulas de artes. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a kit de arte escolar no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Conferir a lista da escola",
+    "Reaproveitar do ano anterior",
+    "Comparar preços por marca",
+    "Etiquetar todos os itens"
+  ],
+  "porQueImporta": "Sem uma kit de arte escolar bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua kit de arte escolar personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Material Escolar",
+    "linkHref": "/lista-de-material-escolar"
+  },
+  "relacionados": [
+    "kit-alfabetizacao",
+    "material-escolar-educacao-infantil",
+    "lista-de-papelaria"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma kit de arte escolar?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre tintas, pincéis, papéis e materiais para aulas de artes, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a kit de arte escolar depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "kit-ciencias-escolar",
+  "term": "Kit de Ciências Escolar",
+  "category": "Material Escolar",
+  "definition": "Kit de Ciências Escolar é uma lista organizada com foco em lupa, kit de experimentos e livros complementares. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a kit de ciências escolar no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Conferir a lista da escola",
+    "Reaproveitar do ano anterior",
+    "Comparar preços por marca",
+    "Etiquetar todos os itens"
+  ],
+  "porQueImporta": "Sem uma kit de ciências escolar bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua kit de ciências escolar personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Material Escolar",
+    "linkHref": "/lista-de-material-escolar"
+  },
+  "relacionados": [
+    "material-escolar-ensino-fundamental",
+    "livros-didaticos",
+    "kit-matematica-escolar"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma kit de ciências escolar?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre lupa, kit de experimentos e livros complementares, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a kit de ciências escolar depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "kit-matematica-escolar",
+  "term": "Kit de Matemática Escolar",
+  "category": "Material Escolar",
+  "definition": "Kit de Matemática Escolar é uma lista organizada com foco em calculadora, compasso, régua e materiais para exatas. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a kit de matemática escolar no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Conferir a lista da escola",
+    "Reaproveitar do ano anterior",
+    "Comparar preços por marca",
+    "Etiquetar todos os itens"
+  ],
+  "porQueImporta": "Sem uma kit de matemática escolar bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua kit de matemática escolar personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Material Escolar",
+    "linkHref": "/lista-de-material-escolar"
+  },
+  "relacionados": [
+    "material-escolar-ensino-fundamental",
+    "material-escolar-ensino-medio",
+    "estojo-escolar-completo"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma kit de matemática escolar?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre calculadora, compasso, régua e materiais para exatas, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a kit de matemática escolar depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "material-escolar-reutilizavel",
+  "term": "Material Escolar Reutilizável",
+  "category": "Material Escolar",
+  "definition": "Material Escolar Reutilizável é uma lista organizada com foco em estratégia sustentável de aproveitar itens do ano anterior. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a material escolar reutilizável no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Conferir a lista da escola",
+    "Reaproveitar do ano anterior",
+    "Comparar preços por marca",
+    "Etiquetar todos os itens"
+  ],
+  "porQueImporta": "Sem uma material escolar reutilizável bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua material escolar reutilizável personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Material Escolar",
+    "linkHref": "/lista-de-material-escolar"
+  },
+  "relacionados": [
+    "material-escolar-barato",
+    "volta-as-aulas",
+    "organizacao-de-mochila"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma material escolar reutilizável?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre estratégia sustentável de aproveitar itens do ano anterior, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a material escolar reutilizável depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-livros-paradidaticos",
+  "term": "Lista de Livros Paradidáticos",
+  "category": "Material Escolar",
+  "definition": "Lista de Livros Paradidáticos é uma lista organizada com foco em leituras complementares solicitadas pela escola por bimestre. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de livros paradidáticos no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Conferir a lista da escola",
+    "Reaproveitar do ano anterior",
+    "Comparar preços por marca",
+    "Etiquetar todos os itens"
+  ],
+  "porQueImporta": "Sem uma lista de livros paradidáticos bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de livros paradidáticos personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Material Escolar",
+    "linkHref": "/lista-de-material-escolar"
+  },
+  "relacionados": [
+    "livros-didaticos",
+    "material-escolar-ensino-fundamental",
+    "organizacao-de-livros"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de livros paradidáticos?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre leituras complementares solicitadas pela escola por bimestre, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de livros paradidáticos depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "checklist-primeiro-dia-aula",
+  "term": "Checklist do Primeiro Dia de Aula",
+  "category": "Material Escolar",
+  "definition": "Checklist do Primeiro Dia de Aula é uma lista organizada com foco em uniforme, lanche, materiais e emocional para o primeiro dia. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a checklist do primeiro dia de aula no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Conferir a lista da escola",
+    "Reaproveitar do ano anterior",
+    "Comparar preços por marca",
+    "Etiquetar todos os itens"
+  ],
+  "porQueImporta": "Sem uma checklist do primeiro dia de aula bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua checklist do primeiro dia de aula personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Ver Material Escolar",
+    "linkHref": "/lista-de-material-escolar"
+  },
+  "relacionados": [
+    "volta-as-aulas",
+    "lancheira-escolar",
+    "uniforme-escolar"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma checklist do primeiro dia de aula?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre uniforme, lanche, materiais e emocional para o primeiro dia, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a checklist do primeiro dia de aula depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "organizacao-por-comodo",
+  "term": "Organização por Cômodo",
+  "category": "Organização",
+  "definition": "Organização por Cômodo é uma lista organizada com foco em método de arrumar a casa um ambiente por vez. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a organização por cômodo no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma organização por cômodo bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua organização por cômodo personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "organizacao-domestica",
+    "rotina-da-casa",
+    "calendario-de-limpeza"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma organização por cômodo?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre método de arrumar a casa um ambiente por vez, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a organização por cômodo depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "metodo-konmari",
+  "term": "Método KonMari",
+  "category": "Organização",
+  "definition": "Método KonMari é uma lista organizada com foco em técnica de Marie Kondo para descartar e organizar por categoria. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a método konmari no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma método konmari bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua método konmari personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "minimalismo-domestico",
+    "metodo-flylady",
+    "organizacao-de-armario"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma método konmari?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre técnica de Marie Kondo para descartar e organizar por categoria, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a método konmari depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "metodo-flylady",
+  "term": "Método FlyLady",
+  "category": "Organização",
+  "definition": "Método FlyLady é uma lista organizada com foco em sistema de rotinas curtas em zonas para manter a casa em ordem. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a método flylady no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma método flylady bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua método flylady personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "rotina-da-casa",
+    "calendario-de-limpeza",
+    "organizacao-domestica"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma método flylady?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre sistema de rotinas curtas em zonas para manter a casa em ordem, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a método flylady depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "organizacao-de-brinquedos",
+  "term": "Organização de Brinquedos",
+  "category": "Organização",
+  "definition": "Organização de Brinquedos é uma lista organizada com foco em caixas, categorias e rodízio para reduzir bagunça infantil. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a organização de brinquedos no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma organização de brinquedos bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua organização de brinquedos personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "organizacao-domestica",
+    "minimalismo-domestico",
+    "organizacao-por-comodo"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma organização de brinquedos?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre caixas, categorias e rodízio para reduzir bagunça infantil, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a organização de brinquedos depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "organizacao-de-documentos",
+  "term": "Organização de Documentos",
+  "category": "Organização",
+  "definition": "Organização de Documentos é uma lista organizada com foco em pastas físicas e digitais para contas, contratos e certidões. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a organização de documentos no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma organização de documentos bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua organização de documentos personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "inventario-domestico",
+    "organizacao-financeira",
+    "organizacao-domestica"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma organização de documentos?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre pastas físicas e digitais para contas, contratos e certidões, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a organização de documentos depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "organizacao-de-livros",
+  "term": "Organização de Livros",
+  "category": "Organização",
+  "definition": "Organização de Livros é uma lista organizada com foco em estante por gênero, autor ou cor para biblioteca doméstica. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a organização de livros no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma organização de livros bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua organização de livros personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "organizacao-domestica",
+    "lista-de-livros-para-ler",
+    "minimalismo-domestico"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma organização de livros?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre estante por gênero, autor ou cor para biblioteca doméstica, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a organização de livros depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "organizacao-de-geladeira",
+  "term": "Organização de Geladeira",
+  "category": "Organização",
+  "definition": "Organização de Geladeira é uma lista organizada com foco em distribuição por prateleira para conservar melhor os alimentos. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a organização de geladeira no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma organização de geladeira bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua organização de geladeira personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "despensa-organizada",
+    "desperdicio-de-alimentos",
+    "planejamento-de-cardapio"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma organização de geladeira?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre distribuição por prateleira para conservar melhor os alimentos, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a organização de geladeira depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "organizacao-de-despensa",
+  "term": "Organização de Despensa",
+  "category": "Organização",
+  "definition": "Organização de Despensa é uma lista organizada com foco em potes, etiquetas e categorias para localizar tudo rapidamente. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a organização de despensa no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma organização de despensa bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua organização de despensa personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "despensa-organizada",
+    "inventario-domestico",
+    "planejamento-de-cardapio"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma organização de despensa?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre potes, etiquetas e categorias para localizar tudo rapidamente, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a organização de despensa depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "organizacao-de-sapatos",
+  "term": "Organização de Sapatos",
+  "category": "Organização",
+  "definition": "Organização de Sapatos é uma lista organizada com foco em sapateiras, caixas e critérios para armazenar calçados. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a organização de sapatos no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma organização de sapatos bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua organização de sapatos personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "organizacao-de-armario",
+    "organizacao-de-guarda-roupa",
+    "minimalismo-domestico"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma organização de sapatos?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre sapateiras, caixas e critérios para armazenar calçados, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a organização de sapatos depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "organizacao-de-bolsas",
+  "term": "Organização de Bolsas",
+  "category": "Organização",
+  "definition": "Organização de Bolsas é uma lista organizada com foco em suportes, enchimentos e categorização para preservar bolsas. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a organização de bolsas no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma organização de bolsas bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua organização de bolsas personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "organizacao-de-armario",
+    "organizacao-de-guarda-roupa",
+    "organizacao-de-sapatos"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma organização de bolsas?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre suportes, enchimentos e categorização para preservar bolsas, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a organização de bolsas depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "organizacao-de-gavetas",
+  "term": "Organização de Gavetas",
+  "category": "Organização",
+  "definition": "Organização de Gavetas é uma lista organizada com foco em divisórias e categorias para transformar gavetas caóticas. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a organização de gavetas no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma organização de gavetas bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua organização de gavetas personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "organizacao-de-armario",
+    "organizacao-domestica",
+    "organizacao-por-comodo"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma organização de gavetas?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre divisórias e categorias para transformar gavetas caóticas, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a organização de gavetas depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "organizacao-de-cabos",
+  "term": "Organização de Cabos",
+  "category": "Organização",
+  "definition": "Organização de Cabos é uma lista organizada com foco em abraçadeiras, organizadores e etiquetas para cabos e fios. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a organização de cabos no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma organização de cabos bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua organização de cabos personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "organizacao-domestica",
+    "organizacao-de-documentos",
+    "lista-de-seguranca-residencial"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma organização de cabos?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre abraçadeiras, organizadores e etiquetas para cabos e fios, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a organização de cabos depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "calendario-de-limpeza",
+  "term": "Calendário de Limpeza",
+  "category": "Organização",
+  "definition": "Calendário de Limpeza é uma lista organizada com foco em cronograma semanal, mensal e anual das tarefas de limpeza. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a calendário de limpeza no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma calendário de limpeza bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua calendário de limpeza personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-tarefas-domesticas",
+    "rotina-da-casa",
+    "faxina-pesada"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma calendário de limpeza?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre cronograma semanal, mensal e anual das tarefas de limpeza, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a calendário de limpeza depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "checklist-de-limpeza-semanal",
+  "term": "Checklist de Limpeza Semanal",
+  "category": "Organização",
+  "definition": "Checklist de Limpeza Semanal é uma lista organizada com foco em distribuição diária das tarefas para manter a casa em ordem. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a checklist de limpeza semanal no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma checklist de limpeza semanal bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua checklist de limpeza semanal personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-tarefas-domesticas",
+    "calendario-de-limpeza",
+    "rotina-da-casa"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma checklist de limpeza semanal?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre distribuição diária das tarefas para manter a casa em ordem, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a checklist de limpeza semanal depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "rotina-noturna",
+  "term": "Rotina Noturna",
+  "category": "Organização",
+  "definition": "Rotina Noturna é uma lista organizada com foco em hábitos antes de dormir que preparam a casa e a mente para o dia seguinte. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a rotina noturna no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir categorias",
+    "Descartar o que não usa",
+    "Etiquetar potes e caixas",
+    "Reservar 15 minutos por dia"
+  ],
+  "porQueImporta": "Sem uma rotina noturna bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua rotina noturna personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "rotina-matinal",
+    "checklist-diario",
+    "planner-semanal"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma rotina noturna?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre hábitos antes de dormir que preparam a casa e a mente para o dia seguinte, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a rotina noturna depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "metodo-ivy-lee",
+  "term": "Método Ivy Lee",
+  "category": "Produtividade",
+  "definition": "Método Ivy Lee é uma lista organizada com foco em selecionar 6 tarefas prioritárias na véspera e executá-las em ordem. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a método ivy lee no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma método ivy lee bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua método ivy lee personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "to-do-list",
+    "matriz-de-prioridade",
+    "gestao-do-tempo"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma método ivy lee?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre selecionar 6 tarefas prioritárias na véspera e executá-las em ordem, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a método ivy lee depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "matriz-eisenhower",
+  "term": "Matriz de Eisenhower",
+  "category": "Produtividade",
+  "definition": "Matriz de Eisenhower é uma lista organizada com foco em classificação de tarefas por urgência e importância em 4 quadrantes. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a matriz de eisenhower no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma matriz de eisenhower bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua matriz de eisenhower personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "matriz-de-prioridade",
+    "gestao-do-tempo",
+    "metodo-getting-things-done"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma matriz de eisenhower?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre classificação de tarefas por urgência e importância em 4 quadrantes, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a matriz de eisenhower depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "tecnica-time-blocking",
+  "term": "Técnica de Time Blocking",
+  "category": "Produtividade",
+  "definition": "Técnica de Time Blocking é uma lista organizada com foco em reservar blocos de tempo na agenda para cada tipo de tarefa. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a técnica de time blocking no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma técnica de time blocking bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua técnica de time blocking personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "gestao-do-tempo",
+    "metodo-pomodoro",
+    "planner-semanal"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma técnica de time blocking?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre reservar blocos de tempo na agenda para cada tipo de tarefa, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a técnica de time blocking depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-habitos",
+  "term": "Lista de Hábitos",
+  "category": "Produtividade",
+  "definition": "Lista de Hábitos é uma lista organizada com foco em hábitos a construir com gatilhos, frequência e recompensas. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de hábitos no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma lista de hábitos bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de hábitos personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "tracker-de-habitos",
+    "rotina-matinal",
+    "rotina-noturna"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de hábitos?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre hábitos a construir com gatilhos, frequência e recompensas, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de hábitos depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "tracker-de-habitos",
+  "term": "Tracker de Hábitos",
+  "category": "Produtividade",
+  "definition": "Tracker de Hábitos é uma lista organizada com foco em registro visual diário do cumprimento de hábitos. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a tracker de hábitos no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma tracker de hábitos bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua tracker de hábitos personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-habitos",
+    "bullet-journal",
+    "diario-de-gratidao"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma tracker de hábitos?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre registro visual diário do cumprimento de hábitos, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a tracker de hábitos depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "wishlist-pessoal",
+  "term": "Wishlist Pessoal",
+  "category": "Produtividade",
+  "definition": "Wishlist Pessoal é uma lista organizada com foco em lista de desejos priorizada por valor emocional e financeiro. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a wishlist pessoal no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma wishlist pessoal bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua wishlist pessoal personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "orcamento-domestico",
+    "lista-de-metas-anuais",
+    "bucket-list"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma wishlist pessoal?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre lista de desejos priorizada por valor emocional e financeiro, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a wishlist pessoal depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-livros-para-ler",
+  "term": "Lista de Livros para Ler",
+  "category": "Produtividade",
+  "definition": "Lista de Livros para Ler é uma lista organizada com foco em livros por gênero, prioridade e prazo de leitura. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de livros para ler no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma lista de livros para ler bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de livros para ler personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "organizacao-de-livros",
+    "lista-de-habitos",
+    "revisao-semanal"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de livros para ler?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre livros por gênero, prioridade e prazo de leitura, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de livros para ler depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-filmes-para-assistir",
+  "term": "Lista de Filmes para Assistir",
+  "category": "Produtividade",
+  "definition": "Lista de Filmes para Assistir é uma lista organizada com foco em filmes e séries por streaming, gênero e ordem de prioridade. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de filmes para assistir no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma lista de filmes para assistir bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de filmes para assistir personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-livros-para-ler",
+    "wishlist-pessoal",
+    "bucket-list"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de filmes para assistir?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre filmes e séries por streaming, gênero e ordem de prioridade, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de filmes para assistir depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-viagens-dos-sonhos",
+  "term": "Lista de Viagens dos Sonhos",
+  "category": "Produtividade",
+  "definition": "Lista de Viagens dos Sonhos é uma lista organizada com foco em destinos com orçamento estimado e época ideal. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de viagens dos sonhos no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma lista de viagens dos sonhos bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de viagens dos sonhos personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "bucket-list",
+    "checklist-de-viagem",
+    "lista-de-metas-anuais"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de viagens dos sonhos?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre destinos com orçamento estimado e época ideal, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de viagens dos sonhos depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "bucket-list",
+  "term": "Bucket List",
+  "category": "Produtividade",
+  "definition": "Bucket List é uma lista organizada com foco em lista de conquistas e experiências para viver ao longo da vida. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a bucket list no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma bucket list bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua bucket list personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-metas-anuais",
+    "lista-de-viagens-dos-sonhos",
+    "wishlist-pessoal"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma bucket list?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre lista de conquistas e experiências para viver ao longo da vida, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a bucket list depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "diario-de-gratidao",
+  "term": "Diário de Gratidão",
+  "category": "Produtividade",
+  "definition": "Diário de Gratidão é uma lista organizada com foco em registro diário de 3 coisas boas para aumentar bem-estar. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a diário de gratidão no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma diário de gratidão bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua diário de gratidão personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "rotina-matinal",
+    "rotina-noturna",
+    "tracker-de-habitos"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma diário de gratidão?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre registro diário de 3 coisas boas para aumentar bem-estar, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a diário de gratidão depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "planejamento-mensal",
+  "term": "Planejamento Mensal",
+  "category": "Produtividade",
+  "definition": "Planejamento Mensal é uma lista organizada com foco em metas, compromissos e finanças organizados a cada 30 dias. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a planejamento mensal no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma planejamento mensal bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua planejamento mensal personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "planner-semanal",
+    "revisao-semanal",
+    "orcamento-domestico"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma planejamento mensal?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre metas, compromissos e finanças organizados a cada 30 dias, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a planejamento mensal depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "planejamento-trimestral",
+  "term": "Planejamento Trimestral",
+  "category": "Produtividade",
+  "definition": "Planejamento Trimestral é uma lista organizada com foco em ciclos de 90 dias para desdobrar metas anuais em ações. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a planejamento trimestral no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma planejamento trimestral bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua planejamento trimestral personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-metas-anuais",
+    "planejamento-mensal",
+    "planner-semanal"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma planejamento trimestral?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre ciclos de 90 dias para desdobrar metas anuais em ações, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a planejamento trimestral depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "revisao-semanal",
+  "term": "Revisão Semanal",
+  "category": "Produtividade",
+  "definition": "Revisão Semanal é uma lista organizada com foco em ritual de 30 minutos para revisar semana passada e planejar a próxima. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a revisão semanal no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma revisão semanal bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua revisão semanal personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "planner-semanal",
+    "metodo-getting-things-done",
+    "checklist-diario"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma revisão semanal?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre ritual de 30 minutos para revisar semana passada e planejar a próxima, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a revisão semanal depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "metas-smart",
+  "term": "Metas SMART",
+  "category": "Produtividade",
+  "definition": "Metas SMART é uma lista organizada com foco em metas específicas, mensuráveis, atingíveis, relevantes e temporais. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a metas smart no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma metas smart bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua metas smart personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "lista-de-metas-anuais",
+    "planejamento-trimestral",
+    "planejamento-mensal"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma metas smart?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre metas específicas, mensuráveis, atingíveis, relevantes e temporais, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a metas smart depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "lista-de-compras-black-friday",
+  "term": "Lista de Compras Black Friday",
+  "category": "Produtividade",
+  "definition": "Lista de Compras Black Friday é uma lista organizada com foco em estratégia de pesquisa e priorização de itens antes das promoções. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a lista de compras black friday no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma lista de compras black friday bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua lista de compras black friday personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "wishlist-pessoal",
+    "black-friday-supermercado",
+    "compra-economica"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma lista de compras black friday?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre estratégia de pesquisa e priorização de itens antes das promoções, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a lista de compras black friday depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
+{
+  "slug": "checklist-de-mudanca-de-emprego",
+  "term": "Checklist de Mudança de Emprego",
+  "category": "Produtividade",
+  "definition": "Checklist de Mudança de Emprego é uma lista organizada com foco em documentos, transição e planejamento financeiro ao trocar de emprego. Ajuda a planejar com antecedência, evitar esquecimentos e tomar decisões melhores, reunindo em um só lugar tudo o que realmente importa para o resultado esperado no dia a dia brasileiro.",
+  "exemploPratico": "Uma pessoa monta a checklist de mudança de emprego no aplicativo, marca os itens conforme resolve cada um e compartilha com quem participa, mantendo todos alinhados sem confusão.",
+  "exemploItens": [
+    "Definir o objetivo claro",
+    "Quebrar em ações menores",
+    "Definir prazo para cada etapa",
+    "Revisar semanalmente"
+  ],
+  "porQueImporta": "Sem uma checklist de mudança de emprego bem feita, é comum esquecer detalhes, gastar mais do que o planejado e perder tempo refazendo compras ou tarefas. Um planejamento simples reduz o estresse, protege o orçamento e devolve controle sobre o que realmente importa para você.",
+  "aprofundamento": {
+    "texto": "Use nosso criador de listas gratuito para montar sua checklist de mudança de emprego personalizada, marcar itens conforme conclui e baixar em PDF ou imprimir quando precisar.",
+    "linkText": "Abrir Criador de Listas",
+    "linkHref": "/criar-lista"
+  },
+  "relacionados": [
+    "organizacao-de-documentos",
+    "organizacao-financeira",
+    "lista-de-metas-anuais"
+  ],
+  "faq": [
+    {
+      "q": "Como começar uma checklist de mudança de emprego?",
+      "a": "Comece anotando tudo o que vier à cabeça sobre documentos, transição e planejamento financeiro ao trocar de emprego, depois agrupe por categoria e priorize os itens mais urgentes."
+    },
+    {
+      "q": "Posso editar a checklist de mudança de emprego depois?",
+      "a": "Sim. No Help Listas você edita, marca, adiciona e remove itens quando quiser, sem precisar cadastro."
+    }
+  ]
+},
 ];
 
 export const glossary: GlossaryTerm[] = [...baseGlossary, ...extraGlossary];
